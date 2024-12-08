@@ -5,7 +5,7 @@
 			"title": "Quiz Game - Maharashtra",
 			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
 			"description": "Test your knowledge about Maharashtra!",
-            "image": "/states/maharashtra.png",
+            "image": "/states/maharashtra.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -90,7 +90,7 @@
 			"title": "Quiz Game - Gujarat",
 			"videoSrc": "path/to/quiz-video-gujarat.mp4",
 			"description": "Test your knowledge about Gujarat!",
-			"image": "/states/gujarat.jpg",
+			"image": "/states/gujrat.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -125,7 +125,7 @@
 			"title": "Quiz Game - Tamil Nadu",
 			"videoSrc": "path/to/quiz-video-tamil-nadu.mp4",
 			"description": "Test your knowledge about Tamil Nadu!",
-			"image": "/states/tamil-nadu.jpg",
+			"image": "/states/tamilnadu.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -160,7 +160,7 @@
 			"title": "Quiz Game - West Bengal",
 			"videoSrc": "path/to/quiz-video-west-bengal.mp4",
 			"description": "Test your knowledge about West Bengal!",
-			"image": "/states/west-bengal.jpg",
+			"image": "/states/westbengal.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -195,7 +195,7 @@
 			"title": "Quiz Game - Uttar Pradesh",
 			"videoSrc": "path/to/quiz-video-uttar-pradesh.mp4",
 			"description": "Test your knowledge about Uttar Pradesh!",
-			"image": "/states/uttar-pradesh.jpg",
+			"image": "/states/uttarpradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -335,7 +335,7 @@
 			"title": "Quiz Game - Madhya Pradesh",
 			"videoSrc": "path/to/quiz-video-madhya-pradesh.mp4",
 			"description": "Test your knowledge about Madhya Pradesh!",
-			"image": "/states/madhya-pradesh.jpg",
+			"image": "/states/madhyapradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -440,7 +440,7 @@
 			"title": "Quiz Game - Himachal Pradesh",
 			"videoSrc": "path/to/quiz-video-himachal-pradesh.mp4",
 			"description": "Test your knowledge about Himachal Pradesh!",
-			"image": "/states/himachal-pradesh.jpg",
+			"image": "/states/himachalpradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -580,7 +580,7 @@
 			"title": "Quiz Game - Arunachal Pradesh",
 			"videoSrc": "path/to/quiz-video-arunachal-pradesh.mp4",
 			"description": "Test your knowledge about Arunachal Pradesh!",
-			"image": "/states/arunachal-pradesh.jpg",
+			"image": "/states/arunachalpradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
