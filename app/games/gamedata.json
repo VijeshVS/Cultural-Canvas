@@ -1,87 +1,387 @@
 {
 	"quiz": [
 		{
-			"slug": "maharashtra",
-			"title": "Quiz Game - Maharashtra",
-			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
-			"description": "Test your knowledge about Maharashtra!",
-            "image": "/states/maharashtra.png",
+			"slug": "gujarat",
+			"title": "Quiz Game - Gujarat",
+			"videoSrc": "path/to/quiz-video-gujarat.mp4",
+			"description": "Test your knowledge about Gujarat!",
+			"image": "/states/gujarat.jpg",
 			"tokens": 10,
 			"questions": [
 				{
-					"question": "What is the capital of Maharashtra?",
-					"options": ["Mumbai", "Pune", "Nagpur", "Nashik"],
-					"answer": "Mumbai"
+					"question": "What is the capital of Gujarat?",
+					"options": ["Ahmedabad", "Surat", "Gandhinagar", "Rajkot"],
+					"answer": "Gandhinagar"
 				},
 				{
-					"question": "Which is the famous festival celebrated in Maharashtra?",
-					"options": ["Durga Puja", "Ganesh Chaturthi", "Pongal", "Bihu"],
-					"answer": "Ganesh Chaturthi"
+					"question": "Which festival is Gujarat famous for?",
+					"options": ["Navratri", "Durga Puja", "Onam", "Pongal"],
+					"answer": "Navratri"
 				},
 				{
-					"question": "Which historical site is located in Maharashtra?",
-					"options": [
-						"Ajanta Caves",
-						"Hampi",
-						"Konark Sun Temple",
-						"Mahabalipuram"
-					],
-					"answer": "Ajanta Caves"
+					"question": "What is the name of Gujarat's famous white desert?",
+					"options": ["Thar Desert", "Rann of Kutch", "Deccan Plateau", "Chota Nagpur Plateau"],
+					"answer": "Rann of Kutch"
 				},
 				{
-					"question": "Which is the state language of Maharashtra?",
-					"options": ["Hindi", "Tamil", "Marathi", "Gujarati"],
-					"answer": "Marathi"
+					"question": "Which dance form is popular in Gujarat?",
+					"options": ["Garba", "Kathak", "Bharatanatyam", "Odissi"],
+					"answer": "Garba"
 				},
 				{
-					"question": "Which hill station is located in Maharashtra?",
-					"options": ["Munnar", "Mahabaleshwar", "Shillong", "Ooty"],
-					"answer": "Mahabaleshwar"
+					"question": "Which river flows through Gujarat?",
+					"options": ["Narmada", "Godavari", "Krishna", "Yamuna"],
+					"answer": "Narmada"
 				}
 			]
 		},
 		{
-			"slug": "karnataka",
-			"title": "Quiz Game - Karnataka",
-			"videoSrc": "path/to/quiz-video-karnataka.mp4",
-			"description": "Test your knowledge about Karnataka!",
-            "image": "/states/karnataka.jpg",
+			"slug": "tamil-nadu",
+			"title": "Quiz Game - Tamil Nadu",
+			"videoSrc": "path/to/quiz-video-tamil-nadu.mp4",
+			"description": "Test your knowledge about Tamil Nadu!",
+			"image": "/states/tamil-nadu.jpg",
 			"tokens": 10,
 			"questions": [
 				{
-					"question": "What is the capital of Karnataka?",
-					"options": ["Bangalore", "Mysore", "Hubli", "Mangalore"],
-					"answer": "Bangalore"
+					"question": "What is the capital of Tamil Nadu?",
+					"options": ["Chennai", "Madurai", "Coimbatore", "Tiruchirappalli"],
+					"answer": "Chennai"
 				},
 				{
-					"question": "Which dance form is famous in Karnataka?",
-					"options": ["Kathakali", "Yakshagana", "Garba", "Mohiniyattam"],
-					"answer": "Yakshagana"
+					"question": "Which dance form originated in Tamil Nadu?",
+					"options": ["Bharatanatyam", "Kathakali", "Manipuri", "Garba"],
+					"answer": "Bharatanatyam"
 				},
 				{
-					"question": "Which river flows through Karnataka?",
-					"options": ["Ganga", "Godavari", "Cauvery", "Narmada"],
-					"answer": "Cauvery"
+					"question": "Which famous temple is located in Tamil Nadu?",
+					"options": ["Meenakshi Temple", "Jagannath Temple", "Konark Sun Temple", "Somnath Temple"],
+					"answer": "Meenakshi Temple"
 				},
 				{
-					"question": "Which UNESCO World Heritage Site is located in Karnataka?",
-					"options": [
-						"Hampi",
-						"Ajanta Caves",
-						"Elephanta Caves",
-						"Konark Sun Temple"
-					],
-					"answer": "Hampi"
+					"question": "Which UNESCO World Heritage Site is in Tamil Nadu?",
+					"options": ["Mahabalipuram", "Ajanta Caves", "Hampi", "Sanchi Stupa"],
+					"answer": "Mahabalipuram"
 				},
 				{
-					"question": "Which famous park is located in Bengaluru?",
-					"options": [
-						"Cubbon Park",
-						"Lodhi Garden",
-						"Eden Garden",
-						"Hanging Garden"
-					],
-					"answer": "Cubbon Park"
+					"question": "Which hill station is in Tamil Nadu?",
+					"options": ["Ooty", "Shillong", "Darjeeling", "Munnar"],
+					"answer": "Ooty"
+				}
+			]
+		},
+		{
+			"slug": "west-bengal",
+			"title": "Quiz Game - West Bengal",
+			"videoSrc": "path/to/quiz-video-west-bengal.mp4",
+			"description": "Test your knowledge about West Bengal!",
+			"image": "/states/west-bengal.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of West Bengal?",
+					"options": ["Kolkata", "Darjeeling", "Howrah", "Siliguri"],
+					"answer": "Kolkata"
+				},
+				{
+					"question": "Which festival is most celebrated in West Bengal?",
+					"options": ["Durga Puja", "Ganesh Chaturthi", "Pongal", "Navratri"],
+					"answer": "Durga Puja"
+				},
+				{
+					"question": "Which famous bridge is in West Bengal?",
+					"options": ["Howrah Bridge", "Vivekananda Bridge", "Bandra-Worli Sea Link", "Laxman Jhula"],
+					"answer": "Howrah Bridge"
+				},
+				{
+					"question": "Which hill station is in West Bengal?",
+					"options": ["Darjeeling", "Ooty", "Shimla", "Mahabaleshwar"],
+					"answer": "Darjeeling"
+				},
+				{
+					"question": "Which river flows through West Bengal?",
+					"options": ["Ganga", "Yamuna", "Cauvery", "Narmada"],
+					"answer": "Ganga"
+				}
+			]
+		},
+		{
+			"slug": "uttar-pradesh",
+			"title": "Quiz Game - Uttar Pradesh",
+			"videoSrc": "path/to/quiz-video-uttar-pradesh.mp4",
+			"description": "Test your knowledge about Uttar Pradesh!",
+			"image": "/states/uttar-pradesh.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Uttar Pradesh?",
+					"options": ["Lucknow", "Varanasi", "Agra", "Kanpur"],
+					"answer": "Lucknow"
+				},
+				{
+					"question": "Which is the famous monument in Uttar Pradesh?",
+					"options": ["Taj Mahal", "Qutub Minar", "Red Fort", "Gateway of India"],
+					"answer": "Taj Mahal"
+				},
+				{
+					"question": "Which festival is widely celebrated in Uttar Pradesh?",
+					"options": ["Holi", "Durga Puja", "Onam", "Bihu"],
+					"answer": "Holi"
+				},
+				{
+					"question": "Which river flows through Uttar Pradesh?",
+					"options": ["Ganga", "Narmada", "Brahmaputra", "Godavari"],
+					"answer": "Ganga"
+				},
+				{
+					"question": "Which ancient city is located in Uttar Pradesh?",
+					"options": ["Varanasi", "Haridwar", "Ajmer", "Mathura"],
+					"answer": "Varanasi"
+				}
+			]
+		},
+		{
+			"slug": "rajasthan",
+			"title": "Quiz Game - Rajasthan",
+			"videoSrc": "path/to/quiz-video-rajasthan.mp4",
+			"description": "Test your knowledge about Rajasthan!",
+			"image": "/states/rajasthan.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Rajasthan?",
+					"options": ["Jaipur", "Jodhpur", "Udaipur", "Ajmer"],
+					"answer": "Jaipur"
+				},
+				{
+					"question": "Which desert is located in Rajasthan?",
+					"options": ["Thar Desert", "Rann of Kutch", "Sundarbans", "Deccan Plateau"],
+					"answer": "Thar Desert"
+				},
+				{
+					"question": "Which palace is known as the 'Palace of Winds'?",
+					"options": ["Hawa Mahal", "City Palace", "Amber Fort", "Mehrangarh Fort"],
+					"answer": "Hawa Mahal"
+				},
+				{
+					"question": "Which festival is famous in Rajasthan?",
+					"options": ["Pushkar Fair", "Onam", "Pongal", "Durga Puja"],
+					"answer": "Pushkar Fair"
+				},
+				{
+					"question": "Which folk dance is popular in Rajasthan?",
+					"options": ["Ghoomar", "Bhangra", "Garba", "Kathakali"],
+					"answer": "Ghoomar"
+				}
+			]
+		}, 
+		{
+			"slug": "kerala",
+			"title": "Quiz Game - Kerala",
+			"videoSrc": "path/to/quiz-video-kerala.mp4",
+			"description": "Test your knowledge about Kerala!",
+			"image": "/states/kerala.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Kerala?",
+					"options": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Kannur"],
+					"answer": "Thiruvananthapuram"
+				},
+				{
+					"question": "Which dance form is famous in Kerala?",
+					"options": ["Kathakali", "Bharatanatyam", "Garba", "Bhangra"],
+					"answer": "Kathakali"
+				},
+				{
+					"question": "Which is a popular backwater destination in Kerala?",
+					"options": ["Alleppey", "Ooty", "Shimla", "Darjeeling"],
+					"answer": "Alleppey"
+				},
+				{
+					"question": "Which festival is widely celebrated in Kerala?",
+					"options": ["Onam", "Pongal", "Durga Puja", "Holi"],
+					"answer": "Onam"
+				},
+				{
+					"question": "Which hill station is located in Kerala?",
+					"options": ["Munnar", "Coorg", "Nainital", "Mahabaleshwar"],
+					"answer": "Munnar"
+				}
+			]
+		},
+		{
+			"slug": "punjab",
+			"title": "Quiz Game - Punjab",
+			"videoSrc": "path/to/quiz-video-punjab.mp4",
+			"description": "Test your knowledge about Punjab!",
+			"image": "/states/punjab.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Punjab?",
+					"options": ["Chandigarh", "Amritsar", "Ludhiana", "Patiala"],
+					"answer": "Chandigarh"
+				},
+				{
+					"question": "Which is a famous festival in Punjab?",
+					"options": ["Baisakhi", "Pongal", "Onam", "Durga Puja"],
+					"answer": "Baisakhi"
+				},
+				{
+					"question": "Which Golden landmark is located in Punjab?",
+					"options": ["Golden Temple", "Amber Fort", "City Palace", "Hawa Mahal"],
+					"answer": "Golden Temple"
+				},
+				{
+					"question": "Which is a popular folk dance of Punjab?",
+					"options": ["Bhangra", "Ghoomar", "Garba", "Kathakali"],
+					"answer": "Bhangra"
+				},
+				{
+					"question": "Which river flows through Punjab?",
+					"options": ["Sutlej", "Godavari", "Krishna", "Kaveri"],
+					"answer": "Sutlej"
+				}
+			]
+		},
+		{
+			"slug": "madhya-pradesh",
+			"title": "Quiz Game - Madhya Pradesh",
+			"videoSrc": "path/to/quiz-video-madhya-pradesh.mp4",
+			"description": "Test your knowledge about Madhya Pradesh!",
+			"image": "/states/madhya-pradesh.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Madhya Pradesh?",
+					"options": ["Bhopal", "Indore", "Gwalior", "Jabalpur"],
+					"answer": "Bhopal"
+				},
+				{
+					"question": "Which national park is located in Madhya Pradesh?",
+					"options": ["Kanha National Park", "Jim Corbett National Park", "Sundarbans", "Gir National Park"],
+					"answer": "Kanha National Park"
+				},
+				{
+					"question": "Which monument is a UNESCO World Heritage Site in Madhya Pradesh?",
+					"options": ["Khajuraho Temples", "Taj Mahal", "Hampi", "Ajanta Caves"],
+					"answer": "Khajuraho Temples"
+				},
+				{
+					"question": "Which river originates from Madhya Pradesh?",
+					"options": ["Narmada", "Ganga", "Godavari", "Brahmaputra"],
+					"answer": "Narmada"
+				},
+				{
+					"question": "Which city is known as the 'Cleanest City of India' in Madhya Pradesh?",
+					"options": ["Indore", "Bhopal", "Jabalpur", "Gwalior"],
+					"answer": "Indore"
+				}
+			]
+		},
+		{
+			"slug": "assam",
+			"title": "Quiz Game - Assam",
+			"videoSrc": "path/to/quiz-video-assam.mp4",
+			"description": "Test your knowledge about Assam!",
+			"image": "/states/assam.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Assam?",
+					"options": ["Dispur", "Guwahati", "Shillong", "Dibrugarh"],
+					"answer": "Dispur"
+				},
+				{
+					"question": "Which festival is most famous in Assam?",
+					"options": ["Bihu", "Durga Puja", "Onam", "Navratri"],
+					"answer": "Bihu"
+				},
+				{
+					"question": "Which national park is located in Assam?",
+					"options": ["Kaziranga National Park", "Jim Corbett National Park", "Bandipur National Park", "Gir National Park"],
+					"answer": "Kaziranga National Park"
+				},
+				{
+					"question": "Which river flows through Assam?",
+					"options": ["Brahmaputra", "Ganga", "Narmada", "Krishna"],
+					"answer": "Brahmaputra"
+				},
+				{
+					"question": "Which is a famous tea-producing region in Assam?",
+					"options": ["Dibrugarh", "Darjeeling", "Coorg", "Chikmagalur"],
+					"answer": "Dibrugarh"
+				}
+			]
+		},
+		{
+			"slug": "sikkim",
+			"title": "Quiz Game - Sikkim",
+			"videoSrc": "path/to/quiz-video-sikkim.mp4",
+			"description": "Test your knowledge about Sikkim!",
+			"image": "/states/sikkim.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Sikkim?",
+					"options": ["Gangtok", "Pelling", "Namchi", "Mangan"],
+					"answer": "Gangtok"
+				},
+				{
+					"question": "Which mountain is located in Sikkim?",
+					"options": ["Kangchenjunga", "Mount Everest", "Nanda Devi", "Annapurna"],
+					"answer": "Kangchenjunga"
+				},
+				{
+					"question": "Which festival is widely celebrated in Sikkim?",
+					"options": ["Losar", "Durga Puja", "Holi", "Bihu"],
+					"answer": "Losar"
+				},
+				{
+					"question": "Which river flows through Sikkim?",
+					"options": ["Teesta", "Brahmaputra", "Ganga", "Godavari"],
+					"answer": "Teesta"
+				},
+				{
+					"question": "Which is a popular monastery in Sikkim?",
+					"options": ["Rumtek Monastery", "Golden Temple", "Mahabodhi Temple", "Sun Temple"],
+					"answer": "Rumtek Monastery"
+				}
+			]
+		}, 
+		{
+			"slug": "himachal-pradesh",
+			"title": "Quiz Game - Himachal Pradesh",
+			"videoSrc": "path/to/quiz-video-himachal-pradesh.mp4",
+			"description": "Test your knowledge about Himachal Pradesh!",
+			"image": "/states/himachal-pradesh.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Himachal Pradesh?",
+					"options": ["Shimla", "Manali", "Dharamshala", "Kullu"],
+					"answer": "Shimla"
+				},
+				{
+					"question": "Which hill station is famous in Himachal Pradesh?",
+					"options": ["Manali", "Darjeeling", "Munnar", "Coorg"],
+					"answer": "Manali"
+				},
+				{
+					"question": "Which river originatesfrom Himachal Pradesh?",
+					"options": ["Beas", "Ganga", "Yamuna", "Brahmaputra"],
+					"answer": "Beas"
+				},
+				{
+					"question": "Which festival is celebrated in Himachal Pradesh?",
+					"options": ["Kullu Dussehra", "Bihu", "Onam", "Durga Puja"],
+					"answer": "Kullu Dussehra"
+				},
+				{
+					"question": "Which is a famous trekking destination in Himachal Pradesh?",
+					"options": ["Triund", "Roopkund", "Valley of Flowers", "Kedarkantha"],
+					"answer": "Triund"
 				}
 			]
 		}
