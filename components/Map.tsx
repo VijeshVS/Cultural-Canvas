@@ -1,50 +1,63 @@
 "use client";
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useRef } from "react";
 // @ts-ignore
 import ReactDatamaps from "react-india-states-map";
 
-const IndiaMap = () => {
-  const [activeState, setactiveState] = useState({
-    name: "India",
-  });
+interface Tooltip {
+  visible: boolean;
+  x: number;
+  y: number;
+  name: string;
+}
 
-  const [tooltip, setTooltip] = useState({
+interface ActiveState {
+  name: string;
+  data?: any;
+}
+
+const IndiaMap: React.FC = () => {
+  const [activeState, setActiveState] = useState<ActiveState>({ name: "India" });
+
+  const [tooltip, setTooltip] = useState<Tooltip>({
     visible: false,
     x: 0,
     y: 0,
     name: "",
   });
 
-  let debounceTimeout;
+  const debounceTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Debounced update for tooltip
-  const updateTooltip = useCallback((e, name) => {
-    if (debounceTimeout) clearTimeout(debounceTimeout);
+  const updateTooltip = useCallback(
+    (e: React.MouseEvent<SVGElement>, name: string) => {
+      if (debounceTimeout.current) clearTimeout(debounceTimeout.current);
 
-    debounceTimeout = setTimeout(() => {
-      const mapContainer = e.currentTarget.getBoundingClientRect(); // Get bounding box of the map container
-      setTooltip({
-        visible: true,
-        x: e.clientX - mapContainer.left + 20, // Offset tooltip from the cursor horizontally
-        y: e.clientY - mapContainer.top - 40, // Offset tooltip above the cursor
-        name,
-      });
-    }, 50); // Adjust debounce delay as needed (e.g., 50ms)
-  }, []);
+      debounceTimeout.current = setTimeout(() => {
+        const mapContainer = (e.currentTarget as unknown as HTMLElement).getBoundingClientRect();
+        setTooltip({
+          visible: true,
+          x: e.clientX - mapContainer.left + 20, // Offset tooltip horizontally
+          y: e.clientY - mapContainer.top - 40, // Offset tooltip vertically
+          name,
+        });
+      }, 50); // Adjust debounce delay as needed (e.g., 50ms)
+    },
+    []
+  );
 
   // Handle hover to display tooltip
-  const handleMouseMove = (e, name) => {
+  const handleMouseMove = (e: React.MouseEvent<SVGElement>, name: string) => {
     updateTooltip(e, name);
   };
 
   // Hide tooltip on mouse leave
   const handleMouseLeave = () => {
-    if (debounceTimeout) clearTimeout(debounceTimeout);
-    setTooltip({ ...tooltip, visible: false });
+    if (debounceTimeout.current) clearTimeout(debounceTimeout.current);
+    setTooltip((prevTooltip) => ({ ...prevTooltip, visible: false }));
   };
 
-  const stateOnClick = (data, name) => {
-    setactiveState({ data, name });
+  const stateOnClick = (data: Record<string, any>, name: string) => {
+    setActiveState({ data, name });
   };
 
   return (
@@ -70,7 +83,6 @@ const IndiaMap = () => {
             borderRadius: "4px",
             fontSize: "14px",
             pointerEvents: "none",
-            zIndex: 1000,
             transform: "translate(-50%, -100%)", // Center tooltip above cursor
           }}
         >
@@ -86,9 +98,11 @@ const IndiaMap = () => {
           hoverBorderColor: "pink",
           hoverColor: "green",
         }}
-        onMouseMove={(region, name, e) => handleMouseMove(e, name)}
+        onMouseMove={(region: any, name: string, e: React.MouseEvent<SVGElement>) =>
+          handleMouseMove(e, name)
+        }
         onMouseLeave={handleMouseLeave}
-        onClick={stateOnClick}
+        onClick={(data: any, name: string) => stateOnClick(data, name)}
         style={{
           width: "100%",
           height: "100%",
