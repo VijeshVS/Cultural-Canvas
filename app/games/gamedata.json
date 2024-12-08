@@ -1,6 +1,91 @@
 {
 	"quiz": [
 		{
+			"slug": "maharashtra",
+			"title": "Quiz Game - Maharashtra",
+			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
+			"description": "Test your knowledge about Maharashtra!",
+            "image": "/states/maharashtra.png",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Maharashtra?",
+					"options": ["Mumbai", "Pune", "Nagpur", "Nashik"],
+					"answer": "Mumbai"
+				},
+				{
+					"question": "Which is the famous festival celebrated in Maharashtra?",
+					"options": ["Durga Puja", "Ganesh Chaturthi", "Pongal", "Bihu"],
+					"answer": "Ganesh Chaturthi"
+				},
+				{
+					"question": "Which historical site is located in Maharashtra?",
+					"options": [
+						"Ajanta Caves",
+						"Hampi",
+						"Konark Sun Temple",
+						"Mahabalipuram"
+					],
+					"answer": "Ajanta Caves"
+				},
+				{
+					"question": "Which is the state language of Maharashtra?",
+					"options": ["Hindi", "Tamil", "Marathi", "Gujarati"],
+					"answer": "Marathi"
+				},
+				{
+					"question": "Which hill station is located in Maharashtra?",
+					"options": ["Munnar", "Mahabaleshwar", "Shillong", "Ooty"],
+					"answer": "Mahabaleshwar"
+				}
+			]
+		},
+		{
+			"slug": "karnataka",
+			"title": "Quiz Game - Karnataka",
+			"videoSrc": "path/to/quiz-video-karnataka.mp4",
+			"description": "Test your knowledge about Karnataka!",
+            "image": "/states/karnataka.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Karnataka?",
+					"options": ["Bangalore", "Mysore", "Hubli", "Mangalore"],
+					"answer": "Bangalore"
+				},
+				{
+					"question": "Which dance form is famous in Karnataka?",
+					"options": ["Kathakali", "Yakshagana", "Garba", "Mohiniyattam"],
+					"answer": "Yakshagana"
+				},
+				{
+					"question": "Which river flows through Karnataka?",
+					"options": ["Ganga", "Godavari", "Cauvery", "Narmada"],
+					"answer": "Cauvery"
+				},
+				{
+					"question": "Which UNESCO World Heritage Site is located in Karnataka?",
+					"options": [
+						"Hampi",
+						"Ajanta Caves",
+						"Elephanta Caves",
+						"Konark Sun Temple"
+					],
+					"answer": "Hampi"
+				},
+				{
+					"question": "Which famous park is located in Bengaluru?",
+					"options": [
+						"Cubbon Park",
+						"Lodhi Garden",
+						"Eden Garden",
+						"Hanging Garden"
+					],
+					"answer": "Cubbon Park"
+				}
+			]
+		},
+		{
 			"slug": "gujarat",
 			"title": "Quiz Game - Gujarat",
 			"videoSrc": "path/to/quiz-video-gujarat.mp4",
@@ -382,6 +467,286 @@
 					"question": "Which is a famous trekking destination in Himachal Pradesh?",
 					"options": ["Triund", "Roopkund", "Valley of Flowers", "Kedarkantha"],
 					"answer": "Triund"
+				}
+			]
+		}, 
+		{
+			"slug": "jharkhand",
+			"title": "Quiz Game - Jharkhand",
+			"videoSrc": "path/to/quiz-video-jharkhand.mp4",
+			"description": "Test your knowledge about Jharkhand!",
+			"image": "/states/jharkhand.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Jharkhand?",
+					"options": ["Ranchi", "Jamshedpur", "Dhanbad", "Bokaro"],
+					"answer": "Ranchi"
+				},
+				{
+					"question": "Which is a famous waterfall in Jharkhand?",
+					"options": ["Hundru Falls", "Dudhsagar Falls", "Jog Falls", "Athirappilly Falls"],
+					"answer": "Hundru Falls"
+				},
+				{
+					"question": "Which mineral is Jharkhand known for producing?",
+					"options": ["Coal", "Gold", "Copper", "Bauxite"],
+					"answer": "Coal"
+				},
+				{
+					"question": "Which festival is widely celebrated in Jharkhand?",
+					"options": ["Sarhul", "Bihu", "Chhath Puja", "Durga Puja"],
+					"answer": "Sarhul"
+				},
+				{
+					"question": "Which wildlife sanctuary is located in Jharkhand?",
+					"options": ["Betla National Park", "Kaziranga", "Sundarbans", "Manas National Park"],
+					"answer": "Betla National Park"
+				}
+			]
+		},
+		{
+			"slug": "goa",
+			"title": "Quiz Game - Goa",
+			"videoSrc": "path/to/quiz-video-goa.mp4",
+			"description": "Test your knowledge about Goa!",
+			"image": "/states/goa.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Goa?",
+					"options": ["Panaji", "Margao", "Vasco da Gama", "Mapusa"],
+					"answer": "Panaji"
+				},
+				{
+					"question": "Which beach is a popular tourist spot in Goa?",
+					"options": ["Calangute", "Juhu", "Marina", "Anjuna"],
+					"answer": "Calangute"
+				},
+				{
+					"question": "Which festival is famously celebrated in Goa?",
+					"options": ["Carnival", "Holi", "Durga Puja", "Onam"],
+					"answer": "Carnival"
+				},
+				{
+					"question": "Which is a popular church in Goa?",
+					"options": ["Basilica of Bom Jesus", "Golden Temple", "St. Paul's Cathedral", "Sun Temple"],
+					"answer": "Basilica of Bom Jesus"
+				},
+				{
+					"question": "Which is a famous spice plantation in Goa?",
+					"options": ["Sahakari Spice Farm", "Coffee Plantations", "Tea Estates", "Pepper Farms"],
+					"answer": "Sahakari Spice Farm"
+				}
+			]
+		},
+		{
+			"slug": "manipur",
+			"title": "Quiz Game - Manipur",
+			"videoSrc": "path/to/quiz-video-manipur.mp4",
+			"description": "Test your knowledge about Manipur!",
+			"image": "/states/manipur.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Manipur?",
+					"options": ["Imphal", "Aizawl", "Agartala", "Dispur"],
+					"answer": "Imphal"
+				},
+				{
+					"question": "Which lake is located in Manipur?",
+					"options": ["Loktak Lake", "Dal Lake", "Chilka Lake", "Vembanad Lake"],
+					"answer": "Loktak Lake"
+				},
+				{
+					"question": "Which festival is widely celebrated in Manipur?",
+					"options": ["Yaoshang", "Bihu", "Durga Puja", "Pongal"],
+					"answer": "Yaoshang"
+				},
+				{
+					"question": "Which sport originated in Manipur?",
+					"options": ["Polo", "Kabaddi", "Hockey", "Badminton"],
+					"answer": "Polo"
+				},
+				{
+					"question": "Which hill station is located in Manipur?",
+					"options": ["Ukhrul", "Darjeeling", "Mussoorie", "Shillong"],
+					"answer": "Ukhrul"
+				}
+			]
+		}, 
+		{
+			"slug": "arunachal-pradesh",
+			"title": "Quiz Game - Arunachal Pradesh",
+			"videoSrc": "path/to/quiz-video-arunachal-pradesh.mp4",
+			"description": "Test your knowledge about Arunachal Pradesh!",
+			"image": "/states/arunachal-pradesh.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Arunachal Pradesh?",
+					"options": ["Itanagar", "Dispur", "Gangtok", "Shillong"],
+					"answer": "Itanagar"
+				},
+				{
+					"question": "Which festival is widely celebrated in Arunachal Pradesh?",
+					"options": ["Losar", "Bihu", "Hornbill Festival", "Onam"],
+					"answer": "Losar"
+				},
+				{
+					"question": "Which famous monastery is located in Arunachal Pradesh?",
+					"options": ["Tawang Monastery", "Rumtek Monastery", "Hemis Monastery", "Key Monastery"],
+					"answer": "Tawang Monastery"
+				},
+				{
+					"question": "Which river flows through Arunachal Pradesh?",
+					"options": ["Brahmaputra", "Ganga", "Yamuna", "Godavari"],
+					"answer": "Brahmaputra"
+				},
+				{
+					"question": "What is the state animal of Arunachal Pradesh?",
+					"options": ["Mithun", "Elephant", "Tiger", "Rhinoceros"],
+					"answer": "Mithun"
+				}
+			]
+		},
+		{
+			"slug": "mizoram",
+			"title": "Quiz Game - Mizoram",
+			"videoSrc": "path/to/quiz-video-mizoram.mp4",
+			"description": "Test your knowledge about Mizoram!",
+			"image": "/states/mizoram.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Mizoram?",
+					"options": ["Aizawl", "Imphal", "Kohima", "Gangtok"],
+					"answer": "Aizawl"
+				},
+				{
+					"question": "Which is the main festival of Mizoram?",
+					"options": ["Chapchar Kut", "Hornbill Festival", "Onam", "Durga Puja"],
+					"answer": "Chapchar Kut"
+				},
+				{
+					"question": "Which mountain range is in Mizoram?",
+					"options": ["Lushai Hills", "Himalayas", "Vindhyas", "Aravallis"],
+					"answer": "Lushai Hills"
+				},
+				{
+					"question": "What is Mizoram known for?",
+					"options": ["Bamboo Dance", "Kathakali", "Garba", "Sattriya"],
+					"answer": "Bamboo Dance"
+				},
+				{
+					"question": "Which river flows through Mizoram?",
+					"options": ["Tlawng River", "Brahmaputra", "Yamuna", "Narmada"],
+					"answer": "Tlawng River"
+				}
+			]
+		},
+		{
+			"slug": "tripura",
+			"title": "Quiz Game - Tripura",
+			"videoSrc": "path/to/quiz-video-tripura.mp4",
+			"description": "Test your knowledge about Tripura!",
+			"image": "/states/tripura.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Tripura?",
+					"options": ["Agartala", "Aizawl", "Imphal", "Dispur"],
+					"answer": "Agartala"
+				},
+				{
+					"question": "Which is a famous temple in Tripura?",
+					"options": ["Tripura Sundari Temple", "Kamakhya Temple", "Konark Temple", "Meenakshi Temple"],
+					"answer": "Tripura Sundari Temple"
+				},
+				{
+					"question": "Which festival is widely celebrated in Tripura?",
+					"options": ["Garia Puja", "Durga Puja", "Bihu", "Hornbill Festival"],
+					"answer": "Garia Puja"
+				},
+				{
+					"question": "Which hill ranges are in Tripura?",
+					"options": ["Jampui Hills", "Nilgiri Hills", "Himalayas", "Vindhyas"],
+					"answer": "Jampui Hills"
+				},
+				{
+					"question": "Which traditional attire is worn by the people of Tripura?",
+					"options": ["Rignai", "Mekhela Chador", "Phanek", "Lehenga"],
+					"answer": "Rignai"
+				}
+			]
+		},
+		{
+			"slug": "nagaland",
+			"title": "Quiz Game - Nagaland",
+			"videoSrc": "path/to/quiz-video-nagaland.mp4",
+			"description": "Test your knowledge about Nagaland!",
+			"image": "/states/nagaland.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Nagaland?",
+					"options": ["Kohima", "Imphal", "Aizawl", "Shillong"],
+					"answer": "Kohima"
+				},
+				{
+					"question": "Which festival is famous in Nagaland?",
+					"options": ["Hornbill Festival", "Chapchar Kut", "Losar", "Onam"],
+					"answer": "Hornbill Festival"
+				},
+				{
+					"question": "What is the traditional attire of Nagaland?",
+					"options": ["Mechala", "Rignai", "Phanek", "Warrior Dresses"],
+					"answer": "Warrior Dresses"
+				},
+				{
+					"question": "Which dance is popular in Nagaland?",
+					"options": ["War Dance", "Kathak", "Garba", "Bamboo Dance"],
+					"answer": "War Dance"
+				},
+				{
+					"question": "Which wildlife sanctuary is in Nagaland?",
+					"options": ["Intanki Wildlife Sanctuary", "Manas", "Kaziranga", "Corbett"],
+					"answer": "Intanki Wildlife Sanctuary"
+				}
+			]
+		},
+		{
+			"slug": "meghalaya",
+			"title": "Quiz Game - Meghalaya",
+			"videoSrc": "path/to/quiz-video-meghalaya.mp4",
+			"description": "Test your knowledge about Meghalaya!",
+			"image": "/states/meghalaya.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Meghalaya?",
+					"options": ["Shillong", "Imphal", "Kohima", "Aizawl"],
+					"answer": "Shillong"
+				},
+				{
+					"question": "Which festival is famous in Meghalaya?",
+					"options": ["Nongkrem Dance Festival", "Bihu", "Durga Puja", "Onam"],
+					"answer": "Nongkrem Dance Festival"
+				},
+				{
+					"question": "Which is a famous living root bridge in Meghalaya?",
+					"options": ["Double Decker Root Bridge", "Howrah Bridge", "Golden Gate Bridge", "Lakshman Jhula"],
+					"answer": "Double Decker Root Bridge"
+				},
+				{
+					"question": "Which river flows through Meghalaya?",
+					"options": ["Umngot River", "Brahmaputra", "Ganga", "Godavari"],
+					"answer": "Umngot River"
+				},
+				{
+					"question": "Which hill station is in Meghalaya?",
+					"options": ["Cherrapunji", "Mussoorie", "Darjeeling", "Mahabaleshwar"],
+					"answer": "Cherrapunji"
 				}
 			]
 		}
