@@ -22,7 +22,7 @@ const QuizPage = () => {
 	}
 
 	const handleStateSelection = (stateSlug: string) => {
-		router.push(`/game/quiz/${stateSlug}`);
+		router.push(`/games/quiz/${stateSlug}`);
         
 	};
 

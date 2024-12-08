@@ -5,46 +5,83 @@
 			"title": "Quiz Game - Maharashtra",
 			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
 			"description": "Test your knowledge about Maharashtra!",
-			"tokens": 10
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Maharashtra?",
+					"options": ["Mumbai", "Pune", "Nagpur", "Nashik"],
+					"answer": "Mumbai"
+				},
+				{
+					"question": "Which is the famous festival celebrated in Maharashtra?",
+					"options": ["Durga Puja", "Ganesh Chaturthi", "Pongal", "Bihu"],
+					"answer": "Ganesh Chaturthi"
+				},
+				{
+					"question": "Which historical site is located in Maharashtra?",
+					"options": [
+						"Ajanta Caves",
+						"Hampi",
+						"Konark Sun Temple",
+						"Mahabalipuram"
+					],
+					"answer": "Ajanta Caves"
+				},
+				{
+					"question": "Which is the state language of Maharashtra?",
+					"options": ["Hindi", "Tamil", "Marathi", "Gujarati"],
+					"answer": "Marathi"
+				},
+				{
+					"question": "Which hill station is located in Maharashtra?",
+					"options": ["Munnar", "Mahabaleshwar", "Shillong", "Ooty"],
+					"answer": "Mahabaleshwar"
+				}
+			]
 		},
 		{
 			"slug": "karnataka",
 			"title": "Quiz Game - Karnataka",
 			"videoSrc": "path/to/quiz-video-karnataka.mp4",
 			"description": "Test your knowledge about Karnataka!",
-			"tokens": 10
-		}
-	],
-	"translation": [
-		{
-			"slug": "maharashtra",
-			"title": "Translation Game - Maharashtra",
-			"videoSrc": "path/to/translation-video-maharashtra.mp4",
-			"description": "Translate words and phrases related to Maharashtra!",
-			"tokens": 10
-		},
-		{
-			"slug": "karnataka",
-			"title": "Translation Game - Karnataka",
-			"videoSrc": "path/to/translation-video-karnataka.mp4",
-			"description": "Translate words and phrases related to Karnataka!",
-			"tokens": 10
-		}
-	],
-	"oddoneout": [
-		{
-			"slug": "maharashtra",
-			"title": "Odd One Out - Maharashtra",
-			"videoSrc": "path/to/oddoneout-video-maharashtra.mp4",
-			"description": "Find the odd one out in Maharashtra!",
-			"tokens": 10
-		},
-		{
-			"slug": "karnataka",
-			"title": "Odd One Out - Karnataka",
-			"videoSrc": "path/to/oddoneout-video-karnataka.mp4",
-			"description": "Find the odd one out in Karnataka!",
-			"tokens": 10
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the capital of Karnataka?",
+					"options": ["Bangalore", "Mysore", "Hubli", "Mangalore"],
+					"answer": "Bangalore"
+				},
+				{
+					"question": "Which dance form is famous in Karnataka?",
+					"options": ["Kathakali", "Yakshagana", "Garba", "Mohiniyattam"],
+					"answer": "Yakshagana"
+				},
+				{
+					"question": "Which river flows through Karnataka?",
+					"options": ["Ganga", "Godavari", "Cauvery", "Narmada"],
+					"answer": "Cauvery"
+				},
+				{
+					"question": "Which UNESCO World Heritage Site is located in Karnataka?",
+					"options": [
+						"Hampi",
+						"Ajanta Caves",
+						"Elephanta Caves",
+						"Konark Sun Temple"
+					],
+					"answer": "Hampi"
+				},
+				{
+					"question": "Which famous park is located in Bengaluru?",
+					"options": [
+						"Cubbon Park",
+						"Lodhi Garden",
+						"Eden Garden",
+						"Hanging Garden"
+					],
+					"answer": "Cubbon Park"
+				}
+			]
 		}
 	]
 }
