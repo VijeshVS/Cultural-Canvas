@@ -90,7 +90,7 @@
 			"title": "Quiz Game - Gujarat",
 			"videoSrc": "path/to/quiz-video-gujarat.mp4",
 			"description": "Test your knowledge about Gujarat!",
-			"image": "/states/gujrat.jpg",
+			"image": "/states/gujarat.jpg",
 			"tokens": 10,
 			"questions": [
 				{

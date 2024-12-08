@@ -17,8 +17,9 @@ const Page = () => {
 							Quiz 🤓
 						</div>
 						<video
-							className="mx-auto my-4 border-2 border-black bg-gray-600 rounded-md"
-							src="" // Add your video source here
+							autoPlay
+							className="mx-auto w-2/3 my-2 border-2 border-black bg-gray-600 rounded-md"
+							src='/gamevideos/quiz.mp4' // Add your video source here
 						></video>
 						<div className="text-lg pb-2 text-[#4d1414] font-medium">
 							🎯 Earn 10 Tokens
