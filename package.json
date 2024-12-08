@@ -5,7 +5,7 @@
   "scripts": {
     "postinstall": "npm install --force",
     "dev": "next dev",
-    "build": "next build --force",
+    "build": "npm install --legacy-peer-deps && next build",
     "start": "next start",
     "lint": "next lint"
   },
