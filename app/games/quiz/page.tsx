@@ -35,11 +35,11 @@ const QuizPage = () => {
 					<button
 						key={slug}
 						onClick={() => handleStateSelection(slug)}
-						className="w-48 h-20 bg-yellow-300 border-2 border-yellow-600 text-[#4d1414] font-bold rounded-lg shadow-md hover:bg-yellow-400 transition-all relative overflow-hidden"
+						className="w-64 h-36 bg-yellow-300 border-2 border-yellow-600 text-[#4d1414] font-bold rounded-lg shadow-md transition-all relative overflow-hidden"
 					>
 						{/* Add background image */}
 						<div
-							className="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-80 duration-300 transition-all"
+							className="absolute inset-0 bg-cover bg-center opacity-0 hover:opacity-50 duration-300 transition-all"
 							style={{ backgroundImage: `url('${image}')` }}
 						></div>
 						{/* Text overlay */}
