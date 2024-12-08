@@ -20,14 +20,14 @@ export function Navbar() {
 			icon: (
                 <ShipWheel className="h-full w-full text-[#4d1414] dark:text-neutral-300"/>
             ),
-			href: "#",
+			href: "/timelines",
 		},
 		{
             title: "Social",
 			icon: (
 				<Hash className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
 			),
-			href: "#",
+			href: "/social",
 		},
 		// {
 		// 	title: "Aceternity UI",
@@ -46,7 +46,7 @@ export function Navbar() {
 			icon: (
 				<Gamepad2 className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
 			),
-			href: "#",
+			href: "/games",
 		},
 
 		{
@@ -54,14 +54,14 @@ export function Navbar() {
 			icon: (
 				<Bot className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
 			),
-			href: "#",
+			href: "/chat",
 		},
 		{
 			title: "Contact",
 			icon: (
 				<Phone className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
 			),
-			href: "#",
+			href: "/contact",
 		},
 	];
 	return (
