@@ -5,6 +5,7 @@
 			"title": "Quiz Game - Maharashtra",
 			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
 			"description": "Test your knowledge about Maharashtra!",
+            "image": "/states/maharashtra.png",
 			"tokens": 10,
 			"questions": [
 				{
@@ -44,6 +45,7 @@
 			"title": "Quiz Game - Karnataka",
 			"videoSrc": "path/to/quiz-video-karnataka.mp4",
 			"description": "Test your knowledge about Karnataka!",
+            "image": "/states/karnataka.jpg",
 			"tokens": 10,
 			"questions": [
 				{
