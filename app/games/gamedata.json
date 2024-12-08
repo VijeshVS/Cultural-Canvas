@@ -750,5 +750,213 @@
 				}
 			]
 		}
-	]
+	],
+    "translation": [
+		{
+            "slug": "maharashtra",
+            "title": "Translation Game - Maharashtra",
+            "description": "Test your knowledge about Maharashtra!",
+            "image": "/states/maharashtra.jpg",
+            "tokens": 10,
+            "questions": [
+                {
+                    "question": "What is the translation of तुम्हाला वाचायला आवडतं का?",
+                    "options": ["Do you like reading?", "Where are you?", "How are you?", "Do you like traveling?"],
+                    "answer": "Do you like reading?"
+                },
+                {
+                    "question": "What is the translation of माझ्या आवडत्या पुस्तकाचे नाव शामची आई आहे?",
+                    "options": ["My favorite book is Shyamchi Aai.", "I like the book Shyamchi Aai.", "Do you have Shyamchi Aai?", "Shyamchi Aai is my story."],
+                    "answer": "My favorite book is Shyamchi Aai."
+                },
+                {
+                    "question": "What is the translation of मराठी कविता खूप सुंदर असतात?",
+                    "options": ["Marathi poems are very beautiful.", "Marathi songs are very soothing.", "I love Marathi food.", "Marathi culture is amazing."],
+                    "answer": "Marathi poems are very beautiful."
+                },
+                {
+                    "question": "What is the translation of तुमचं आवडतं पुस्तक कोणतं आहे?",
+                    "options": ["What is your favorite book?", "Do you read Marathi books?", "Where is your book?", "Do you like Marathi books?"],
+                    "answer": "What is your favorite book?"
+                },
+                {
+                    "question": "What is the translation of मी रोज थोडं मराठी वाचतो?",
+                    "options": ["I read a bit of Marathi every day.", "I write Marathi poems every day.", "I love reading Marathi stories.", "I am learning Marathi every day."],
+                    "answer": "I read a bit of Marathi every day."
+                }
+            ]
+        },
+        {
+            "slug": "rajasthan",
+            "title": "Translation Game - Rajasthan",
+            "description": "Test your knowledge about Rajasthan and Marwadi language!",
+            "image": "/states/rajasthan.jpg",
+            "tokens": 10,
+            "questions": [
+                {
+                    "question": "What is the translation of थारो नाम काई है?",
+                    "options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Rajasthan?"],
+                    "answer": "What is your name?"
+                },
+                {
+                    "question": "What is the translation of म्हारो राजस्थान सुंदर है?",
+                    "options": ["My Rajasthan is beautiful.", "Rajasthan is very big.", "I love Rajasthan.", "Rajasthan is a desert."],
+                    "answer": "My Rajasthan is beautiful."
+                },
+                {
+                    "question": "What is the translation of ऊंट राजस्थान की शान है?",
+                    "options": ["The camel is the pride of Rajasthan.", "Rajasthan has many camels.", "I love camels.", "Camels are very useful."],
+                    "answer": "The camel is the pride of Rajasthan."
+                },
+                {
+                    "question": "What is the translation of थारो घर कदं है?",
+                    "options": ["Where is your home?", "How is your home?", "Do you have a house?", "What is your address?"],
+                    "answer": "Where is your home?"
+                },
+                {
+                    "question": "What is the translation of राजस्थान में बहुत सारे महल हैं?",
+                    "options": ["Rajasthan has many palaces.", "Rajasthan is very beautiful.", "I love Rajasthan.", "Rajasthan is a desert."],
+                    "answer": "Rajasthan has many palaces."
+                }
+            ]
+        },
+        {
+            "slug": "west-bengal",
+            "title": "Translation Game - West Bengal",
+            "description": "Test your knowledge about West Bengal and Bengali language!",
+            "image": "/states/westbengal.jpg",
+            "tokens": 10,
+            "questions": [
+                {
+                    "question": "What is the translation of তোমার নাম কী?",
+                    "options": ["What is your name?", "Where are you from?", "How are you?", "Do you live here?"],
+                    "answer": "What is your name?"
+                },
+                {
+                    "question": "What is the translation of আমার বাংলা খুব ভালো লাগে?",
+                    "options": ["I love Bengali very much.", "Bengal is very beautiful.", "I like Bengali songs.", "Bengali food is delicious."],
+                    "answer": "I love Bengali very much."
+                },
+                {
+                    "question": "What is the translation of রবীন্দ্রনাথ ঠাকুর আমার প্রিয় কবি?",
+                    "options": ["Rabindranath Tagore is my favorite poet.", "I like Rabindranath Tagore.", "Do you know Rabindranath Tagore?", "Rabindranath Tagore wrote many poems."],
+                    "answer": "Rabindranath Tagore is my favorite poet."
+                },
+                {
+                    "question": "What is the translation of এখানে দুর্গাপূজা খুব সুন্দর হয়?",
+                    "options": ["Durga Puja is very beautiful here.", "People love Durga Puja here.", "Durga Puja is famous in Bengal.", "Durga Puja is celebrated in October."],
+                    "answer": "Durga Puja is very beautiful here."
+                },
+                {
+                    "question": "What is the translation of আমি প্রতিদিন বাংলা পড়ি?",
+                    "options": ["I read Bengali every day.", "I write in Bengali every day.", "I speak Bengali every day.", "I love learning Bengali."],
+                    "answer": "I read Bengali every day."
+                }
+            ]
+        }
+    ],
+    "oddoneout": [
+		{
+            "slug": "maharashtra",
+            "title": "Translation Game - Maharashtra",
+            "description": "Test your knowledge about Maharashtra!",
+            "image": "/states/maharashtra.jpg",
+            "tokens": 10,
+            "questions": [
+                {
+                    "question": "What is the translation of तुम्हाला वाचायला आवडतं का?",
+                    "options": ["Do you like reading?", "Where are you?", "How are you?", "Do you like traveling?"],
+                    "answer": "Do you like reading?"
+                },
+                {
+                    "question": "What is the translation of माझ्या आवडत्या पुस्तकाचे नाव शामची आई आहे?",
+                    "options": ["My favorite book is Shyamchi Aai.", "I like the book Shyamchi Aai.", "Do you have Shyamchi Aai?", "Shyamchi Aai is my story."],
+                    "answer": "My favorite book is Shyamchi Aai."
+                },
+                {
+                    "question": "What is the translation of मराठी कविता खूप सुंदर असतात?",
+                    "options": ["Marathi poems are very beautiful.", "Marathi songs are very soothing.", "I love Marathi food.", "Marathi culture is amazing."],
+                    "answer": "Marathi poems are very beautiful."
+                },
+                {
+                    "question": "What is the translation of तुमचं आवडतं पुस्तक कोणतं आहे?",
+                    "options": ["What is your favorite book?", "Do you read Marathi books?", "Where is your book?", "Do you like Marathi books?"],
+                    "answer": "What is your favorite book?"
+                },
+                {
+                    "question": "What is the translation of मी रोज थोडं मराठी वाचतो?",
+                    "options": ["I read a bit of Marathi every day.", "I write Marathi poems every day.", "I love reading Marathi stories.", "I am learning Marathi every day."],
+                    "answer": "I read a bit of Marathi every day."
+                }
+            ]
+        },
+        {
+            "slug": "rajasthan",
+            "title": "Translation Game - Rajasthan",
+            "description": "Test your knowledge about Rajasthan and Marwadi language!",
+            "image": "/states/rajasthan.jpg",
+            "tokens": 10,
+            "questions": [
+                {
+                    "question": "What is the translation of थारो नाम काई है?",
+                    "options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Rajasthan?"],
+                    "answer": "What is your name?"
+                },
+                {
+                    "question": "What is the translation of म्हारो राजस्थान सुंदर है?",
+                    "options": ["My Rajasthan is beautiful.", "Rajasthan is very big.", "I love Rajasthan.", "Rajasthan is a desert."],
+                    "answer": "My Rajasthan is beautiful."
+                },
+                {
+                    "question": "What is the translation of ऊंट राजस्थान की शान है?",
+                    "options": ["The camel is the pride of Rajasthan.", "Rajasthan has many camels.", "I love camels.", "Camels are very useful."],
+                    "answer": "The camel is the pride of Rajasthan."
+                },
+                {
+                    "question": "What is the translation of थारो घर कदं है?",
+                    "options": ["Where is your home?", "How is your home?", "Do you have a house?", "What is your address?"],
+                    "answer": "Where is your home?"
+                },
+                {
+                    "question": "What is the translation of राजस्थान में बहुत सारे महल हैं?",
+                    "options": ["Rajasthan has many palaces.", "Rajasthan is very beautiful.", "I love Rajasthan.", "Rajasthan is a desert."],
+                    "answer": "Rajasthan has many palaces."
+                }
+            ]
+        },
+        {
+            "slug": "west-bengal",
+            "title": "Translation Game - West Bengal",
+            "description": "Test your knowledge about West Bengal and Bengali language!",
+            "image": "/states/westbengal.jpg",
+            "tokens": 10,
+            "questions": [
+                {
+                    "question": "What is the translation of তোমার নাম কী?",
+                    "options": ["What is your name?", "Where are you from?", "How are you?", "Do you live here?"],
+                    "answer": "What is your name?"
+                },
+                {
+                    "question": "What is the translation of আমার বাংলা খুব ভালো লাগে?",
+                    "options": ["I love Bengali very much.", "Bengal is very beautiful.", "I like Bengali songs.", "Bengali food is delicious."],
+                    "answer": "I love Bengali very much."
+                },
+                {
+                    "question": "What is the translation of রবীন্দ্রনাথ ঠাকুর আমার প্রিয় কবি?",
+                    "options": ["Rabindranath Tagore is my favorite poet.", "I like Rabindranath Tagore.", "Do you know Rabindranath Tagore?", "Rabindranath Tagore wrote many poems."],
+                    "answer": "Rabindranath Tagore is my favorite poet."
+                },
+                {
+                    "question": "What is the translation of এখানে দুর্গাপূজা খুব সুন্দর হয়?",
+                    "options": ["Durga Puja is very beautiful here.", "People love Durga Puja here.", "Durga Puja is famous in Bengal.", "Durga Puja is celebrated in October."],
+                    "answer": "Durga Puja is very beautiful here."
+                },
+                {
+                    "question": "What is the translation of আমি প্রতিদিন বাংলা পড়ি?",
+                    "options": ["I read Bengali every day.", "I write in Bengali every day.", "I speak Bengali every day.", "I love learning Bengali."],
+                    "answer": "I read Bengali every day."
+                }
+            ]
+        }
+    ]
 }

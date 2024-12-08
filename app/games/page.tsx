@@ -17,6 +17,7 @@ const Page = () => {
 							Quiz 🤓
 						</div>
 						<video
+						loop
 							autoPlay
 							className="mx-auto w-2/3 my-2 border-2 border-black bg-gray-600 rounded-md"
 							src='/gamevideos/quiz.mp4' // Add your video source here
@@ -56,13 +57,15 @@ const Page = () => {
 							Translation 🌐
 						</div>
 						<video
-							className="mx-auto my-4 border-2 border-black bg-gray-600 rounded-md"
-							src="" // Add your video source here
+							autoPlay
+							loop
+							className="mx-auto my-4 rounded-md w-64 h-36  border-2 border-black"
+							src="/gamevideos/translations.mp4" // Add your video source here
 						></video>
 						<div className="text-lg pb-2 text-[#4d1414] font-medium">
 							🎯 Earn 10 Tokens
 						</div>
-						<Link href="/games/translation/maharashtra">
+						<Link href="/games/translations">
 							<button className="text-md bg-yellow-300 text-[#4d1414] px-4 py-2 rounded-md hover:scale-110 duration-200 transition-all">
 								Play Now! 🕹️
 							</button>
