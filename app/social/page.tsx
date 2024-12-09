@@ -1,7 +1,5 @@
-import { div } from "framer-motion/client";
 import React from "react";
-import { CircleUserRound, Heart, UserCircle } from "lucide-react";
-import Image from "next/image";
+import { Heart, UserCircle } from "lucide-react";
 const data = [
 	{
 		id: 1,
