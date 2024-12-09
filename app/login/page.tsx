@@ -3,24 +3,29 @@ import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { login } from "@/lib/actions/auth";
-import toast from "react-hot-toast";
-
+import { toast } from "sonner";
 
 const LoginPage = () => {
-  const [username,setUsername] = useState("");
-  const [password,setPassword] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   function loginHandler() {
-    const res = login(username,password).then((res)=>{
-      const token = res;
-      localStorage.setItem('token',token);
-    })
+    const res = login(username, password).then((res) => {
+      const statusCode = res.status;
+
+      if (statusCode == 200) {
+        localStorage.setItem("token", res.token);
+        toast.success("Logged in successfully!!");
+      } else if (statusCode == 404) {
+        toast.error("Wrong credentials");
+      } else {
+        toast.error("Server error");
+      }
+    });
 
     toast.promise(res, {
       loading: "Logging in!!",
-      success: "Logged in successfully !!",
-      error: "Login failed !!"
-    })
+    });
   }
 
   return (
@@ -30,39 +35,48 @@ const LoginPage = () => {
           <div>Welcome Back! 🌟</div>
         </h1>
         <p className="text-xl text-[#4d1414]">
-          Get ready to dive into the world of <b>Sanskriti</b> and embrace the festive vibes! 🎉 Please login to continue your journey.
+          Get ready to dive into the world of <b>Sanskriti</b> and embrace the
+          festive vibes! 🎉 Please login to continue your journey.
         </p>
       </div>
 
       {/* Login Form Card */}
-      <Card className="w-[50vw] bg-yellow-300 bg-opacity-30 backdrop-blur-sm rounded-lg shadow-lg">
+      <Card className="w-fit bg-yellow-300 bg-opacity-30 backdrop-blur-sm rounded-lg shadow-lg">
         <CardHeader>
-          <CardTitle className="text-[#4d1414]">Login to Your Account</CardTitle>
+          <CardTitle className="text-[#4d1414]">
+            Login to Your Account
+          </CardTitle>
         </CardHeader>
         <CardContent>
-          <form className="flex flex-col space-y-6">
+          <div className="flex flex-col space-y-6">
             {/* Username and Password Fields */}
             <div>
-              <label htmlFor="username" className="block text-sm font-medium text-[#4d1414]">
+              <label
+                htmlFor="username"
+                className="block text-sm font-medium text-[#4d1414]"
+              >
                 Username
               </label>
               <Input
-              value={username}
-              onChange={(e)=>setUsername(e.target.value)}
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
                 id="username"
                 type="text"
                 placeholder="Enter your username 🌸"
-                className="mt-1 bg-yellow-100 text-[#4d1414]"
+                className="mt-1 bg-yellow-100 text-[#4d1414] w-[360px]"
               />
             </div>
 
             <div>
-              <label htmlFor="password" className="block text-sm font-medium text-[#4d1414]">
+              <label
+                htmlFor="password"
+                className="block text-sm font-medium text-[#4d1414]"
+              >
                 Password
               </label>
               <Input
                 value={password}
-                onChange={(e)=>setPassword(e.target.value)}
+                onChange={(e) => setPassword(e.target.value)}
                 id="password"
                 type="password"
                 placeholder="Don't worry, it's safe with us 🔒"
@@ -72,21 +86,30 @@ const LoginPage = () => {
 
             {/* Submit Button */}
             <div className="flex justify-center items-center">
-              <button onClick={loginHandler} className="w-fit flex justify-center items-center font-bold bg-yellow-400 hover:bg-yellow-500 py-2 px-4 rounded-lg transition-all shadow-md text-[#4d1414] mt-4">
+              <button
+                onClick={loginHandler}
+                className="w-fit flex justify-center items-center font-bold bg-yellow-400 hover:bg-yellow-500 py-2 px-4 rounded-lg transition-all shadow-md text-[#4d1414] mt-4"
+              >
                 Log In ✨
               </button>
             </div>
-          </form>
+          </div>
         </CardContent>
       </Card>
 
       {/* Additional Options */}
       <div className="text-center space-y-2">
         <p className="text-[#4d1414]">
-          New here? <a href="/signup" className="text-yellow-600 font-bold underline">Sign up now! 🎉</a>
+          New here?{" "}
+          <a href="/signup" className="text-yellow-600 font-bold underline">
+            Sign up now! 🎉
+          </a>
         </p>
         <p className="text-[#4d1414]">
-          Forgot your password? <a href="/reset" className="text-yellow-600 font-bold underline">Reset it here! 🔄</a>
+          Forgot your password?{" "}
+          <a href="/reset" className="text-yellow-600 font-bold underline">
+            Reset it here! 🔄
+          </a>
         </p>
       </div>
     </div>

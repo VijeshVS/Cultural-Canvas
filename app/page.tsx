@@ -2,6 +2,7 @@
 
 import IndiaMap from "@/components/Map";
 import TypingAnimation from "@/components/ui/typing-animation";
+import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
 
 const herotext = [
@@ -15,7 +16,7 @@ const herotext = [
 
 
 export default function Home() {
-
+  const router = useRouter();
   const [currentText, setCurrentText] = useState(herotext[0].script); // Initialize with the first text
   useEffect(() => {
     const interval = setInterval(() => {
@@ -38,7 +39,7 @@ export default function Home() {
         <div className="text-xl my-8">
           Welcome to Sanskriti - A dynamic platform designed to explore and immerse yourself in the diverse cultures and vibrant festivals of India. With <span className="text-[#4d1414] font-semibold">interactive maps, immersive timelines, engaging video content, and exciting games</span>, this platform offers a rich, multimedia experience to discover the traditions, customs, and celebrations that make India unique
         </div>
-        <button className="bg-[#4d1414]  text-yellow-300 font-semibold px-4 py-2 rounded-xl hover:scale-105 transition-all duration-300">
+        <button onClick={()=>router.push('/login')} className="bg-[#4d1414]  text-yellow-300 font-semibold px-4 py-2 rounded-xl hover:scale-105 transition-all duration-300">
           Login
         </button>
       </div>
