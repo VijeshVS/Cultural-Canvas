@@ -65,7 +65,7 @@ export function Navbar() {
 		},
 	];
 	return (
-		<div className="w-full flex mt-12 justify-center items-center fixed">
+		<div className=" z-10 w-full flex mt-12 justify-center items-center fixed">
 			<FloatingDock
 				mobileClassName="translate-y-20" // only for demo, remove for production
 				items={links}

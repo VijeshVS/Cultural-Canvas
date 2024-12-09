@@ -68,7 +68,7 @@ const IndiaMap: React.FC = () => {
         overflow: "hidden",
         position: "relative",
         cursor: "pointer",
-        zIndex: -10,
+        // zIndex: -10,
       }}
     >
       {/* Tooltip */}
