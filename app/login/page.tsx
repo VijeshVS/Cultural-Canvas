@@ -1,9 +1,28 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { login } from "@/lib/actions/auth";
+import toast from "react-hot-toast";
+
 
 const LoginPage = () => {
+  const [username,setUsername] = useState("");
+  const [password,setPassword] = useState("");
+
+  function loginHandler() {
+    const res = login(username,password).then((res)=>{
+      const token = res;
+      localStorage.setItem('token',token);
+    })
+
+    toast.promise(res, {
+      loading: "Logging in!!",
+      success: "Logged in successfully !!",
+      error: "Login failed !!"
+    })
+  }
+
   return (
     <div className="min-h-screen flex flex-col items-center p-6 space-y-8 pt-36 px-24">
       <div className="text-center space-y-2">
@@ -28,6 +47,8 @@ const LoginPage = () => {
                 Username
               </label>
               <Input
+              value={username}
+              onChange={(e)=>setUsername(e.target.value)}
                 id="username"
                 type="text"
                 placeholder="Enter your username 🌸"
@@ -40,6 +61,8 @@ const LoginPage = () => {
                 Password
               </label>
               <Input
+                value={password}
+                onChange={(e)=>setPassword(e.target.value)}
                 id="password"
                 type="password"
                 placeholder="Don't worry, it's safe with us 🔒"
@@ -49,7 +72,7 @@ const LoginPage = () => {
 
             {/* Submit Button */}
             <div className="flex justify-center items-center">
-              <button className="w-fit flex justify-center items-center font-bold bg-yellow-400 hover:bg-yellow-500 py-2 px-4 rounded-lg transition-all shadow-md text-[#4d1414] mt-4">
+              <button onClick={loginHandler} className="w-fit flex justify-center items-center font-bold bg-yellow-400 hover:bg-yellow-500 py-2 px-4 rounded-lg transition-all shadow-md text-[#4d1414] mt-4">
                 Log In ✨
               </button>
             </div>

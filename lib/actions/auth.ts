@@ -25,24 +25,15 @@ export async function login(username:string,password:string) {
         })
 
         if(!user) {
-            return {
-                status: 404,
-                token: ""
-            }
+            throw new Error("Wrong credentials")
         }
 
         const token = jwt.sign({id:user.id},SECRET_KEY);
     
-        return {
-            status: 200,
-            token: token
-        }
+        return token;
     }
     catch {
-        return {
-            status: 500,
-            token : ""
-        }
+        throw new Error("Server error")
     }
 }
 
