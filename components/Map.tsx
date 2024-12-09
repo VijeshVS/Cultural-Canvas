@@ -63,11 +63,12 @@ const IndiaMap: React.FC = () => {
   return (
     <div
       style={{
-        width: "1000px",
-        height: "1000px",
+        width: "830px",
+        height: "694px",
         overflow: "hidden",
         position: "relative",
         cursor: "pointer",
+        zIndex: -10,
       }}
     >
       {/* Tooltip */}
