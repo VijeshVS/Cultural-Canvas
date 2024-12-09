@@ -72,7 +72,8 @@ export async function register(
       status: 200,
       token: token,
     };
-  } catch {
+  } catch (e){
+    console.log(e)
     return {
       status: 500,
       token: "",

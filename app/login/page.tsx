@@ -4,10 +4,12 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { login } from "@/lib/actions/auth";
 import { toast } from "sonner";
+import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const router = useRouter();
 
   function loginHandler() {
     const res = login(username, password).then((res) => {
@@ -16,6 +18,7 @@ const LoginPage = () => {
       if (statusCode == 200) {
         localStorage.setItem("token", res.token);
         toast.success("Logged in successfully!!");
+        router.push('/dashboard');
       } else if (statusCode == 404) {
         toast.error("Wrong credentials");
       } else {
