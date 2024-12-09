@@ -1,9 +1,8 @@
 "use server";
 
-import PrismaClientManager from "../pgConnect";
+import { prisma } from "../db";
 import jwt from "jsonwebtoken";
 
-const prisma = PrismaClientManager.getInstance().getPrismaClient();
 const SECRET_KEY = process.env.SECRET_KEY || "";
 
 export const checkAuthentication = async (token: string): Promise<boolean> => {
@@ -72,8 +71,8 @@ export async function register(
       status: 200,
       token: token,
     };
-  } catch (e){
-    console.log(e)
+  } catch (e) {
+    console.log(e);
     return {
       status: 500,
       token: "",
