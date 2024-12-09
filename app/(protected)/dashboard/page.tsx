@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Heart, Mail, Phone, UserCircle } from "lucide-react";
+import { Heart, Mail, PencilLine, Phone, UserCircle } from "lucide-react";
 import Image from "next/image";
 import Spinner from "@/components/Loading";
 import { getUser } from "@/lib/actions/main";
@@ -80,6 +80,7 @@ const page = () => {
   const [username, setUsername] = useState("");
   const [state, setState] = useState("");
   const [email, setEmail] = useState("");
+  const [bio, setBio] = useState("");
 
   useEffect(() => {
     getUser(localStorage.getItem("token") || "").then((res) => {
@@ -97,6 +98,7 @@ const page = () => {
       setEmail(data.email);
       setState(data.state);
       setUsername(data.username);
+      setBio(data.bio);
       setLoading(false);
     });
   }, []);
@@ -104,7 +106,7 @@ const page = () => {
   if (loading) return <Spinner />;
 
   return (
-    <div className="min-h-screen flex flex-row pt-36 px-36 gap-6">
+    <div className="min-h-screen flex flex-row pt-36 px-24 gap-6">
       <div className="flex flex-col w-1/4 bg-opacity-30 backdrop-blur-sm h-[60vh] rounded-lg bg-yellow-400 border-2 border-yellow-500 p-4 space-y-2">
         <div className="flex flex-row items-center space-x-2 text-[#4d1414]">
           <UserCircle size={50} />
@@ -117,13 +119,10 @@ const page = () => {
         </div>
         <div className="flex flex-row items-center space-x-2 text-[#4d1414]"></div>
         <div className="flex flex-row items-center space-x-2 text-[#4d1414]">
-          <Mail size={20} />
-          <div className="text-lg font-medium ">{email}</div>
+          <Mail size={20}/>
+          <div className="text-base font-medium ">{email}</div>
         </div>
-        <div className="flex flex-row items-center space-x-2 text-[#4d1414]">
-          <Phone size={20} />
-          <div className="text-lg font-medium ">+91 92390 89089</div>
-        </div>
+        <div className="flex flex-ro ">{bio.slice(0, 100)}</div>
         <div className="flex h-full flex-row items-center space-x-2 justify-center">
           <Image
             src={`/statemap/${state}.png`}

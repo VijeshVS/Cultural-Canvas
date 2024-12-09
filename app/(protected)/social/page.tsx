@@ -1,5 +1,6 @@
 import React from "react";
 import { Heart, UserCircle } from "lucide-react";
+import CreatePost from "@/components/custom/CreatePost";
 const data = [
 	{
 		id: 1,
@@ -70,6 +71,7 @@ const data = [
 const Page = () => {
 	return (
 		<div className="min-h-screen flex flex-col pt-36 px-24 items-center">
+			<CreatePost />
 			<h2 className="text-center text-[#4d1414] font-semibold text-6xl">
 				What&apos;s the buzz?
 			</h2>
