@@ -37,7 +37,7 @@ model Picture {
 model Post {
   id Int @id @default(autoincrement())
   likes Int
-  title String
+  state String
   caption String
   pictures Picture[]
   user User @relation(fields: [user_id], references: [id])
