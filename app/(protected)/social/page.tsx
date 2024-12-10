@@ -3,17 +3,26 @@ import React, { useEffect, useState } from "react";
 import { Heart, UserCircle } from "lucide-react";
 import CreatePost from "@/components/custom/CreatePost";
 import { getPosts } from "@/lib/actions/main";
+import Spinner from "@/components/Loading";
+import { convertToRawGitHubURL } from "@/lib/utils";
+import { useRouter } from "next/navigation";
+
 
 const Page = () => {
   const [data, setData] = useState<any>([]);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
   useEffect(() => {
     getPosts().then((res) => {
       if (res.status == 200) {
         setData(res.posts);
+        setLoading(false);
       }
     });
   }, []);
+
+  if (loading) return <Spinner />;
 
   return (
     <div className="min-h-screen flex flex-col pt-36 px-24 items-center">
@@ -34,7 +43,7 @@ const Page = () => {
             className="flex flex-col rounded-xl bg-white shadow-lg"
           >
             <div className="flex flex-row justify-between p-2">
-              <div className="flex flex-row space-x-2 items-center">
+              <div onClick={()=>router.push(`/user/${item.user.name.toLowerCase()}`)} className="flex flex-row cursor-pointer space-x-2 items-center">
                 <UserCircle />
                 <div className="italic">{item.user.name}</div>
               </div>
@@ -45,7 +54,7 @@ const Page = () => {
             </div>
             <div
               className="w-full h-48 bg-cover bg-center"
-              style={{ backgroundImage: `url(${item.pictures[0].image_url})` }}
+              style={{ backgroundImage: `url(${convertToRawGitHubURL(item.pictures[0].image_url)})` }}
             ></div>
             <div className="p-2">
               <span className="font-bold italic">{item.state} </span>

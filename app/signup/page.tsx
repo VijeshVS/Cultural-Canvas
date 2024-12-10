@@ -1,11 +1,12 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { register } from "@/lib/actions/auth";
+import { checkAuthentication, register } from "@/lib/actions/auth";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import Spinner from "@/components/Loading";
 
 const states = [
   "Andhra Pradesh",
@@ -41,6 +42,21 @@ const states = [
 const SignUpPage = () => {
   const router = useRouter();
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    checkAuthentication(localStorage.getItem("token") || "").then((res) => {
+      if (res) {
+        router.push("/dashboard");
+        toast.success("User is already logged in !!");
+      } else {
+        setLoading(false);
+      }
+    });
+  }, []);
+
+  if (loading) <Spinner />;
+
   function registerHandler(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
@@ -51,19 +67,24 @@ const SignUpPage = () => {
     const state = formData.get("state") as string;
     const textarea = formData.get("textarea") as string;
 
-    const res = register(name, username, email, password, state, textarea).then(
-      (res) => {
-        const statusCode = res.status;
+    const res = register(
+      name,
+      username.toLowerCase(),
+      email,
+      password,
+      state,
+      textarea
+    ).then((res) => {
+      const statusCode = res.status;
 
-        if (statusCode == 200) {
-          localStorage.setItem("token", res.token);
-          toast.success("Registered successfully !!");
-          router.push("/dashboard");
-        } else {
-          toast.error("Server error");
-        }
+      if (statusCode == 200) {
+        localStorage.setItem("token", res.token);
+        toast.success("Registered successfully !!");
+        router.push("/dashboard");
+      } else {
+        toast.error("Server error");
       }
-    );
+    });
 
     toast.promise(res, {
       loading: "Registering !!",

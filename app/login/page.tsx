@@ -1,15 +1,34 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { login } from "@/lib/actions/auth";
+import { checkAuthentication, login } from "@/lib/actions/auth";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
+import Spinner from "@/components/Loading";
 
 const LoginPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const router = useRouter();
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    checkAuthentication(localStorage.getItem("token") || "").then((res) => {
+      if (res) {
+        router.push("/dashboard");
+        toast.success("User is already logged in !!");
+      }
+      else {
+        setLoading(false);
+      }
+
+  
+    });
+  }, []);
+
+  if (loading) <Spinner />;
 
   function loginHandler() {
     const res = login(username, password).then((res) => {
@@ -18,7 +37,7 @@ const LoginPage = () => {
       if (statusCode == 200) {
         localStorage.setItem("token", res.token);
         toast.success("Logged in successfully!!");
-        router.push('/dashboard');
+        router.push("/dashboard");
       } else if (statusCode == 404) {
         toast.error("Wrong credentials");
       } else {

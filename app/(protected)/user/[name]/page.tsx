@@ -1,46 +1,64 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Heart, Mail, PencilLine, Phone, UserCircle } from "lucide-react";
+import { Heart, Mail, UserCircle } from "lucide-react";
 import Image from "next/image";
 import Spinner from "@/components/Loading";
-import { getUser } from "@/lib/actions/main";
+import { peekUser } from "@/lib/actions/main";
 import { convertToRawGitHubURL } from "@/lib/utils";
 
-const page = () => {
+const page = ({
+  params,
+}: {
+  params: {
+    name: string;
+  };
+}) => {
   const [loading, setLoading] = useState(true);
-
+  const usernameToBeFound = params.name;
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
   const [state, setState] = useState("");
   const [email, setEmail] = useState("");
   const [bio, setBio] = useState("");
   const [posts, setPosts] = useState([]);
+  const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
-    getUser(localStorage.getItem("token") || "").then((res) => {
-      console.log(res.data);
-      const data = res.data as {
-        name: string;
-        username: string;
-        state: string;
-        email: string;
-        token: number;
-        id: number;
-        password: string;
-        bio: string;
-        posts: any;
-      };
-      setName(data.name);
-      setEmail(data.email);
-      setState(data.state);
-      setUsername(data.username);
-      setBio(data.bio);
-      setPosts(data.posts);
-      setLoading(false);
+    peekUser(usernameToBeFound || "").then((res) => {
+      console.log(res);
+      if (res.status == 200) {
+        const data = res.data as {
+          name: string;
+          username: string;
+          state: string;
+          email: string;
+          token: number;
+          id: number;
+          password: string;
+          bio: string;
+          posts: any;
+        };
+        setName(data.name);
+        setEmail(data.email);
+        setState(data.state);
+        setUsername(data.username);
+        setBio(data.bio);
+        setPosts(data.posts);
+        setLoading(false);
+      } else {
+        setNotFound(true);
+      }
     });
   }, []);
 
+  if (notFound) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <h1 className="text-5xl font-bold text-red-500">User not found</h1>
+      </div>
+    );
+  }
   if (loading) return <Spinner />;
 
   return (
@@ -72,7 +90,7 @@ const page = () => {
       </div>
       <div className="w-3/4 h-[60vh] bg-yellow-300 bg-opacity-20 backdrop-blur-sm border-2 border-yellow-500 rounded-lg p-4 overflow-scroll">
         <div className="flex flex-col">
-          <div className="font-semibold text-xl text-[#4d1414]">My Badges</div>
+          <div className="font-semibold text-xl text-[#4d1414]">Badges</div>
           <div className="flex flex-row h-[10vh] p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm overflow-scroll bg-opacity-70 -space-x-2">
             {/* add badges here */}
             <Image
@@ -91,7 +109,7 @@ const page = () => {
             />
           </div>
           <div className="font-semibold text-xl text-[#4d1414]">
-            My Contributions
+            Contributions
           </div>
           <div className="grid grid-cols-3 gap-6 mt-2 p-2">
             {posts.map((item: any) => (

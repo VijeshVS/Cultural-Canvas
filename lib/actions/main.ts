@@ -2,6 +2,46 @@
 import jwt from "jsonwebtoken";
 import { prisma } from "../db";
 
+export async function peekUser(username: string){
+  try {
+    const user = await prisma.user.findFirst({
+      where: {
+        username,
+      },
+      include: {
+        posts: {
+          include: {
+            user: {
+              select: {
+                name: true
+              }
+            },
+            pictures: true
+          }
+        }
+      }
+    });
+
+    if(!user) {
+      return {
+        status: 404,
+        data: user,
+      };
+    }
+
+    return {
+      status: 200,
+      data: user,
+    };
+  } catch (e) {
+    console.log(e);
+    return {
+      status: 500,
+      data: {},
+    };
+  }
+}
+
 export async function getUser(token: string) {
   const decoded = jwt.decode(token) as { id: number };
   const id = decoded.id;
@@ -10,6 +50,18 @@ export async function getUser(token: string) {
       where: {
         id,
       },
+      include: {
+        posts: {
+          include: {
+            user: {
+              select: {
+                name: true
+              }
+            },
+            pictures: true
+          }
+        }
+      }
     });
 
     return {
