@@ -17,23 +17,17 @@ const QuizPage = () => {
   useEffect(() => {
     getTokenCount(localStorage.getItem("token") || "").then((count) => {
       if (count >= TOKEN_FOR_GAME) {
-        const res = deductToken(
-          localStorage.getItem("token") || "",
-          TOKEN_FOR_GAME
-        ).then((res) => {
-          const status = res.status;
+        deductToken(localStorage.getItem("token") || "", TOKEN_FOR_GAME).then(
+          (res) => {
+            const status = res.status;
 
-          if (status == 200) {
-            toast.info("Deducted tokens !!");
-          } else {
-            router.push("/games");
-            toast.error("Server error");
+            if (status == 200) {
+            } else {
+              router.push("/games");
+              toast.error("Server error");
+            }
           }
-        });
-
-        toast.promise(res, {
-          loading: "Deducting tokens !!",
-        });
+        );
 
         setLoading(false);
       } else {

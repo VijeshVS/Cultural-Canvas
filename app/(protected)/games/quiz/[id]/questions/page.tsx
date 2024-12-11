@@ -51,7 +51,7 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
         </h1>
         <button
           className="mt-4 px-4 py-2 text-sm underline text-blue-500"
-          onClick={() => router.push("/game/quiz")}
+          onClick={() => router.push("/games")}
         >
           Back to States
         </button>
