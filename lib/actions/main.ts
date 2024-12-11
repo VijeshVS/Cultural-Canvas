@@ -168,6 +168,7 @@ export async function getPosts() {
         pictures: true,
         user: {
           select: {
+            username: true,
             name: true
           }
         }
