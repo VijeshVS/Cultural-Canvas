@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { Heart, Mail, PencilLine, Phone, UserCircle } from "lucide-react";
+import { Heart, Mail, UserCircle } from "lucide-react";
 import Image from "next/image";
 import Spinner from "@/components/Loading";
 import { getUser } from "@/lib/actions/main";
 import { convertToRawGitHubURL } from "@/lib/utils";
 
-const page = () => {
+const Page = () => {
   const [loading, setLoading] = useState(true);
 
   const [name, setName] = useState("");
@@ -15,7 +15,7 @@ const page = () => {
   const [state, setState] = useState("");
   const [email, setEmail] = useState("");
   const [bio, setBio] = useState("");
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState<{ id: number; user: { name: string }; likes: number; pictures: { image_url: string }[]; state: string; caption: string }[]>([]);
 
   useEffect(() => {
     getUser(localStorage.getItem("token") || "").then((res) => {
@@ -29,7 +29,7 @@ const page = () => {
         id: number;
         password: string;
         bio: string;
-        posts: any;
+        posts: { id: number; user: { name: string }; likes: number; pictures: { image_url: string }[]; state: string; caption: string }[];
       };
       setName(data.name);
       setEmail(data.email);
@@ -94,7 +94,7 @@ const page = () => {
             My Contributions
           </div>
           <div className="grid grid-cols-3 gap-6 mt-2 p-2">
-            {posts.map((item: any) => (
+            {posts.map((item: { id: number; user: { name: string }; likes: number; pictures: { image_url: string }[]; state: string; caption: string }) => (
               <div
                 key={item.id}
                 className="flex flex-col rounded-xl bg-white shadow-lg"
@@ -130,4 +130,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
