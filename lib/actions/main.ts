@@ -42,6 +42,28 @@ export async function peekUser(username: string){
   }
 }
 
+export async function getAllUsers() {
+  try {
+    const users = await prisma.user.findMany({
+      select: {
+        username: true,
+        state: true,
+      },
+    });
+
+    return {
+      status: 200,
+      data: users,
+    };
+  } catch (e) {
+    console.log(e);
+    return {
+      status: 500,
+      data: [],
+    };
+  }
+}
+
 export async function getUser(token: string) {
   const decoded = jwt.decode(token) as { id: number };
   const id = decoded.id;

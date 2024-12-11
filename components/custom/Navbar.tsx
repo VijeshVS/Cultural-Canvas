@@ -3,7 +3,7 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 // import Image from "next/image";
-import { Bot, Gamepad2, Hash, House, LayoutDashboard, Phone, ShipWheel } from "lucide-react";
+import { Bot, Gamepad2, Globe, Hash, House, LayoutDashboard, Phone, ShipWheel } from "lucide-react";
 
 export function Navbar() {
 	const links = [
@@ -62,6 +62,13 @@ export function Navbar() {
 				<Phone className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
 			),
 			href: "/contact",
+		},
+		{
+			title: "Family",
+			icon: (
+				<Globe className="h-full w-full text-[#4d1414] dark:text-neutral-300"/>
+			),
+			href: "/user",
 		},
 		{
 			title: "Dashboard",
