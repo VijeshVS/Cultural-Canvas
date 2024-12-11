@@ -1,8 +1,8 @@
 "use server";
-import jwt from "jsonwebtoken";
+import jwt, { JwtPayload } from "jsonwebtoken";
 import { prisma } from "../db";
 
-export async function peekUser(username: string){
+export async function peekUser(username: string) {
   try {
     const user = await prisma.user.findFirst({
       where: {
@@ -13,16 +13,16 @@ export async function peekUser(username: string){
           include: {
             user: {
               select: {
-                name: true
-              }
+                name: true,
+              },
             },
-            pictures: true
-          }
-        }
-      }
+            pictures: true,
+          },
+        },
+      },
     });
 
-    if(!user) {
+    if (!user) {
       return {
         status: 404,
         data: user,
@@ -57,7 +57,6 @@ export async function updateLikes(postId: number, increment: boolean) {
     return { status: 500, data: null };
   }
 }
-
 
 export async function getAllUsers() {
   try {
@@ -94,13 +93,14 @@ export async function getUser(token: string) {
           include: {
             user: {
               select: {
-                name: true
-              }
+                name: true,
+              },
             },
-            pictures: true
-          }
-        }
-      }
+            pictures: true,
+          },
+        },
+        badges: true,
+      },
     });
 
     return {
@@ -150,6 +150,15 @@ export async function createPost(
       },
     });
 
+    await prisma.user.update({
+      where: { id },
+      data: {
+        token: {
+          increment: 20,
+        },
+      },
+    });
+
     return {
       status: 200,
     };
@@ -169,10 +178,10 @@ export async function getPosts() {
         user: {
           select: {
             username: true,
-            name: true
-          }
-        }
-      }
+            name: true,
+          },
+        },
+      },
     });
 
     return {
@@ -183,6 +192,28 @@ export async function getPosts() {
     return {
       status: 500,
       posts: [],
+    };
+  }
+}
+
+export async function assignBadge(token: string, name: string) {
+  try {
+    const { id } = jwt.decode(token) as JwtPayload;
+
+    const find = await prisma.badge.findFirst({ where: { name, user_id: id } });
+
+    if (find) return { status: 404 };
+
+    await prisma.badge.create({
+      data: {
+        name,
+        user_id: id,
+      },
+    });
+  } catch (e) {
+    console.log(e);
+    return {
+      status: 500,
     };
   }
 }

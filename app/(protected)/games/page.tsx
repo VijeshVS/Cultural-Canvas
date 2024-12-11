@@ -1,7 +1,13 @@
+"use client"
 import React from "react";
 import Link from "next/link";
 
 const Page = () => {
+
+	function handleTokenDeduction() {
+		
+	}
+
 	return (
 		<div className="flex flex-1 min-h-screen pt-36 px-24">
 			<div className="font-bold text-[#4d1414] w-full text-center">

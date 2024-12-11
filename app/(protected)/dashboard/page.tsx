@@ -118,14 +118,14 @@ const Page = () => {
             </div>
           </div>
           <div className="flex flex-row h-20 p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm overflow-scroll bg-opacity-70 -space-x-2">
-            {badges.map(() => {
+            {badges.map((item: any) => {
               return (
                 <Image
                   key={Math.random()}
-                  src={"/states/westbengal.jpg"}
-                  width={80}
-                  height={70}
+                  src={`/states/${item.name}.jpg`}
                   alt="badge"
+                  width={60}
+                  height={60}
                   className="h-full rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
                 />
               );
