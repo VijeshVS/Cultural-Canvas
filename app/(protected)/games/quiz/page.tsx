@@ -7,6 +7,8 @@ import { deductToken, getTokenCount } from "@/lib/actions/main";
 import { toast } from "sonner";
 import Spinner from "@/components/Loading";
 
+const TOKEN_FOR_GAME = 10;
+
 const QuizPage = () => {
   const router = useRouter();
   const game = gamedata.quiz;
@@ -14,19 +16,20 @@ const QuizPage = () => {
 
   useEffect(() => {
     getTokenCount(localStorage.getItem("token") || "").then((count) => {
-      if (count >= 20) {
-        const res = deductToken(localStorage.getItem("token") || "", 20).then(
-          (res) => {
-            const status = res.status;
+      if (count >= TOKEN_FOR_GAME) {
+        const res = deductToken(
+          localStorage.getItem("token") || "",
+          TOKEN_FOR_GAME
+        ).then((res) => {
+          const status = res.status;
 
-            if (status == 200) {
-              toast.info("Deducted tokens !!");
-            } else {
-              router.push("/games");
-              toast.error("Server error");
-            }
+          if (status == 200) {
+            toast.info("Deducted tokens !!");
+          } else {
+            router.push("/games");
+            toast.error("Server error");
           }
-        );
+        });
 
         toast.promise(res, {
           loading: "Deducting tokens !!",

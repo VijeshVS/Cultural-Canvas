@@ -48,10 +48,6 @@ const CreatePostPage = () => {
       if (status == 200) {
         toast.success("Post created successfully !!");
         setShowPopup(true); // Show the popup notification
-        setTimeout(() => {
-          setShowPopup(false); // Hide the popup after 3 seconds
-          router.push("/socials"); // Redirect to /socials route
-        }, 3000);
       } else {
         toast.error("Server error");
       }

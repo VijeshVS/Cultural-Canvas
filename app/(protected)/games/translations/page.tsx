@@ -2,10 +2,45 @@
 
 import { useRouter } from "next/navigation";
 import gamedata from "../gamedata.json";
+import { useEffect, useState } from "react";
+import { deductToken, getTokenCount } from "@/lib/actions/main";
+import { toast } from "sonner";
+import Spinner from "@/components/Loading";
+
+const TOKEN_FOR_GAME = 10
 
 const QuizPage = () => {
 	const router = useRouter();
 	const game = gamedata.translation;
+	const [loading,setLoading] = useState(true);
+
+	useEffect(() => {
+		getTokenCount(localStorage.getItem("token") || "").then((count) => {
+		  if (count >= TOKEN_FOR_GAME) {
+			const res = deductToken(localStorage.getItem("token") || "", TOKEN_FOR_GAME).then(
+			  (res) => {
+				const status = res.status;
+	
+				if (status == 200) {
+				  toast.info("Deducted tokens !!");
+				} else {
+				  router.push("/games");
+				  toast.error("Server error");
+				}
+			  }
+			);
+	
+			toast.promise(res, {
+			  loading: "Deducting tokens !!",
+			});
+	
+			setLoading(false);
+		  } else {
+			router.push("/games");
+			toast.error("You don't have enough tokens !!");
+		  }
+		});
+	  }, []);
 
 	// Check if quiz data is available
 	if (!game || game.length === 0) {
@@ -24,6 +59,8 @@ const QuizPage = () => {
 	const handleStateSelection = (stateSlug: string) => {
 		router.push(`/games/translations/${stateSlug}`);
 	};
+
+	if(loading) return <Spinner/>
 
 	return (
 		<div className="min-h-screen flex flex-col items-center justify-center py-36">
