@@ -20,7 +20,7 @@ export function Navbar() {
 			icon: (
                 <ShipWheel className="h-full w-full text-[#4d1414] dark:text-neutral-300"/>
             ),
-			href: "/timelines",
+			href: "/timeline",
 		},
 		{
             title: "Social",
