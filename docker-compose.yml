@@ -1,0 +1,32 @@
+version: '3.9' # Specifies the Docker Compose file format version
+
+services:
+  nextjs: # Service definition for the Next.js application
+    image: node:18 # Uses the official Node.js 18 image as the base
+    container_name: nextjs_server # Names the container for the Next.js server
+    working_dir: /app # Sets the working directory inside the container
+    volumes:
+      - .:/app # Mounts the current directory to /app in the container
+    ports:
+      - "3000:3000" # Maps port 3000 on the host to port 3000 in the container
+    command: > # Command to run inside the container
+      sh -c "npm i --force && npx prisma migrate dev && npm run dev" # Installs dependencies, applies database migrations, and starts the development server
+    environment:
+      DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/mydb" # Environment variable for connecting to the PostgreSQL database
+    depends_on:
+      - postgres # Ensures the postgres service starts before this service
+
+  postgres: # Service definition for the PostgreSQL database
+    image: postgres:15 # Uses the official PostgreSQL 15 image
+    container_name: postgres_server # Names the container for the PostgreSQL server
+    environment:
+      POSTGRES_USER: postgres # Sets the username for the database
+      POSTGRES_PASSWORD: postgres # Sets the password for the database
+      POSTGRES_DB: mydb # Sets the default database name
+    ports:
+      - "5432:5432" # Maps port 5432 on the host to port 5432 in the container
+    volumes:
+      - postgres_data:/var/lib/postgresql/data # Mounts a named volume to persist database data
+
+volumes:
+  postgres_data: # Defines a named volume for persisting PostgreSQL data
