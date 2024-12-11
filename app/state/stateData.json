@@ -4,7 +4,7 @@
 			"slug": "gujarat",
 			"title": "ગુજરાત",
 			"sub": "Gujarāta",
-			"videoSrc": "path/to/quiz-video-gujarat.mp4",
+			"videoSrc": "https://youtu.be/9Un5RvEfBms?si=pPKo9L01HJEU1eLM",
 			"description": "Explore the vibrant culture, rich history, and delicious cuisine of Gujarat. Discover its beautiful landscapes and warm hospitality.",
 			"cards": [
 				{
@@ -21,6 +21,102 @@
 					"image": "/stateculture/dhokla.jpg",
 					"badge": "cuisine",
 					"desc": "Gujarat's cuisine is a delightful blend of flavors, with a strong emphasis on vegetarian dishes. Popular dishes include Thepla (a flatbread made with wheat flour and various spices), Dhokla (a savory snack made from fermented batter), Khandvi (a savory snack made from gram flour), and Undhiyu (a mixed vegetable dish cooked in a clay pot). Gujarati cuisine also offers a variety of sweet treats like Basundi (a rich, creamy milk-based dessert) and Doodhpak (a milk pudding)."
+				}
+			]
+		}, 
+		{
+			"slug": "maharashtra",
+			"title": "महाराष्ट्र",
+			"sub": "Mahārāṣṭra",
+			"videoSrc": "https://youtu.be/-6EdcEFX_Uk?si=YU_7X5kNEO0lLoUb",
+			"description": "Discover the diverse cultural heritage of Maharashtra, from its bustling cities to rich traditions, vibrant festivals, and delectable cuisine.",
+			"cards": [
+				{
+					"image": "/stateculture/ganesh.jpg",
+					"badge": "festival",
+					"desc": "Ganesh Chaturthi is the most significant festival in Maharashtra, celebrating the birth of Lord Ganesha. The festival typically lasts 10 days, with elaborate public celebrations, massive idols, and immersion processions. People create intricate Ganesh sculptures, decorate their homes, and participate in community festivities that showcase the state's cultural unity and devotion."
+				},
+				{
+					"image": "/stateculture/lavani.jpg",
+					"badge": "traditional dance and music",
+					"desc": "Maharashtra's musical tradition is rich with folk forms like Lavani, a powerful combination of music and dance. Characterized by fast-paced rhythms and expressive movements, Lavani often depicts social themes and tells stories through performance. Other musical styles include Gondhal, a devotional performance, and Powada, which narrates historical events and heroic tales."
+				},
+				{
+					"image": "/stateculture/vadapav.jpg",
+					"badge": "cuisine",
+					"desc": "Maharashtrian cuisine is diverse and flavorful, known for its spicy and tangy dishes. Signature items include Vada Pav (a popular street food of spiced potato fritter in a bun), Puran Poli (a sweet flatbread), Misal Pav (a spicy sprouts curry), and Modak (a sweet dumpling especially popular during Ganesh Chaturthi). The cuisine blends influences from coastal, inland, and urban cooking styles."
+				}
+			]
+		}, 
+		{
+			"slug": "karnataka",
+			"title": "ಕರ್ನಾಟಕ",
+			"sub": "Karnāṭaka",
+			"videoSrc": "https://youtu.be/ZAjd9Lh1-lA?si=uQvS7ptpJU6eyz4M",
+			"description": "Experience the rich cultural tapestry of Karnataka, known for its historical heritage, classical arts, and diverse culinary traditions.",
+			"cards": [
+				{
+					"image": "/stateculture/karaga.jpg",
+					"badge": "festival",
+					"desc": "Karaga is a unique and ancient festival celebrated in Bangalore, primarily at the Dharmaraya Swamy Temple. This nine-day festival honors Draupadi and is marked by a spectacular night procession where a priest carries a decorated pot symbolizing feminine energy. The festival showcases intricate rituals, traditional music, and community participation."
+				},
+				{
+					"image": "/stateculture/yakshagana.jpg",
+					"badge": "Theatre, Dance & Music",
+					"desc": "Yakshagana is Karnataka's traditional theatre form, combining dance, music, elaborate costumes, and storytelling. Performers narrate mythological stories through vibrant performances, accompanied by traditional instruments like the harmonium, mridangam, and chenda. Classical music forms like Carnatic music also play a significant role in Karnataka's rich musical heritage."
+				},
+				{
+					"image": "/stateculture/bisi-bele-bath.jpg",
+					"badge": "cuisine",
+					"desc": "Karnataka's cuisine is diverse, ranging from coastal seafood to vegetarian delicacies. Signature dishes include Bisi Bele Bath (a spicy rice dish), Masala Dosa, Mysore Pak (a sweet delicacy), and Kundapura Chicken. The cuisine varies across regions, with influences from Mysore, Mangalore, and Udupi styles, offering a wide range of flavors and cooking techniques."
+				}
+			]
+		}, 
+		{
+			"slug": "west-bengal",
+			"title": "পশ্চিমবঙ্গ",
+			"sub": "Paścim Baṅga",
+			"videoSrc": "https://youtu.be/6CjwVHGlXho?si=m-Cddvg12c2Bkxtk",
+			"description": "Explore the cultural richness of West Bengal, known for its intellectual heritage, artistic traditions, and mouth-watering cuisine.",
+			"cards": [
+				{
+					"image": "/stateculture/durga-puja.jpg",
+					"badge": "festival",
+					"desc": "Durga Puja is the most significant festival in West Bengal, celebrating the goddess Durga's victory over evil. The festival transforms cities and villages into vibrant art galleries, with elaborate pandals (temporary structures), intricate idol installations, and community celebrations. It's a time of cultural expression, artistic creativity, and social bonding."
+				},
+				{
+					"image": "/stateculture/baul.jpg",
+					"badge": "music",
+					"desc": "Baul music is a unique folk music tradition of West Bengal, representing a mystical musical genre that blends spiritual and philosophical expressions. Baul singers, known as wandering minstrels, use traditional instruments like the ektara and perform soul-stirring songs that explore human emotions and spiritual connections."
+				},
+				{
+					"image": "/stateculture/rosogulla.jpg",
+					"badge": "cuisine",
+					"desc": "Bengali cuisine is renowned for its subtle flavors and diverse preparations. Signature dishes include Rosogulla (a sweet cheese ball), Macher Jhol (fish curry), Kosha Mangsho (spicy dry mutton), and Mishti Doi (sweet yogurt). The cuisine is characterized by its use of mustard oil, fish, rice, and a balance of sweet and spicy flavors that reflect the region's culinary sophistication."
+				}
+			]
+		}, 
+		{
+			"slug": "rajasthan",
+			"title": "राजस्थान",
+			"sub": "Rājasthān",
+			"videoSrc": "https://youtu.be/O5DT3-nn0-8?si=jcvY1_LnNS59C4gF",
+			"description": "Discover the royal and vibrant culture of Rajasthan, known for its colorful traditions, desert landscapes, and rich cultural heritage.",
+			"cards": [
+				{
+					"image": "/stateculture/teej.jpg",
+					"badge": "festival",
+					"desc": "Teej is a monsoon festival celebrated with great enthusiasm in Rajasthan. Women dress in colorful traditional attire, apply mehendi (henna), and participate in folk dances and songs. The festival celebrates the onset of monsoon, marital harmony, and the goddess Parvati. Processions, swings, and traditional celebrations mark this vibrant festival."
+				},
+				{
+					"image": "/stateculture/kalbeliya.jpg",
+					"badge": "music",
+					"desc": "Rajasthani folk music is world-renowned, with Kalbeliya being a distinctive dance and music form. Traditionally performed by the Kalbeliya community, it features serpentine movements and is accompanied by instruments like the been (wind instrument) and dholak. Other notable music forms include Maand, a classical folk style, and Pabuji ki Phach, an epic narrative performance."
+				},
+				{
+					"image": "/stateculture/dal-baati-churma.jpg",
+					"badge": "cuisine",
+					"desc": "Rajasthani cuisine is known for its robust flavors and unique preparations adapted to the desert environment. Dal Baati Churma is the state's most famous dish, consisting of lentils, baked wheat balls, and a sweet powdered mixture. Other specialties include Gatte ki Sabzi, Ker Sangri, and Laal Maas (a spicy mutton curry). The cuisine is characterized by its use of dried ingredients and rich, spicy flavors."
 				}
 			]
 		}
