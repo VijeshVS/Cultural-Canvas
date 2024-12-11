@@ -134,6 +134,7 @@ export async function createPost(
       },
     });
 
+    // Create the post
     const post = await prisma.post.create({
       data: {
         user_id: id,
@@ -144,6 +145,7 @@ export async function createPost(
       },
     });
 
+    // Create the picture associated with the post
     await prisma.picture.create({
       data: {
         post_id: post.id,
@@ -171,6 +173,7 @@ export async function createPost(
     };
   }
 }
+
 
 export async function getPosts() {
   try {

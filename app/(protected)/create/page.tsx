@@ -4,11 +4,14 @@ import { createPost } from "@/lib/actions/main";
 import Image from "next/image";
 import React, { useState } from "react";
 import { toast } from "sonner";
+import { useRouter } from "next/navigation"; // Import useRouter for redirection
 
 const CreatePostPage = () => {
   const [caption, setCaption] = useState("");
   const [hashtags, setHashtags] = useState("");
   const [imageLink, setImageLink] = useState("");
+  const [showPopup, setShowPopup] = useState(false); // State for controlling the popup visibility
+  const router = useRouter();
 
   const convertToRawGitHubURL = (url: string): string => {
     try {
@@ -44,6 +47,11 @@ const CreatePostPage = () => {
 
       if (status == 200) {
         toast.success("Post created successfully !!");
+        setShowPopup(true); // Show the popup notification
+        setTimeout(() => {
+          setShowPopup(false); // Hide the popup after 3 seconds
+          router.push("/socials"); // Redirect to /socials route
+        }, 3000);
       } else {
         toast.error("Server error");
       }
@@ -145,6 +153,22 @@ const CreatePostPage = () => {
           </button>
         </div>
       </form>
+
+      {/* Popup notification */}
+      {showPopup && (
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg text-center space-y-4">
+            <h2 className="text-2xl font-bold">Post Created! 🎉</h2>
+            <p className="text-lg">You have been awarded 20 tokens! 🏅</p>
+            <button
+              className="px-4 py-2 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600"
+              onClick={() => router.push("/social")}
+            >
+              Go to Social
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
