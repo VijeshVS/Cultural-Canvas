@@ -17,8 +17,10 @@ export async function peekUser(username: string) {
               },
             },
             pictures: true,
+            
           },
         },
+        badges: true
       },
     });
 

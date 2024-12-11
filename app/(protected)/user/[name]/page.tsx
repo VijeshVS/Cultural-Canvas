@@ -23,6 +23,7 @@ const page = ({
   const [bio, setBio] = useState("");
   const [posts, setPosts] = useState([]);
   const [notFound, setNotFound] = useState(false);
+  const [badges, setBadges] = useState([]);
 
   useEffect(() => {
     peekUser(usernameToBeFound || "").then((res) => {
@@ -38,6 +39,7 @@ const page = ({
           password: string;
           bio: string;
           posts: any;
+          badges: any;
         };
         setName(data.name);
         setEmail(data.email);
@@ -45,6 +47,7 @@ const page = ({
         setUsername(data.username);
         setBio(data.bio);
         setPosts(data.posts);
+        setBadges(data.badges);
         setLoading(false);
       } else {
         setNotFound(true);
@@ -92,21 +95,18 @@ const page = ({
         <div className="flex flex-col">
           <div className="font-semibold text-xl text-[#4d1414]">Badges</div>
           <div className="flex flex-row h-[10vh] p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm overflow-scroll bg-opacity-70 -space-x-2">
-            {/* add badges here */}
-            <Image
-              src={"/states/westbengal.jpg"}
-              width={70}
-              height={30}
-              alt="ljhe"
-              className="rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
-            />
-            <Image
-              src={"/states/westbengal.jpg"}
-              width={70}
-              height={30}
-              alt="ljhe"
-              className="rounded-full"
-            />
+            {badges.map((item: any) => {
+              return (
+                <Image
+                  key={Math.random()}
+                  src={`/states/${item.name}.jpg`}
+                  alt="badge"
+                  width={60}
+                  height={60}
+                  className="h-full rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
+                />
+              );
+            })}
           </div>
           <div className="font-semibold text-xl text-[#4d1414]">
             Contributions
