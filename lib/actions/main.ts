@@ -42,6 +42,23 @@ export async function peekUser(username: string){
   }
 }
 
+export async function updateLikes(postId: number, increment: boolean) {
+  try {
+    const post = await prisma.post.update({
+      where: { id: postId },
+      data: {
+        likes: { increment: increment ? 1 : -1 }, // Increment or decrement based on the flag
+      },
+    });
+
+    return { status: 200, data: post };
+  } catch (error) {
+    console.error("Error updating likes", error);
+    return { status: 500, data: null };
+  }
+}
+
+
 export async function getAllUsers() {
   try {
     const users = await prisma.user.findMany({
