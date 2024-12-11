@@ -110,7 +110,7 @@ const CreatePostPage = () => {
                 id="hashtags"
                 value={hashtags}
                 onChange={(e) => setHashtags(e.target.value)}
-                placeholder="Add some tags for extra vibes! (e.g., #joy, #adventure)"
+                placeholder="Add tags for extra vibes! (e.g., #joy, #adventure)"
                 className="border border-yellow-300 rounded-lg p-3 bg-yellow-50 focus:outline-none focus:ring focus:ring-yellow-200"
               />
             </div>

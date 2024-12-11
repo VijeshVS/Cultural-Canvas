@@ -99,7 +99,7 @@ const Page = () => {
           <Mail size={20} />
           <div className="text-base font-medium ">{email}</div>
         </div>
-        <div className="flex flex-ro ">{bio.slice(0, 100)}</div>
+        <div className="flex flex-ro ">{bio.slice(0, 150)}..</div>
         <div className="flex h-full flex-row items-center space-x-2 justify-center">
           <Image
             src={`/statemap/${state}.png`}

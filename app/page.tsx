@@ -29,8 +29,8 @@ export default function Home() {
   }, [currentText]);
 
   return (
-    <div className="flex flex-row px-16 pt-12 w-full min-h-screen">
-      <div className="flex flex-col items-start w-5/12 ml-12 mt-24">
+    <div className="ml-16 flex flex-row px-16 pt-12 w-fit overflow-hidden min-h-screen">
+      <div className="flex flex-col justify-center h-[550px] items-start w-1/3 ml-36 mt-24">
       <TypingAnimation
           key={currentText} 
           className="text-8xl font-bold text-[#4d1414]"
@@ -43,7 +43,7 @@ export default function Home() {
           Login
         </button>
       </div>
-      <div className="w-7/12 overflow-scroll h-[80vh]">
+      <div className="w-7/12 overflow-hidden h-[80vh]">
         <IndiaMap/>
       </div>
     </div>

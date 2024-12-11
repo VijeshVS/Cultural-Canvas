@@ -1,0 +1,19 @@
+{
+	"stateDataFile": [
+		{
+			"slug": "maharashtra",
+			"title": "Maharashtra",
+			"sub" : "phonetic",
+			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
+			"description": "Test your knowledge about Maharashtra!",
+			"cards": [
+				{
+					"image": "path",
+					"badge": "je2cgkw",
+					"desc": "Mumbai"
+				}
+			],
+			""
+		},
+	]
+}
