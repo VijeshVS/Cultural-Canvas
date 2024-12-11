@@ -173,7 +173,7 @@ const TimelineComponent: React.FC = () => {
 	return (
 		<div
 			ref={timelineRef}
-			className="relative w-full max-w-5xl mx-auto h-[600px] py-10 	"
+			className="flex items-center flex-col relative w-full mx-auto h-[500px] overflow-scroll py-2"
 		>
 			{timelineData.map((item) => (
 				<div

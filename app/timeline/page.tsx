@@ -4,7 +4,8 @@ import React from 'react';
 
 const page = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen">
+    <div className="flex pt-36 min-h-screen flex-col px-24 items-center">
+      <h1 className='text-4xl text-[#4d1414] font-semibold mb-2'>Timeline</h1>
       <TimelineComponent />
     </div>
   );
