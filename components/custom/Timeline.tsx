@@ -41,7 +41,7 @@ const TimelineComponent: React.FC = () => {
 		  {
 			"year": 850,
 			"content": "The Chola dynasty emerges as patrons of art and architecture, commissioning iconic temples such as the Brihadeeswarar Temple at Thanjavur.",
-			"image": "/timeline/805.jpg"
+			"image": "/timeline/850.jpg"
 		  },
 		  {
 			"year": 1010,
