@@ -8,19 +8,19 @@
 			"description": "Explore the vibrant culture, rich history, and delicious cuisine of Gujarat. Discover its beautiful landscapes and warm hospitality.",
 			"cards": [
 				{
-					"image": "path/to/image.jpg",
+					"image": "/stateculture/garba.jpg",
 					"badge": "festival",
 					"desc": "Navratri is a significant festival celebrated in Gujarat, dedicated to the worship of the goddess Durga. It lasts for nine nights, filled with vibrant dance and music. Garba and Dandiya Raas are traditional dances performed during this time. People dress in colorful attire and gather in large groups to celebrate. The festival symbolizes the victory of good over evil."
 				},
 				{
-					"image": "path/to/image.jpg",
-					"badge": "festival",
-					"desc": "Navratri is a significant festival celebrated in Gujarat, dedicated to the worship of the goddess Durga. It lasts for nine nights, filled with vibrant dance and music. Garba and Dandiya Raas are traditional dances performed during this time. People dress in colorful attire and gather in large groups to celebrate. The festival symbolizes the victory of good over evil."
+					"image": "/stateculture/raas.jpg",
+					"badge": "music",
+					"desc": "Gujarat's vibrant music scene is characterized by folk music forms like Garba, Dandiya Raas, Bhavai, and Dhamaal. These traditional styles are often performed during festivals like Navratri, featuring energetic dances and devotional songs. The music is typically accompanied by instruments such as the dhol, manjira, and harmonium, creating a captivating soundscape that reflects the state's rich cultural heritage."
 				},
 				{
-					"image": "path/to/image.jpg",
-					"badge": "festival",
-					"desc": "Navratri is a significant festival celebrated in Gujarat, dedicated to the worship of the goddess Durga. It lasts for nine nights, filled with vibrant dance and music. Garba and Dandiya Raas are traditional dances performed during this time. People dress in colorful attire and gather in large groups to celebrate. The festival symbolizes the victory of good over evil."
+					"image": "/stateculture/dhokla.jpg",
+					"badge": "cuisine",
+					"desc": "Gujarat's cuisine is a delightful blend of flavors, with a strong emphasis on vegetarian dishes. Popular dishes include Thepla (a flatbread made with wheat flour and various spices), Dhokla (a savory snack made from fermented batter), Khandvi (a savory snack made from gram flour), and Undhiyu (a mixed vegetable dish cooked in a clay pot). Gujarati cuisine also offers a variety of sweet treats like Basundi (a rich, creamy milk-based dessert) and Doodhpak (a milk pudding)."
 				}
 			]
 		}
