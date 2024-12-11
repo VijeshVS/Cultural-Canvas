@@ -77,7 +77,7 @@ const Page = () => {
   return (
     <div className="min-h-screen flex flex-row pt-36 px-24 gap-6">
       <div
-        className="fixed top-16 left-20 flex flex-row space-x-2 items-center bg-yellow-300 px-4 py-2 rounded-full hover:scale-110 transition-all duration-300 hover:bg-yellow-400 text-[#4d1414] font-semibold cursor-pointer z-10"
+        className="fixed top-16 left-30 flex flex-row space-x-2 items-center bg-yellow-300 px-4 py-2 rounded-full hover:scale-110 transition-all duration-300 hover:bg-yellow-400 text-[#4d1414] font-semibold cursor-pointer z-10"
         onClick={handleLogout} // Attach logout handler
       >
         <LogOut size={20} />
@@ -113,8 +113,9 @@ const Page = () => {
         <div className="flex flex-col">
           <div className="flex flex-row justify-between font-semibold text-xl text-[#4d1414]">
             <div>My Badges</div>
-            <div>
-              Tokens - <span>{token}</span>
+            <div className="flex space-x-1 items-center">
+              <div>{token}</div>
+              <img src="./coin_img.png" className="h-6 w-6" />
             </div>
           </div>
           <div className="flex flex-row h-20 p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm overflow-scroll bg-opacity-70 -space-x-2">
