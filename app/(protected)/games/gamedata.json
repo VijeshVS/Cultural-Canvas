@@ -6,6 +6,7 @@
 			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
 			"description": "Test your knowledge about Maharashtra!",
             "image": "/states/maharashtra.jpg",
+            "badge": "/states/maharashtra.jpg",
 			"tokens": 10,
 			"questions": [
 				{

@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import gamedata from "../../../gamedata.json";
+import Image from "next/image";
 
 const QuizQuestions = ({ params }: { params: { id: string } }) => {
 	const { id } = params;
@@ -64,7 +65,8 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
 					className="h-full"
 					style={{
 						width: `${(progress.length / game.questions.length) * 100}%`,
-						backgroundColor: progress[progress.length - 1] === 1 ? "green" : "red",
+						backgroundColor:
+							progress[progress.length - 1] === 1 ? "green" : "red",
 					}}
 				></div>
 			</div>
@@ -100,10 +102,26 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
 					<div className="bg-white p-6 rounded-lg shadow-lg text-center space-y-4">
 						<h2 className="text-2xl font-bold">Quiz Completed! 🎉</h2>
 						<p className="text-lg">
-							Your Score: <span className="font-bold">{score}</span> / 5
+							Your Score: <span className="font-bold">{score}</span> /{" "}
+							{game.questions.length}
 						</p>
+						{score === game.questions.length && (
+							<div className="flex flex-col items-center">
+								<p className="text-lg text-green-700 font-semibold">
+									Congratulations! You&apos;ve earned the {game.slug.charAt(0).toUpperCase()}{game.slug.slice(1)} badge! 🏅
+								</p>
+								{/* Dynamic Image */}
+								<Image
+									src={game.badge}
+									alt={`Badge for ${game.title}`}
+									width={100}
+									height={100}
+									className="mt-4 rounded-full"
+								/>
+							</div>
+						)}
 						<button
-							className="px-4 py-2 bg-blue-500 text-white font-bold rounded-lg hover:bg-blue-600"
+							className="px-4 py-2 bg-yellow-500 text-white font-bold rounded-lg hover:bg-yellow-600 duration-300 transition-all"
 							onClick={() => {
 								setShowScoreCard(false);
 								router.push("/games/quiz");
