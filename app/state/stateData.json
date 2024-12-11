@@ -1,19 +1,28 @@
 {
 	"stateDataFile": [
 		{
-			"slug": "maharashtra",
-			"title": "Maharashtra",
-			"sub" : "phonetic",
-			"videoSrc": "path/to/quiz-video-maharashtra.mp4",
-			"description": "Test your knowledge about Maharashtra!",
+			"slug": "gujarat",
+			"title": "ગુજરાત",
+			"sub": "Gujarāta",
+			"videoSrc": "path/to/quiz-video-gujarat.mp4",
+			"description": "Explore the vibrant culture, rich history, and delicious cuisine of Gujarat. Discover its beautiful landscapes and warm hospitality.",
 			"cards": [
 				{
-					"image": "path",
-					"badge": "je2cgkw",
-					"desc": "Mumbai"
+					"image": "path/to/image.jpg",
+					"badge": "festival",
+					"desc": "Navratri is a significant festival celebrated in Gujarat, dedicated to the worship of the goddess Durga. It lasts for nine nights, filled with vibrant dance and music. Garba and Dandiya Raas are traditional dances performed during this time. People dress in colorful attire and gather in large groups to celebrate. The festival symbolizes the victory of good over evil."
+				},
+				{
+					"image": "path/to/image.jpg",
+					"badge": "festival",
+					"desc": "Navratri is a significant festival celebrated in Gujarat, dedicated to the worship of the goddess Durga. It lasts for nine nights, filled with vibrant dance and music. Garba and Dandiya Raas are traditional dances performed during this time. People dress in colorful attire and gather in large groups to celebrate. The festival symbolizes the victory of good over evil."
+				},
+				{
+					"image": "path/to/image.jpg",
+					"badge": "festival",
+					"desc": "Navratri is a significant festival celebrated in Gujarat, dedicated to the worship of the goddess Durga. It lasts for nine nights, filled with vibrant dance and music. Garba and Dandiya Raas are traditional dances performed during this time. People dress in colorful attire and gather in large groups to celebrate. The festival symbolizes the victory of good over evil."
 				}
-			],
-			""
-		},
+			]
+		}
 	]
 }
