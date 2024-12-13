@@ -2,7 +2,7 @@ version: '3.9' # Specifies the Docker Compose file format version
 
 services:
   nextjs: # Service definition for the Next.js application
-    image: node:18 # Uses the official Node.js 18 image as the base
+    image: node:20 # Uses the official Node.js 18 image as the base
     container_name: nextjs_server # Names the container for the Next.js server
     working_dir: /app # Sets the working directory inside the container
     volumes:
