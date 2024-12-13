@@ -156,7 +156,7 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
               className="px-4 py-2 bg-yellow-500 text-white font-bold rounded-lg hover:bg-yellow-600 duration-300 transition-all"
               onClick={() => {
                 setShowScoreCard(false);
-                router.push("/games/quiz");
+                router.push("/games");
               }}
             >
               Close

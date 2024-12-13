@@ -41,7 +41,7 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
 				setIsAnswered(false);
 			} else {
 				alert("Test Completed!");
-				router.push("/games/translations");
+				router.push("/games");
 			}
 		}, 2000);
 	};

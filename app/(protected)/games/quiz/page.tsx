@@ -15,6 +15,7 @@ const QuizPage = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log("DEDUCTTTT !!!")
     getTokenCount(localStorage.getItem("token") || "").then((count) => {
       if (count >= TOKEN_FOR_GAME) {
         deductToken(localStorage.getItem("token") || "", TOKEN_FOR_GAME).then(
@@ -35,9 +36,9 @@ const QuizPage = () => {
         toast.error("You don't have enough tokens !!");
       }
     });
-  }, []);
+  }, []); // Add an empty dependency array to run useEffect only once
 
-  if (loading) <Spinner />;
+  if (loading) return <Spinner />;
 
   // Check if quiz data is available
   if (!game || game.length === 0) {

@@ -9,6 +9,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // Ignore ESLint errors during builds
   },
+  reactStrictMode: false, // Disable React Strict Mode
 };
 
 export default nextConfig;
