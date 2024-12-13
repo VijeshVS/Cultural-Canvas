@@ -47,6 +47,7 @@
 			"videoSrc": "path/to/quiz-video-karnataka.mp4",
 			"description": "Test your knowledge about Karnataka!",
             "image": "/states/karnataka.jpg",
+			"badge": "/badges/karnataka.jpg",
 			"tokens": 10,
 			"questions": [
 				{

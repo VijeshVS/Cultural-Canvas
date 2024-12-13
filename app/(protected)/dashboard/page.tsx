@@ -123,7 +123,7 @@ const Page = () => {
               return (
                 <Image
                   key={Math.random()}
-                  src={`/states/${item.name}.jpg`}
+                  src={`/badges/${item.name}.jpg`}
                   alt="badge"
                   width={60}
                   height={60}
