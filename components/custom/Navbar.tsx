@@ -3,6 +3,7 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
+  Award,
   Bot,
   Gamepad2,
   Globe,
@@ -65,6 +66,13 @@ export function Navbar() {
         <Globe className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
       ),
       href: "/user",
+    },
+    {
+      title: "Badges",
+      icon: (
+        <Award className="h-full w-full text-[#4d1414] dark:text-neutral-300" />
+      ),
+      href: "/badges",
     },
     {
       title: "Dashboard",

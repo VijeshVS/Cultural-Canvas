@@ -24,6 +24,7 @@ export async function clearContext() {
         - Offer details about the food, language, and other cultural aspects of the state.
         - Your answers should never exceed a limit of 80 words and you must keep in mind that you do not use points, bullets, or numbering
         - Do not put * to show bold or highlighted content
+        - If the user enters a query in any regional language, you must try to answer the same in their regional language only, in this way user will feel better and you should be very polite.
         
         When a user asks about a specific state, ensure your answer is relevant to that state's unique cultural or historical features. Use the following steps:
         1. Understand the question and determine which state or states it pertains to.
