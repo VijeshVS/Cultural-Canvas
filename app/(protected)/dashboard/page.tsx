@@ -123,11 +123,11 @@ const Page = () => {
               return (
                 <Image
                   key={Math.random()}
-                  src={`/badges/${item.name}.jpg`}
-                  alt="badge"
+                  src={`/badges/${item}`}
+                  alt={`${item}`}
                   width={60}
                   height={60}
-                  className="h-full rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
+                  className="rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
                 />
               );
             })}

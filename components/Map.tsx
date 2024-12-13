@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useCallback, useRef } from "react";
+import { useRouter } from "next/navigation";
 // @ts-ignore
 import ReactDatamaps from "react-india-states-map";
 
@@ -17,7 +18,6 @@ interface ActiveState {
 
 const IndiaMap: React.FC = () => {
   const [activeState, setActiveState] = useState<ActiveState>({ name: "India" });
-
   const [tooltip, setTooltip] = useState<Tooltip>({
     visible: false,
     x: 0,
@@ -26,6 +26,7 @@ const IndiaMap: React.FC = () => {
   });
 
   const debounceTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const router = useRouter(); // For navigation
 
   // Debounced update for tooltip
   const updateTooltip = useCallback(
@@ -56,8 +57,11 @@ const IndiaMap: React.FC = () => {
     setTooltip((prevTooltip) => ({ ...prevTooltip, visible: false }));
   };
 
+  // Handle state click
   const stateOnClick = (data: Record<string, any>, name: string) => {
     setActiveState({ data, name });
+    const sanitizedName = name.replace(/\s+/g, "-").toLowerCase(); // Sanitize name for URL
+    router.push(`/state/${sanitizedName}`);
   };
 
   return (
@@ -68,7 +72,6 @@ const IndiaMap: React.FC = () => {
         overflow: "hidden",
         position: "relative",
         cursor: "pointer",
-        // zIndex: -10,
       }}
     >
       {/* Tooltip */}
