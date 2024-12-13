@@ -62,6 +62,8 @@ const Page = () => {
       setPosts(data.posts);
       setBadges(data.badges || []);
       setLoading(false);
+
+      console.log(data.badges)
     });
   }, []);
 
@@ -123,7 +125,7 @@ const Page = () => {
               return (
                 <Image
                   key={Math.random()}
-                  src={`/badges/${item}`}
+                  src={`/badges/${item.name}.jpg`}
                   alt={`${item}`}
                   width={60}
                   height={60}
