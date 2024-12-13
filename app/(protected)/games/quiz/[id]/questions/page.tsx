@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import gamedata from "../../../gamedata.json";
 import Image from "next/image";
@@ -78,6 +78,16 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
 
   const score = progress.filter((val) => val === 1).length;
 
+  // Fisher-Yates (Knuth) Shuffle algorithm
+  const shuffled_options = useMemo(() => {
+    const shuffled = [...question.options];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]; // Swap elements
+    }
+    return shuffled;
+  }, [question]);
+
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 space-y-6">
       <h1 className="text-2xl font-bold text-[#4d1414]">{game.title}</h1>
@@ -98,7 +108,7 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
       <div className="w-full max-w-xl bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-lg font-semibold mb-4">{question.question}</h2>
         <div className="grid grid-cols-1 gap-4">
-          {question.options.map((option) => (
+          {shuffled_options.map((option) => (
             <button
               key={option}
               onClick={() => handleOptionClick(option)}
