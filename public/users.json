@@ -1,0 +1,263 @@
+[
+	{
+		"name": "Samkit Samsukha",
+		"username": "samkit_samsukha",
+		"slug": "samkit_samsukha",
+		"email": "samkitsamsukha.is23@rvce.edu.in",
+		"password": "samkit7",
+		"bio": "I am Samkit, hailing from Sri Dungargadh in Rajasthan and I am excited to showcase the vibrant culture of Rajasthan to this platform.",
+		"state": "Rajasthan",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Watching local puppet show at Jaisalmer! Absolutely loving the depiction!!",
+				"hashtags": [
+					"rajasthaniculture",
+					"folkdance"
+				],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/Rajasthan/2.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Majestic Amber Fort: Where History Echoes Through Golden Stones 🏰",
+				"hashtags": [
+					"rajasthan",
+					"amberfort"
+				],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/Rajasthan/5.jpg"
+			}
+		],
+		"badges": ["rajasthan", "kerala", "karnataka", "bihar", "manipur", "assam"],
+		"tokens": 120
+	},
+	{
+		"name": "Varenya Thaker",
+		"username": "vt375",
+		"slug": "vt375",
+		"email": "varenyathaker.is23@rvce.edu.in",
+		"password": "vt375",
+		"bio": "I am Varenya, from Jamnagar, Gujarat. I am excited to showcase the vibrant culture of Gujarat to this platform.",
+		"state": "Gujarat",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Navratri Nights: Dancing to the Rhythms of Garba! 🎉",
+				"hashtags": [
+					"navratri",
+					"culturalheritage"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/gujarat/garba.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Savor the Flavors: Dhokla and Thepla, Gujarat's Culinary Delights! 🍽️",
+				"hashtags": [
+					"gujaratifood",
+					"streetfood"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/gujarat/dhokla.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Oojam Chaudhary",
+		"username": "oojamc",
+		"slug": "oojamc",
+		"email": "oojamchaudhary.is23@rvce.edu.in",
+		"password": "oojamc",
+		"bio": "I am Oojam from Bihar, I am excited to showcase the vibrant culture of Bihar to this platform.",
+		"state": "Bihar",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Mahabodhi Temple: A Spiritual Journey in Bodhgaya 🕉️",
+				"hashtags": ["bihar", "buddhism"],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/bihar/1.jpggit"
+			},
+			{
+				"likes": 0,
+				"caption": "Litti Chokha: The Heartwarming Flavors of Bihari Cuisine! 🥘",
+				"hashtags": [
+					"biharifood",
+					"rusticcuisine"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/bihar/lc.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Vijesh",
+		"username": "valo",
+		"slug": "valo",
+		"email": "vijesh.is23@rvce.edu.in",
+		"password": "valo",
+		"bio": "I am Vijesh from Karnataka, I am excited to showcase the vibrant culture of Karnataka to this platform.",
+		"state": "Karnataka",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Mysore Palace: A Grandeur of Architectural Splendor! 🏰",
+				"hashtags": [
+					"mysore",
+					"karnatakaculture"
+				],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/karnataka/1.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Bisi Bele Bath and Filter Coffee: Karnataka's Culinary Symphony! ☕",
+				"hashtags": [
+					"kannadacuisine",
+					"southindianfood"
+				],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/karnataka/4.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Suhani Khurana",
+		"username": "suhaniii",
+		"slug": "suhaniii",
+		"email": "suhanikhurana.is23@rvce.edu.in",
+		"password": "suhaniii",
+		"bio": "I am Suhani from Madhya Pradesh, I am excited to showcase the vibrant culture of Madhya Pradesh to this platform.",
+		"state": "Madhya Pradesh",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Khajuraho Temples: Where Art and Spirituality Converge! 🕍",
+				"hashtags": [
+					"khajuraho",
+					"ancientarchitecture"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/madhyapradesh/khajuraho.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Poha and Jalebi: A Delectable Morning Ritual in MP! 🍽️",
+				"hashtags": [
+					"madhyapradeshdiet",
+					"streetfood"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/madhyapradesh/pj.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Anup",
+		"username": "dranup",
+		"slug": "dranup",
+		"email": "anupkumar@gmail.com",
+		"password": "dranup",
+		"bio": "I am Anup from Punjab, excited to showcase the vibrant culture of Punjab to this platform.",
+		"state": "Punjab",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Having Delicious Kulcha Paratha with Paneer Butter Masala !!",
+				"hashtags": ["delicious", "pannerfan"],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/punjab/2.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Visited JallianVala Bagh today. Long live India!!",
+				"hashtags": ["sacrifice", "freedomfighter"],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/punjab/3.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Aastha",
+		"username": "aasthaa",
+		"slug": "aasthaa",
+		"email": "aastha2096@gmail.com",
+		"password": "aasthaa",
+		"bio": "I am Aastha from Uttarakhand, excited to showcase the vibrant culture of Uttarakhand to this platform.",
+		"state": "Uttarkhand",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Feeling blessed to be a Shiva's feet at Kedarnath ",
+				"hashtags": ["god", "shiva"],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/Uttarakhand/1.png"
+			},
+			{
+				"likes": 0,
+				"caption": "Having the most beautiful time of my life at Valley of Flowers",
+				"hashtags": ["flowers", "scenic"],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/Uttarakhand/2.png"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Atharva Agarwal",
+		"username": "atharvalow",
+		"slug": "atharvalow",
+		"email": "varenyathaker.is23@rvce.edu.in",
+		"password": "atharvalow",
+		"bio": "I am Atharva from Uttar Pradesh, excited to showcase the vibrant culture of Uttar Pradesh to this platform.",
+		"state": "Uttar Pradesh",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Taj Mahal: A Monument of Eternal Love in Agra! 💘",
+				"hashtags": [
+					"tajmahal",
+					"uptourism"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/uttarpradesh/tm.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Lucknowi Chaat and Kebabs: A Culinary Journey Through UP! 🍲",
+				"hashtags": [
+					"upfood",
+					"lucknowicuisine"
+				],
+				"image_url": "https://github.com/varenyathaker/assets/blob/main/uttarpradesh/lch.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	},
+	{
+		"name": "Vidhi",
+		"username": "vidhiii",
+		"slug": "vidhiii",
+		"email": "vidhi1410@gmail.com",
+		"password": "vidhiii",
+		"bio": "I am Vidhi from West Bengal, excited to showcase the vibrant culture of West Bengal to this platform.",
+		"state": "West Bengal",
+		"posts": [
+			{
+				"likes": 0,
+				"caption": "Durga Puja: A Festival of Colors, Creativity, and Culture! 🎨",
+				"hashtags": [
+					"durgapuja",
+					"bengaliculture"
+				],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/westbengal/1.jpg"
+			},
+			{
+				"likes": 0,
+				"caption": "Just Visited the Under Water Metro of Kolkata. Its unbelivable!!!!",
+				"hashtags": ["development", "metro"],
+				"image_url": "https://github.com/VijeshVS/colors/blob/main/westbengal/4.jpg"
+			}
+		],
+		"badges": [],
+		"tokens": 140
+	}
+]

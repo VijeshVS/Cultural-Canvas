@@ -62,7 +62,7 @@ const StateSlugPage = ({
 						>
 							<div>
 								<Image
-									src={"/stateculture/garba.jpg"}
+									src={card.image}
 									width={900}
 									height={900}
 									alt="image"

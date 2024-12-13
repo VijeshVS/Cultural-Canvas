@@ -9,61 +9,65 @@ import { getUser } from "@/lib/actions/main";
 import { convertToRawGitHubURL } from "@/lib/utils";
 import CreatePost from "@/components/custom/CreatePost";
 import { toast } from "sonner";
+import dummydata from "../../../public/users.json";
+
+const dummyData = dummydata;
+const sam = dummyData[0];
+console.log(sam)
+
 
 const Page = () => {
   const router = useRouter(); // Initialize router for navigation
   const [loading, setLoading] = useState(true);
 
-  const [name, setName] = useState("");
-  const [username, setUsername] = useState("");
-  const [state, setState] = useState("");
-  const [email, setEmail] = useState("");
-  const [bio, setBio] = useState("");
-  const [token, setToken] = useState(0);
-  const [badges, setBadges] = useState([]);
+  const [name, setName] = useState(sam.name);
+  const [username, setUsername] = useState(sam.username);
+  const [state, setState] = useState(sam.state);
+  const [email, setEmail] = useState(sam.email);
+  const [bio, setBio] = useState(sam.bio);
+  const [token, setToken] = useState(120);
+  const [badges, setBadges] = useState(sam.badges);
   const [posts, setPosts] = useState<
     {
-      id: number;
-      user: { name: string };
       likes: number;
-      pictures: { image_url: string }[];
-      state: string;
       caption: string;
+      hashtags: string[];
+      image_url: string;
     }[]
-  >([]);
+  >(sam.posts);
 
-  useEffect(() => {
-    getUser(localStorage.getItem("token") || "").then((res) => {
-      const data = res.data as {
-        name: string;
-        username: string;
-        state: string;
-        email: string;
-        token: number;
-        id: number;
-        password: string;
-        bio: string;
-        posts: {
-          id: number;
-          user: { name: string };
-          likes: number;
-          pictures: { image_url: string }[];
-          state: string;
-          caption: string;
-        }[];
-        badges: any;
-      };
-      setName(data.name);
-      setEmail(data.email);
-      setState(data.state);
-      setUsername(data.username);
-      setBio(data.bio);
-      setToken(data.token);
-      setPosts(data.posts);
-      setBadges(data.badges || []);
-      setLoading(false);
-    });
-  }, []);
+  // useEffect(() => {
+  //   getUser(localStorage.getItem("token") || "").then((res) => {
+  //     const data = res.data as {
+  //       name: string;
+  //       username: string;
+  //       state: string;
+  //       email: string;
+  //       token: number;
+  //       id: number;
+  //       password: string;
+  //       bio: string;
+  //       posts: {
+  //         id: number;
+  //         user: { name: string };
+  //         likes: number;
+  //         pictures: { image_url: string }[];
+  //         state: string;
+  //         caption: string;
+  //       }[];
+  //       badges: any;
+  //     };
+  //     setName(data.name);
+  //     setEmail(data.email);
+  //     setState(data.state);
+  //     setUsername(data.username);
+  //     setBio(data.bio);
+  //     setToken(data.token);
+  //     setPosts(data.posts);
+  //     setBadges(data.badges || []);
+  //     setLoading(false);
+  //   });
+  // }, []);
 
   // Logout function
   const handleLogout = () => {
@@ -72,7 +76,7 @@ const Page = () => {
     toast.success("Logged out successfully !!");
   };
 
-  if (loading) return <Spinner />;
+  // if (loading) return <Spinner />;
 
   return (
     <div className="min-h-screen flex flex-row pt-36 px-24 gap-6">
@@ -94,12 +98,11 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-center space-x-2 text-[#4d1414]"></div>
         <div className="flex flex-row items-center space-x-2 text-[#4d1414]">
           <Mail size={20} />
-          <div className="text-base font-medium ">{email}</div>
+          <div className="text-base font-medium">{email}</div>
         </div>
-        <div className="flex flex-ro ">{bio.slice(0, 150)}..</div>
+        <div className="flex flex-ro">{bio.slice(0, 150)}..</div>
         <div className="flex h-full flex-row items-center space-x-2 justify-center">
           <Image
             src={`/statemap/${state}.png`}
@@ -119,61 +122,48 @@ const Page = () => {
             </div>
           </div>
           <div className="flex flex-row h-20 p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm overflow-scroll bg-opacity-70 -space-x-2">
-            {badges.map((item: any) => {
-              return (
-                <Image
-                  key={Math.random()}
-                  src={`/states/${item.name}.jpg`}
-                  alt="badge"
-                  width={60}
-                  height={60}
-                  className="h-full rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
-                />
-              );
-            })}
+            {badges.map((item: any) => (
+              <Image
+                key={Math.random()}
+                src={`/states/${item}.jpg`}
+                alt="badge"
+                width={80}
+                height={80}
+                className="border-2 border-[#4d1414] rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
+              />
+            ))}
           </div>
           <div className="font-semibold text-xl text-[#4d1414]">
             My Contributions
           </div>
           <div className="grid grid-cols-3 gap-6 mt-2 p-2">
-            {posts.map(
-              (item: {
-                id: number;
-                user: { name: string };
-                likes: number;
-                pictures: { image_url: string }[];
-                state: string;
-                caption: string;
-              }) => (
-                <div
-                  key={item.id}
-                  className="flex flex-col rounded-xl bg-white shadow-lg"
-                >
-                  <div className="flex flex-row justify-between p-2">
-                    <div className="flex flex-row space-x-2 items-center">
-                      <UserCircle />
-                      <div className="italic">{item.user.name}</div>
-                    </div>
-                    <div className="text-pink-500 flex flex-row space-x-2 items-center">
-                      <Heart fill="#ec4899" />
-                      <div>{item.likes}</div>
-                    </div>
-                  </div>
-                  <div
-                    className="w-full h-48 bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${convertToRawGitHubURL(
-                        item.pictures[0].image_url
-                      )})`,
-                    }}
-                  ></div>
-                  <div className="p-2">
-                    <span className="font-bold italic">{item.state} </span>
-                    {item.caption}
+            {posts.map((item, index) => (
+              <div
+                key={index}
+                className="flex flex-col rounded-xl bg-white shadow-lg"
+              >
+                <div className="flex flex-row justify-between p-2">
+                  <div className="text-pink-500 flex flex-row space-x-2 items-center">
+                    <Heart fill="#ec4899" />
+                    <div>{item.likes}</div>
                   </div>
                 </div>
-              )
-            )}
+                <div
+                  className="w-full h-48 bg-cover bg-center"
+                  style={{
+                    backgroundImage: `url(${convertToRawGitHubURL(
+                      item.image_url
+                    )})`,
+                  }}
+                ></div>
+                <div className="p-2">
+                  <span className="font-bold italic"># </span>
+                  {item.hashtags.join(" ")}
+                  <br />
+                  {item.caption}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

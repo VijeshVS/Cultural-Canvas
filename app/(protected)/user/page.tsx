@@ -4,22 +4,25 @@ import React, { useEffect, useState } from "react";
 import { getAllUsers } from "@/lib/actions/main";
 import { useRouter } from "next/navigation";
 import Spinner from "@/components/Loading";
+import dummydata from "../../../public/users.json";
+
+const dummyData = dummydata;
 
 const UsersPage = () => {
-	const [users, setUsers] = useState<{ username: string; state: string }[]>([]);
+	// const [users, setUsers] = useState<{ username: string; state: string }[]>([]);
 	const [loading, setLoading] = useState(true);
 	const router = useRouter();
 
-	useEffect(() => {
-		getAllUsers().then((res) => {
-			if (res.status === 200) {
-				setUsers(res.data);
-			}
-			setLoading(false);
-		});
-	}, []);
+	// useEffect(() => {
+	// 	getAllUsers().then((res) => {
+	// 		if (res.status === 200) {
+	// 			setUsers(res.data);
+	// 		}
+	// 		setLoading(false);
+	// 	});
+	// }, []);
 
-	if (loading) return <Spinner />;
+	// if (loading) return <Spinner />;
 
 	return (
 		<div className="min-h-screen flex flex-col items-center pt-36 px-24">
@@ -27,7 +30,7 @@ const UsersPage = () => {
                 Our Vibrant Family 🎨
 			</h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-8">
-				{users.map((user) => (
+				{dummyData.map((user) => (
 					<div
 						onClick={() => router.push(`/user/${user.username.toLowerCase()}`)}
 						key={user.username}
