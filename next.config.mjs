@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["assets.aceternity.com", "github.com", "raw.githubusercontent.com"], // Add the hostname as strings
+    domains: ["assets.aceternity.com", "github.com", "raw.githubusercontent.com",'images.unsplash.com'], // Add the hostname as strings
   },
   typescript: {
     ignoreBuildErrors: true, // Ignore TypeScript errors during builds

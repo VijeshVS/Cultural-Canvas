@@ -25,20 +25,13 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
 
     finalScore += Number(curr);
     if (finalScore === game?.questions.length) {
-      const res = assignBadge(localStorage.getItem("token") || "", id).then(
-        (res) => {
-          const status = res?.status;
+      assignBadge(localStorage.getItem("token") || "", id).then((res) => {
+        const status = res?.status;
 
-          if (status == 200) {
-            toast.success("Badge assigned successfully !!");
-          } else if (status == 500) {
-            toast.error("Server error !!");
-          }
+        if (status == 200) {
+        } else if (status == 500) {
+          toast.error("Server error !!");
         }
-      );
-
-      toast.promise(res, {
-        loading: "Assigning badge !!",
       });
     }
   }

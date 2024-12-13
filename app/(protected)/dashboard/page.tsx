@@ -10,6 +10,8 @@ import { convertToRawGitHubURL } from "@/lib/utils";
 import CreatePost from "@/components/custom/CreatePost";
 import { toast } from "sonner";
 
+import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+
 const Page = () => {
   const router = useRouter(); // Initialize router for navigation
   const [loading, setLoading] = useState(true);
@@ -120,19 +122,8 @@ const Page = () => {
               <img src="./coin_img.png" className="h-6 w-6" />
             </div>
           </div>
-          <div className="flex flex-row h-20 p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm overflow-scroll bg-opacity-70 -space-x-2">
-            {badges.map((item: any) => {
-              return (
-                <Image
-                  key={Math.random()}
-                  src={`/badges/${item.name}.jpg`}
-                  alt={`${item}`}
-                  width={60}
-                  height={60}
-                  className="rounded-full hover:scale-110 transition-all duration-300 ease-in-out hover:shadow-lg hover:z-10"
-                />
-              );
-            })}
+          <div className="flex flex-row h-20 p-2 my-2 rounded-md bg-yellow-50 border border-yellow-500 backdrop-blur-sm bg-opacity-70 -space-x-2">
+          <AnimatedTooltip items={badges} />
           </div>
           <div className="font-semibold text-xl text-[#4d1414]">
             My Contributions
