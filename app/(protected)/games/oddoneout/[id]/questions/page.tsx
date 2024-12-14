@@ -9,7 +9,7 @@ import { toast } from "sonner";
 const QuizQuestions = ({ params }: { params: { id: string } }) => {
 	const { id } = params;
 	const router = useRouter();
-	const game = gamedata.translation.find((item) => item.slug === id);
+	const game = gamedata.oddoneout.find((item) => item.slug === id);
 
 	const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
 	const [selectedOption, setSelectedOption] = useState<string | null>(null);
@@ -40,7 +40,7 @@ const QuizQuestions = ({ params }: { params: { id: string } }) => {
 		return (
 			<div className="min-h-screen flex items-center justify-center">
 				<h1 className="text-2xl font-bold text-red-500">
-					No questions available for this game. Go Back.
+					No questions available for this quiz. Go Back.
 				</h1>
 				<button
 					className="mt-4 px-4 py-2 text-sm underline text-blue-500"

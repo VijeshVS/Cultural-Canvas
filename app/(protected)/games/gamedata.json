@@ -7,7 +7,7 @@
 			"description": "Test your knowledge about Maharashtra!",
             "image": "/states/maharashtra.jpg",
             "badge": "/states/maharashtra.jpg",
-			"tokens": 10,
+			"tokens": 20,
 			"questions": [
 				{
 					"question": "What is the capital of Maharashtra?",
@@ -93,6 +93,7 @@
 			"videoSrc": "path/to/quiz-video-gujarat.mp4",
 			"description": "Test your knowledge about Gujarat!",
 			"image": "/states/gujarat.jpg",
+			"badge": "/badges/gujarat.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -128,6 +129,7 @@
 			"videoSrc": "path/to/quiz-video-tamil-nadu.mp4",
 			"description": "Test your knowledge about Tamil Nadu!",
 			"image": "/states/tamilnadu.jpg",
+			"badge": "/badges/tamilnadu.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -163,6 +165,7 @@
 			"videoSrc": "path/to/quiz-video-west-bengal.mp4",
 			"description": "Test your knowledge about West Bengal!",
 			"image": "/states/westbengal.jpg",
+			"badge": "/badges/west-bengal.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -198,6 +201,7 @@
 			"videoSrc": "path/to/quiz-video-uttar-pradesh.mp4",
 			"description": "Test your knowledge about Uttar Pradesh!",
 			"image": "/states/uttarpradesh.jpg",
+			"badge": "/badges/uttarpradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -233,6 +237,7 @@
 			"videoSrc": "path/to/quiz-video-rajasthan.mp4",
 			"description": "Test your knowledge about Rajasthan!",
 			"image": "/states/rajasthan.jpg",
+			"badge": "/badges/rajasthan.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -268,6 +273,7 @@
 			"videoSrc": "path/to/quiz-video-kerala.mp4",
 			"description": "Test your knowledge about Kerala!",
 			"image": "/states/kerala.jpg",
+			"badge": "/badges/kerala.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -303,6 +309,7 @@
 			"videoSrc": "path/to/quiz-video-punjab.mp4",
 			"description": "Test your knowledge about Punjab!",
 			"image": "/states/punjab.jpg",
+			"badge": "/badges/punjab.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -338,6 +345,7 @@
 			"videoSrc": "path/to/quiz-video-madhya-pradesh.mp4",
 			"description": "Test your knowledge about Madhya Pradesh!",
 			"image": "/states/madhyapradesh.jpg",
+			"badge": "/badges/madhyapradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -373,6 +381,7 @@
 			"videoSrc": "path/to/quiz-video-assam.mp4",
 			"description": "Test your knowledge about Assam!",
 			"image": "/states/assam.jpg",
+			"badge": "/badges/assam.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -408,6 +417,7 @@
 			"videoSrc": "path/to/quiz-video-sikkim.mp4",
 			"description": "Test your knowledge about Sikkim!",
 			"image": "/states/sikkim.jpg",
+			"badge": "/badges/sikkim.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -443,6 +453,7 @@
 			"videoSrc": "path/to/quiz-video-himachal-pradesh.mp4",
 			"description": "Test your knowledge about Himachal Pradesh!",
 			"image": "/states/himachalpradesh.jpg",
+			"badge": "/badges/himachalpradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -478,6 +489,7 @@
 			"videoSrc": "path/to/quiz-video-jharkhand.mp4",
 			"description": "Test your knowledge about Jharkhand!",
 			"image": "/states/jharkhand.jpg",
+			"badge": "/badges/jharkhand.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -513,6 +525,7 @@
 			"videoSrc": "path/to/quiz-video-goa.mp4",
 			"description": "Test your knowledge about Goa!",
 			"image": "/states/goa.jpg",
+			"badge": "/badges/goa.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -548,6 +561,7 @@
 			"videoSrc": "path/to/quiz-video-manipur.mp4",
 			"description": "Test your knowledge about Manipur!",
 			"image": "/states/manipur.jpg",
+			"badge": "/badges/manipur.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -583,6 +597,7 @@
 			"videoSrc": "path/to/quiz-video-arunachal-pradesh.mp4",
 			"description": "Test your knowledge about Arunachal Pradesh!",
 			"image": "/states/arunachalpradesh.jpg",
+			"badge": "/badges/arunachalpradesh.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -618,6 +633,7 @@
 			"videoSrc": "path/to/quiz-video-mizoram.mp4",
 			"description": "Test your knowledge about Mizoram!",
 			"image": "/states/mizoram.jpg",
+			"badge": "/badges/mizoram.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -653,6 +669,7 @@
 			"videoSrc": "path/to/quiz-video-tripura.mp4",
 			"description": "Test your knowledge about Tripura!",
 			"image": "/states/tripura.jpg",
+			"badge": "/badges/tripura.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -688,6 +705,7 @@
 			"videoSrc": "path/to/quiz-video-nagaland.mp4",
 			"description": "Test your knowledge about Nagaland!",
 			"image": "/states/nagaland.jpg",
+			"badge": "/badges/nagaland.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -723,6 +741,7 @@
 			"videoSrc": "path/to/quiz-video-meghalaya.mp4",
 			"description": "Test your knowledge about Meghalaya!",
 			"image": "/states/meghalaya.jpg",
+			"badge": "/badges/meghalaya.jpg",
 			"tokens": 10,
 			"questions": [
 				{
@@ -759,6 +778,7 @@
             "title": "Translation Game - Maharashtra",
             "description": "Test your knowledge about Maharashtra!",
             "image": "/states/maharashtra.jpg",
+			"badge": "/badges/maharashtra.jpg",
             "tokens": 10,
             "questions": [
                 {
@@ -788,11 +808,328 @@
                 }
             ]
         },
+		{
+			"slug": "punjab",
+			"title": "Translation Game - Punjab",
+			"description": "Test your knowledge about Punjab and Punjabi language!",
+			"image": "/states/punjab.jpg",
+			"badge": "/badges/punjab.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of ਤੁਹਾਡਾ ਨਾਮ ਕੀ ਹੈ?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Punjab?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of ਪੰਜਾਬ ਦੇ ਲੋਕ ਬਹੁਤ ਮਿਹਨਤੀ ਹਨ?",
+					"options": ["People of Punjab are very hardworking.", "Punjab is a beautiful state.", "I love Punjabi food.", "Punjab has many festivals."],
+					"answer": "People of Punjab are very hardworking."
+				},
+				{
+					"question": "What is the translation of ਮੈਂ ਹਰ ਰੋਜ਼ ਪੰਜਾਬੀ ਪੜ੍ਹਦਾ ਹਾਂ?",
+					"options": ["I read Punjabi every day.", "I write in Punjabi every day.", "I speak Punjabi every day.", "I love learning Punjabi."],
+					"answer": "I read Punjabi every day."
+				},
+				{
+					"question": "What is the translation of ਸਿੱਖ ਧਰਮ ਦੇ ਬਾਰੇ ਕੀ ਜਾਣਦੇ ਹੋ?",
+					"options": ["What do you know about Sikhism?", "Do you follow Sikhism?", "Is Sikhism popular in Punjab?", "How many Sikhs are there?"],
+					"answer": "What do you know about Sikhism?"
+				},
+				{
+					"question": "What is the translation of ਪੰਜਾਬੀ ਸੰਗੀਤ ਬਹੁਤ ਸੁਹਣਾ ਹੁੰਦਾ ਹੈ?",
+					"options": ["Punjabi music is very beautiful.", "I love Punjabi songs.", "Punjabi dance is amazing.", "Punjabi culture is rich."],
+					"answer": "Punjabi music is very beautiful."
+				}
+			]
+		},
+		{
+			"slug": "tamil-nadu",
+			"title": "Translation Game - Tamil Nadu",
+			"description": "Test your knowledge about Tamil Nadu and Tamil language!",
+			"image": "/states/tamilnadu.jpg",
+			"badge": "/badges/tamil-nadu.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of உங்கள் பெயர் என்ன?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Tamil Nadu?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of தமிழ்நாடு மிகவும் அழகானது?",
+					"options": ["Tamil Nadu is very beautiful.", "I love Tamil Nadu.", "Tamil food is delicious.", "Tamil culture is rich."],
+					"answer": "Tamil Nadu is very beautiful."
+				},
+				{
+					"question": "What is the translation of நான் ஒவ்வொரு நாளும் தமிழ் படிக்கிறேன்?",
+					"options": ["I read Tamil every day.", "I write in Tamil every day.", "I speak Tamil every day.", "I love learning Tamil."],
+					"answer": "I read Tamil every day."
+				},
+				{
+					"question": "What is the translation of தமிழ் சினிமா உலகம் புகழ்பெற்றது?",
+					"options": ["Tamil cinema is famous worldwide.", "I love Tamil movies.", "Tamil actors are talented.", "Tamil songs are popular."],
+					"answer": "Tamil cinema is famous worldwide."
+				},
+				{
+					"question": "What is the translation of தமிழில் பேசுவது எளிதா?",
+					"options": ["Is it easy to speak Tamil?", "Do you speak Tamil?", "How do you learn Tamil?", "Is Tamil difficult?"],
+					"answer": "Is it easy to speak Tamil?"
+				}
+			]
+		},
+		{
+			"slug": "gujarat",
+			"title": "Translation Game - Gujarat",
+			"description": "Test your knowledge about Gujarat and Gujarati language!",
+			"image": "/states/gujarat.jpg",
+			"badge": "/badges/gujarat.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of તમારું નામ શું છે?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Gujarat?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of ગુજરાતનું ખોરાક ખૂબ સ્વાદિષ્ટ છે?",
+					"options": ["Gujarat's food is very delicious.", "I love Gujarati food.", "Gujarat has many dishes.", "Gujarati sweets are famous."],
+					"answer": "Gujarat's food is very delicious."
+				},
+				{
+					"question": "What is the translation of હું દરરોજ ગુજરાતી વાંચું છું?",
+					"options": ["I read Gujarati every day.", "I write in Gujarati every day.", "I speak Gujarati every day.", "I love learning Gujarati."],
+					"answer": "I read Gujarati every day."
+				},
+				{
+					"question": "What is the translation of ગુજરાતમાં ઘણા ઉત્સવો હોય છે?",
+					"options": ["There are many festivals in Gujarat.", "Gujarat is known for its festivals.", "I love celebrating festivals.", "Gujarat has a rich culture."],
+					"answer": "There are many festivals in Gujarat."
+				},
+				{
+					"question": "What is the translation of ગુજરાતની સંસ્કૃતિ ખૂબ સમૃદ્ધ છે?",
+					"options": ["Gujarat's culture is very rich.", "I love Gujarati culture.", "Gujarat has a long history.", "Gujarati traditions are unique."],
+					"answer": "Gujarat's culture is very rich."
+				}
+			]
+		},
+		{
+			"slug": "kerala",
+			"title": "Translation Game - Kerala",
+			"description": "Test your knowledge about Kerala and Malayalam language!",
+			"image": "/states/kerala.jpg",
+			"badge": "/badges/kerala.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of നിന്റെ പേര് എന്താണ്?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Kerala?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of കേരളം വളരെ മനോഹരമാണ്?",
+					"options": ["Kerala is very beautiful.", "I love Kerala.", "Kerala has many backwaters.", "Kerala is known for its spices."],
+					"answer": "Kerala is very beautiful."
+				},
+				{
+					"question": "What is the translation of ഞാൻ ഓരോ ദിവസവും മലയാളം വായിക്കുന്നു?",
+					"options": ["I read Malayalam every day.", "I write in Malayalam every day.", "I speak Malayalam every day.", "I love learning Malayalam."],
+					"answer": "I read Malayalam every day."
+				},
+				{
+					"question": "What is the translation of കേരളത്തിലെ ഭക്ഷണം വളരെ രുചികരമാണ്?",
+					"options": ["Food in Kerala is very tasty.", "I love Kerala food.", "Kerala has many dishes.", "Kerala's cuisine is famous."],
+					"answer": "Food in Kerala is very tasty."
+				},
+				{
+					"question": "What is the translation of കേരളത്തിലെ സാംസ്കാരികം സമൃദ്ധമാണ്?",
+					"options": ["Kerala's culture is rich.", "I love Kerala's traditions.", "Kerala has a long history.", "Malayalam culture is unique."],
+					"answer": "Kerala's culture is rich."
+				}
+			]
+		},
+		{
+			"slug": "uttar-pradesh",
+			"title": "Translation Game - Uttar Pradesh",
+			"description": "Test your knowledge about Uttar Pradesh and Hindi language!",
+			"image": "/states/uttarpradesh.jpg",
+			"badge": "/badges/uttar-pradesh.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of आपका नाम क्या है?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Uttar Pradesh?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": " What is the translation of उत्तर प्रदेश बहुत बड़ा राज्य है?",
+					"options": ["Uttar Pradesh is a very large state.", "I love Uttar Pradesh.", "Uttar Pradesh has many cities.", "Uttar Pradesh is known for its culture."],
+					"answer": "Uttar Pradesh is a very large state."
+				},
+				{
+					"question": "What is the translation of मैं हर दिन हिंदी पढ़ता हूँ?",
+					"options": ["I read Hindi every day.", "I write in Hindi every day.", "I speak Hindi every day.", "I love learning Hindi."],
+					"answer": "I read Hindi every day."
+				},
+				{
+					"question": "What is the translation of यहाँ कई त्योहार मनाए जाते हैं?",
+					"options": ["Many festivals are celebrated here.", "Uttar Pradesh is known for its festivals.", "I love celebrating festivals.", "Uttar Pradesh has a rich culture."],
+					"answer": "Many festivals are celebrated here."
+				},
+				{
+					"question": "What is the translation of उत्तर प्रदेश की संस्कृति बहुत समृद्ध है?",
+					"options": ["Uttar Pradesh's culture is very rich.", "I love Uttar Pradesh's traditions.", "Uttar Pradesh has a long history.", "Hindi culture is unique."],
+					"answer": "Uttar Pradesh's culture is very rich."
+				}
+			]
+		},
+		{
+			"slug": "odisha",
+			"title": "Translation Game - Odisha",
+			"description": "Test your knowledge about Odisha and Odia language!",
+			"image": "/states/odisha.jpg",
+			"badge": "/badges/odisha.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of ତୁମର ନାମ କଣ?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Odisha?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of ଓଡିଶା ଖୁବ ସୁନ୍ଦର?",
+					"options": ["Odisha is very beautiful.", "I love Odisha.", "Odisha has many temples.", "Odisha is known for its culture."],
+					"answer": "Odisha is very beautiful."
+				},
+				{
+					"question": "What is the translation of ମୁଁ ପ୍ରତିଦିନ ଓଡିଆ ପଢ଼େ?",
+					"options": ["I read Odia every day.", "I write in Odia every day.", "I speak Odia every day.", "I love learning Odia."],
+					"answer": "I read Odia every day."
+				},
+				{
+					"question": "What is the translation of ଓଡିଶାର ଖାଦ୍ୟ ଖୁବ ସ୍ୱାଦିଷ୍ଟ?",
+					"options": ["Food in Odisha is very tasty.", "I love Odia food.", "Odisha has many dishes.", "Odia sweets are famous."],
+					"answer": "Food in Odisha is very tasty."
+				},
+				{
+					"question": "What is the translation of ଓଡିଶାର ସଂସ୍କୃତି ଧନ୍ୟ?",
+					"options": ["Odisha's culture is rich.", "I love Odisha's traditions.", "Odisha has a long history.", "Odia culture is unique."],
+					"answer": "Odisha's culture is rich."
+				}
+			]
+		},
+		{
+			"slug": "assam",
+			"title": "Translation Game - Assam",
+			"description": "Test your knowledge about Assam and Assamese language!",
+			"image": "/states/assam.jpg",
+			"badge": "/badges/assam.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of তোমাৰ নাম কি?",
+					"options":
+		["What is your name?", "Where are you from?", "How are you?", "Do you like Assam?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of অসম খুব সুন্দৰ?",
+					"options": ["Assam is very beautiful.", "I love Assam.", "Assam has many tea gardens.", "Assam is known for its culture."],
+					"answer": "Assam is very beautiful."
+				},
+				{
+					"question": "What is the translation of মই প্ৰতিদিন অসমীয়া পঢ়োঁ?",
+					"options": ["I read Assamese every day.", "I write in Assamese every day.", "I speak Assamese every day.", "I love learning Assamese."],
+					"answer": "I read Assamese every day."
+				},
+				{
+					"question": "What is the translation of অসমৰ খাদ্য খুব ৰুচিকৰ?",
+					"options": ["Food in Assam is very tasty.", "I love Assamese food.", "Assam has many dishes.", "Assamese sweets are famous."],
+					"answer": "Food in Assam is very tasty."
+				},
+				{
+					"question": "What is the translation of অসমৰ সংস্কৃতি ধনাত্মক?",
+					"options": ["Assam's culture is rich.", "I love Assam's traditions.", "Assam has a long history.", "Assamese culture is unique."],
+					"answer": "Assam's culture is rich."
+				}
+			]
+		},
+		{
+			"slug": "himachal-pradesh",
+			"title": "Translation Game - Himachal Pradesh",
+			"description": "Test your knowledge about Himachal Pradesh and Hindi language!",
+			"image": "/states/himachalpradesh.jpg",
+			"badge": "/badges/himachal-pradesh.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of आपका नाम क्या है?",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Himachal Pradesh?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of हिमाचल प्रदेश बहुत सुंदर है?",
+					"options": ["Himachal Pradesh is very beautiful.", "I love Himachal Pradesh.", "Himachal Pradesh has many mountains.", "Himachal Pradesh is known for its culture."],
+					"answer": "Himachal Pradesh is very beautiful."
+				},
+				{
+					"question": "What is the translation of मैं हर दिन हिंदी पढ़ता हूँ?",
+					"options": ["I read Hindi every day.", "I write in Hindi every day.", "I speak Hindi every day.", "I love learning Hindi."],
+					"answer": "I read Hindi every day."
+				},
+				{
+					"question": "What is the translation of यहाँ कई त्योहार मनाए जाते हैं?",
+					"options": ["Many festivals are celebrated here.", "Himachal Pradesh is known for its festivals.", "I love celebrating festivals.", "Himachal Pradesh has a rich culture."],
+					"answer": "Many festivals are celebrated here."
+				},
+				{
+					"question": "What is the translation of हिमाचल प्रदेश की संस्कृति बहुत समृद्ध है?",
+					"options": ["Himachal Pradesh's culture is very rich.", "I love Himachal Pradesh's traditions.", "Himachal Pradesh has a long history.", "Hindi culture is unique."],
+					"answer": "Himachal Pradesh's culture is very rich."
+				}
+			]
+		},
+		{
+			"slug": "jammu-and-kashmir",
+			"title": "Translation Game - Jammu and Kashmir",
+			"description": "Test your knowledge about Jammu and Kashmir and Urdu language!",
+			"image": "/states/jammukashmir.jpg",
+			"badge": "/badges/jammu-and-kashmir.jpg",
+			"tokens": 10,
+			"questions": [
+				{
+					"question": "What is the translation of آپ کا نام کیا ہے؟",
+					"options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Jammu and Kashmir?"],
+					"answer": "What is your name?"
+				},
+				{
+					"question": "What is the translation of جموں و کشمیر بہت خوبصورت ہے؟",
+					"options": ["Jammu and Kashmir is very beautiful.", "I love Jammu and Kashmir.", "Jammu and Kashmir has many valleys.", "Jammu and Kashmir is known for its culture."],
+					"answer": "Jammu and Kashmir is very beautiful."
+				},
+				{
+					"question": "What is the translation of میں ہر روز اردو پڑھتا ہوں؟",
+					"options": ["I read Urdu every day.", "I write in Urdu every day.", "I speak Urdu every day.", "I love learning Urdu."],
+					"answer": "I read Urdu every day."
+				},
+				{
+					"question": "What is the translation of یہاں کئی تہوار منائے جاتے ہیں؟",
+					"options": ["Many festivals are celebrated here.", "Jammu and Kashmir is known for its festivals.", "I love celebrating festivals.", "Jammu and Kashmir has a rich culture."],
+					"answer": "Many festivals are celebrated here."
+				},
+				{
+					"question": "What is the translation of جموں و کشمیر کی ثقافت بہت امیر ہے؟",
+					"options": ["Jammu and Kashmir's culture is very rich.", "I love Jammu and Kashmir's traditions.", "Jammu and Kashmir has a long history.", "Urdu culture is unique."],
+					"answer": "Jammu and Kashmir's culture is very rich."
+				}
+			]
+		},
         {
             "slug": "rajasthan",
             "title": "Translation Game - Rajasthan",
             "description": "Test your knowledge about Rajasthan and Marwadi language!",
             "image": "/states/rajasthan.jpg",
+			"badge": "/badges/rajasthan.jpg",
             "tokens": 10,
             "questions": [
                 {
@@ -858,107 +1195,425 @@
         }
     ],
     "oddoneout": [
-		{
-            "slug": "maharashtra",
-            "title": "Translation Game - Maharashtra",
-            "description": "Test your knowledge about Maharashtra!",
-            "image": "/states/maharashtra.jpg",
-            "tokens": 10,
-            "questions": [
-                {
-                    "question": "What is the translation of तुम्हाला वाचायला आवडतं का?",
-                    "options": ["Do you like reading?", "Where are you?", "How are you?", "Do you like traveling?"],
-                    "answer": "Do you like reading?"
-                },
-                {
-                    "question": "What is the translation of माझ्या आवडत्या पुस्तकाचे नाव शामची आई आहे?",
-                    "options": ["My favorite book is Shyamchi Aai.", "I like the book Shyamchi Aai.", "Do you have Shyamchi Aai?", "Shyamchi Aai is my story."],
-                    "answer": "My favorite book is Shyamchi Aai."
-                },
-                {
-                    "question": "What is the translation of मराठी कविता खूप सुंदर असतात?",
-                    "options": ["Marathi poems are very beautiful.", "Marathi songs are very soothing.", "I love Marathi food.", "Marathi culture is amazing."],
-                    "answer": "Marathi poems are very beautiful."
-                },
-                {
-                    "question": "What is the translation of तुमचं आवडतं पुस्तक कोणतं आहे?",
-                    "options": ["What is your favorite book?", "Do you read Marathi books?", "Where is your book?", "Do you like Marathi books?"],
-                    "answer": "What is your favorite book?"
-                },
-                {
-                    "question": "What is the translation of मी रोज थोडं मराठी वाचतो?",
-                    "options": ["I read a bit of Marathi every day.", "I write Marathi poems every day.", "I love reading Marathi stories.", "I am learning Marathi every day."],
-                    "answer": "I read a bit of Marathi every day."
-                }
-            ]
-        },
-        {
-            "slug": "rajasthan",
-            "title": "Translation Game - Rajasthan",
-            "description": "Test your knowledge about Rajasthan and Marwadi language!",
-            "image": "/states/rajasthan.jpg",
-            "tokens": 10,
-            "questions": [
-                {
-                    "question": "What is the translation of थारो नाम काई है?",
-                    "options": ["What is your name?", "Where are you from?", "How are you?", "Do you like Rajasthan?"],
-                    "answer": "What is your name?"
-                },
-                {
-                    "question": "What is the translation of म्हारो राजस्थान सुंदर है?",
-                    "options": ["My Rajasthan is beautiful.", "Rajasthan is very big.", "I love Rajasthan.", "Rajasthan is a desert."],
-                    "answer": "My Rajasthan is beautiful."
-                },
-                {
-                    "question": "What is the translation of ऊंट राजस्थान की शान है?",
-                    "options": ["The camel is the pride of Rajasthan.", "Rajasthan has many camels.", "I love camels.", "Camels are very useful."],
-                    "answer": "The camel is the pride of Rajasthan."
-                },
-                {
-                    "question": "What is the translation of थारो घर कदं है?",
-                    "options": ["Where is your home?", "How is your home?", "Do you have a house?", "What is your address?"],
-                    "answer": "Where is your home?"
-                },
-                {
-                    "question": "What is the translation of राजस्थान में बहुत सारे महल हैं?",
-                    "options": ["Rajasthan has many palaces.", "Rajasthan is very beautiful.", "I love Rajasthan.", "Rajasthan is a desert."],
-                    "answer": "Rajasthan has many palaces."
-                }
-            ]
-        },
-        {
-            "slug": "west-bengal",
-            "title": "Translation Game - West Bengal",
-            "description": "Test your knowledge about West Bengal and Bengali language!",
-            "image": "/states/westbengal.jpg",
-            "tokens": 10,
-            "questions": [
-                {
-                    "question": "What is the translation of তোমার নাম কী?",
-                    "options": ["What is your name?", "Where are you from?", "How are you?", "Do you live here?"],
-                    "answer": "What is your name?"
-                },
-                {
-                    "question": "What is the translation of আমার বাংলা খুব ভালো লাগে?",
-                    "options": ["I love Bengali very much.", "Bengal is very beautiful.", "I like Bengali songs.", "Bengali food is delicious."],
-                    "answer": "I love Bengali very much."
-                },
-                {
-                    "question": "What is the translation of রবীন্দ্রনাথ ঠাকুর আমার প্রিয় কবি?",
-                    "options": ["Rabindranath Tagore is my favorite poet.", "I like Rabindranath Tagore.", "Do you know Rabindranath Tagore?", "Rabindranath Tagore wrote many poems."],
-                    "answer": "Rabindranath Tagore is my favorite poet."
-                },
-                {
-                    "question": "What is the translation of এখানে দুর্গাপূজা খুব সুন্দর হয়?",
-                    "options": ["Durga Puja is very beautiful here.", "People love Durga Puja here.", "Durga Puja is famous in Bengal.", "Durga Puja is celebrated in October."],
-                    "answer": "Durga Puja is very beautiful here."
-                },
-                {
-                    "question": "What is the translation of আমি প্রতিদিন বাংলা পড়ি?",
-                    "options": ["I read Bengali every day.", "I write in Bengali every day.", "I speak Bengali every day.", "I love learning Bengali."],
-                    "answer": "I read Bengali every day."
-                }
-            ]
-        }
-    ]
+    {
+        "slug": "maharashtra",
+        "title": "Odd One Out Game - Maharashtra",
+        "description": "Test your knowledge about Maharashtra!",
+        "image": "/states/maharashtra.jpg",
+        "badge": "/badges/maharashtra.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Maharashtra?",
+                "options": ["Mumbai", "Pune", "Bangalore", "Nagpur"],
+                "answer": "Bangalore"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Maharashtra?",
+                "options": ["Puran Poli", "Dhokla", "Vada Pav", "Misal Pav"],
+                "answer": "Dhokla"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Maharashtra?",
+                "options": ["Ganesh Chaturthi", "Diwali", "Holi", "Onam"],
+                "answer": "Onam"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Maharashtra?",
+                "options": ["Marathi", "Hindi", "Gujarati", "Bengali"],
+                "answer": "Bengali"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Maharashtra?",
+                "options": ["Ajanta Caves", "Gateway of India", "Hampi", "Mahabaleshwar"],
+                "answer": "Hampi"
+            }
+        ]
+    },
+    {
+        "slug": "punjab",
+        "title": "Odd One Out Game - Punjab",
+        "description": "Test your knowledge about Punjab and Punjabi language!",
+        "image": "/states/punjab.jpg",
+        "badge": "/badges/punjab.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Punjab?",
+                "options": ["Amritsar", "Ludhiana", "Chandigarh", "Jaipur"],
+                "answer": "Jaipur"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Punjab?",
+                "options": ["Butter Chicken", "Rogan Josh", "Sarson da Saag", "Makki di Roti"],
+                "answer": "Rogan Josh"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Punjab?",
+                "options": ["Baisakhi", "Holi", "Eid", "Diwali"],
+                "answer": "Eid"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Punjab?",
+                "options": ["Punjabi", "Hindi", "Bengali", "Urdu"],
+                "answer": "Bengali"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Punjab?",
+                "options": ["Golden Temple", "Wagah Border", "Jaisalmer Fort", "Anandpur Sahib"],
+                "answer": "Jaisalmer Fort"
+            }
+        ]
+    },
+    {
+        "slug": "tamil-nadu",
+        "title": "Odd One Out Game - Tamil Nadu",
+        "description": "Test your knowledge about Tamil Nadu and Tamil language!",
+        "image": "/states/tamilnadu.jpg",
+        "badge": "/badges/tamilnadu.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Tamil Nadu?",
+                "options": ["Chennai", "Coimbatore", "Madurai", "Hyderabad"],
+                "answer": "Hyderabad"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Tamil Nadu?",
+                "options": ["Idli", "Dosa", "Biryani", "Sambar"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Tamil Nadu?",
+                "options": ["Pongal", "Diwali", "Onam", "Thaipusam"],
+                "answer": "Onam"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Tamil Nadu?",
+                "options": ["Tamil", "Telugu", "Kannada", "Malayalam"],
+                "answer": "Malayalam"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Tamil Nadu?",
+                "options": ["Meenakshi Temple", "Brihadeeswarar Temple", "Hampi", "Kanyakumari"],
+                "answer": "Hampi"
+            }
+        ]
+    },
+    {
+        "slug": "gujarat",
+        "title": "Odd One Out Game - Gujarat",
+        "description": "Test your knowledge about Gujarat and Gujarati language!",
+        "image": "/states/gujarat.jpg",
+        "badge": "/badges/gujarat.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Gujarat?",
+                "options": ["Ahmedabad", "Surat", "Vadodara", "Jaipur"],
+                "answer": "Jaipur"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Gujarat?",
+                "options": ["Dhokla", "Khandvi", "Biryani", "Thepla"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Gujarat?",
+                "options": ["Navratri", "Diwali", "Holi", "Eid"],
+                "answer": "Eid"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Gujarat?",
+                "options": ["Gujarati", "Hindi", "Marathi", "Bengali"],
+                "answer": "Bengali"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Gujarat?",
+                "options": ["Gir National Park", "Rann of Kutch", "Hampi", "Sabarmati Ashram"],
+                "answer": "Hampi"
+            }
+        ]
+    },
+    {
+        "slug": "kerala",
+        "title": "Odd One Out Game - Kerala",
+        "description": "Test your knowledge about Kerala and Malayalam language!",
+        "image": "/states/kerala.jpg",
+        "badge": "/badges/kerala.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Kerala?",
+                "options": ["Kochi", "Thiruvananthapuram", "Kozhikode", "Bangalore"],
+                "answer": "Bangalore"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Kerala?",
+                "options": ["Sadhya", "Appam", "Biryani", "Puttu"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Kerala?",
+                "options": ["Onam", "Vishu", "Pongal", "Thrissur Pooram"],
+                "answer": "Pongal"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Kerala?",
+                "options": ["Malayalam", "Tamil", "Kannada", "Telugu"],
+                "answer": "Telugu"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Kerala?",
+                "options": ["Alleppey", "Munnar", "Hampi", "Kumarakom"],
+                "answer": "Hampi"
+            }
+        ]
+    },
+    {
+        "slug": "uttar-pradesh",
+        "title": "Odd One Out Game - Uttar Pradesh",
+        "description": "Test your knowledge about Uttar Pradesh and Hindi language!",
+        "image": "/states/uttarpradesh.jpg",
+        "badge": "/badges/uttarpradesh.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Uttar Pradesh?",
+                "options": ["Lucknow", "Varanasi", "Agra", "Delhi"],
+                "answer": "Delhi"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Uttar Pradesh?",
+                "options": ["Tunday Kababi", "Biryani", "Chaat", "Samosa"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Uttar Pradesh?",
+                "options": ["Diwali", "Holi", "Eid", "Pongal"],
+                "answer": "Pongal"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Uttar Pradesh?",
+                "options": ["Hindi", "Urdu", "Bengali", "Awadhi"],
+                "answer": "Bengali"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Uttar Pradesh?",
+                "options": ["Taj Mahal", "Varanasi Ghats", "Jaipur", "Lucknow"],
+                "answer": "Jaipur"
+            }
+        ]
+    },
+    {
+        "slug": "odisha",
+        "title": "Odd One Out Game - Odisha",
+        "description": "Test your knowledge about Odisha and Odia language!",
+        "image": "/states/odisha.jpg",
+        "badge": "/badges/odisha.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Odisha?",
+                "options": ["Bhubaneswar", "Cuttack", "Puri", "Kolkata"],
+                "answer": "Kolkata"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Odisha?",
+                "options": ["Dalma", "Pakhala", "Biryani", "Chhena Poda"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Odisha?",
+                "options": ["Rath Yatra", "Durga Puja", "Diwali", "Onam"],
+                "answer": "Onam"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Odisha?",
+                "options": ["Odia", "Hindi", "Bengali", "Telugu"],
+                "answer": "Telugu"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Odisha?",
+                "options": ["Konark", "Puri", "Bhubaneswar", "Hampi"],
+                "answer": "Hampi"
+            }
+        ]
+    },
+    {
+        "slug": "assam",
+        "title": "Odd One Out Game - Assam",
+        "description": "Test your knowledge about Assam and Assamese language!",
+        "image": "/states/assam.jpg",
+        "badge": "/badges/assam.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Assam?",
+                "options": ["Guwahati", "Dibrugarh", "Silchar", "Kolkata"],
+                "answer": "Kolkata"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Assam?",
+                "options": ["Assamese Thali", "Biryani", "Masor Tenga", "Pitha"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Assam?",
+                "options": ["Bihu", "Durga Puja", "Eid", "Pongal"],
+                "answer": "Pongal"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Assam?",
+                "options": ["Assamese", "Bengali", "Hindi", "Marathi"],
+                "answer": "Marathi"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Assam?",
+                "options": ["Kaziranga National Park", "Majuli", "Guwahati", "Hampi"],
+                "answer": "Hampi"
+            }
+        ]
+    },
+    {
+        "slug": "himachal-pradesh",
+        "title": "Odd One Out Game - Himachal Pradesh",
+        "description": "Test your knowledge about Himachal Pradesh and Hindi language!",
+        "image": "/states/himachalpradesh.jpg",
+        "badge": "/badges/himachal-pradesh.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Himachal Pradesh?",
+                "options": ["Shimla", "Manali", "Dharamshala", "Dehradun"],
+                "answer": "Dehradun"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Himachal Pradesh?",
+                "options": ["Chana Madra", "Siddu", "Biryani", "Dham"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Himachal Pradesh?",
+                "options": ["Lavi Fair", "Baisakhi", "Diwali", "Onam"],
+                "answer": "Onam"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Himachal Pradesh?",
+                "options": ["Hindi", "Punjabi", "Kinnauri", "Bengali"],
+                "answer": "Bengali"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Himachal Pradesh?",
+                "options": ["Kullu", "Shimla", "Manali", "Jaipur"],
+                "answer": "Jaipur"
+            }
+        ]
+    },
+    {
+        "slug": "jammu-and-kashmir",
+        "title": "Odd One Out Game - Jammu and Kashmir",
+        "description": "Test your knowledge about Jammu and Kashmir and Urdu language!",
+        "image": "/states/jammuandkashmir.jpg",
+        "badge": "/badges/jammu-and-kashmir.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Jammu and Kashmir?",
+                "options": ["Srinagar", "Jammu", "Leh", "Shimla"],
+                "answer": "Shimla"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Jammu and Kashmir?",
+                "options": ["Rogan Josh", "Dum Aloo", "Biryani", "Kashmiri Pulao"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Jammu and Kashmir?",
+                "options": ["Eid", "Diwali", "Holi", "Pongal"],
+                "answer": "Pongal"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Jammu and Kashmir?",
+                "options": ["Urdu", "Kashmiri", "Hindi", "Bengali"],
+                "answer": "Bengali"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Jammu and Kashmir?",
+                "options": ["Dal Lake", "Gulmarg", "Pahalgam", "Manali"],
+                "answer": "Manali"
+            }
+        ]
+    },
+    {
+        "slug": "rajasthan",
+        "title": "Odd One Out Game - Rajasthan",
+        "description": "Test your knowledge about Rajasthan and Marwadi language!",
+        "image": "/states/rajasthan.jpg",
+        "badge": "/badges/rajasthan.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in Rajasthan?",
+                "options": ["Jaipur", "Udaipur", "Jodhpur", "Agra"],
+                "answer": "Agra"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from Rajasthan?",
+                "options": ["Dal Baati Churma", "Gatte ki Sabzi", "Biryani", "Ker Sangri"],
+                "answer": "Biryani"
+            },
+            {
+                "question": "Which of the following is not a festival celebrated in Rajasthan?",
+                "options": ["Teej", "Diwali", "Holi", "Onam"],
+                "answer": "Onam"
+            },
+            {
+                "question": "Which of the following is not a language spoken in Rajasthan?",
+                "options": ["Marwadi", "Hindi", "Punjabi", "Rajasthani"],
+                "answer": "Punjabi"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in Rajasthan?",
+                "options": ["Hawa Mahal", "Jaisalmer Fort", "Amber Fort", "Goa"],
+                "answer": "Goa"
+            }
+        ]
+    },
+    {
+        "slug": "west-bengal",
+        "title": "Odd One Out Game - West Bengal",
+        "description": "Test your knowledge about West Bengal and Bengali language!",
+        "image": "/states/westbengal.jpg",
+        "badge": "/badges/west-bengal.jpg",
+        "tokens": 10,
+        "questions": [
+            {
+                "question": "Which of the following is not a city in West Bengal?",
+                "options": ["Kolkata", "Darjeeling", "Siliguri", "Bhubaneswar"],
+                "answer": "Bhubaneswar"
+            },
+            {
+                "question": "Which of the following is not a traditional dish from West Bengal?",
+                "options": ["Machher Jhol", "Shorshe Ilish", "Biryani", "Sandesh"],
+                "answer": "Biryani"
+            },
+            {
+                "question": " Which of the following is not a festival celebrated in West Bengal?",
+                "options": ["Durga Puja", "Poila Baisakh", "Diwali", "Eid"],
+                "answer": "Eid"
+            },
+            {
+                "question": "Which of the following is not a language spoken in West Bengal?",
+                "options": ["Bengali", "Hindi", "Odia", "Punjabi"],
+                "answer": "Punjabi"
+            },
+            {
+                "question": "Which of the following is not a famous tourist destination in West Bengal?",
+                "options": ["Sundarbans", "Darjeeling", "Kolkata", "Hampi"],
+                "answer": "Hampi"
+            }
+        ]
+    }
+]
 }

@@ -109,7 +109,7 @@ const Page = () => {
             src={`/statemap/${state}.png`}
             width={280}
             height={100}
-            alt="state-map"
+            alt="state-map-img"
           />
         </div>
       </div>

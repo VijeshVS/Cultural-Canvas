@@ -25,7 +25,7 @@ const Page = () => {
 							src='/gamevideos/quiz.mp4' // Add your video source here
 						></video>
 						<div className="text-lg pb-2 text-[#4d1414] font-medium">
-							🎯 10 Tokens
+							🎯 20 Tokens
 						</div>
 						<Link href="/games/quiz">
 							<button className="text-md bg-yellow-300 text-[#4d1414] px-4 py-2 rounded-md hover:scale-110 duration-200 transition-all">
@@ -40,13 +40,13 @@ const Page = () => {
 							Odd One Out 🔍
 						</div>
 						<video
-							className="mx-auto my-4 border-2 border-black bg-gray-600 rounded-md"
-							src="" // Add your video source here
+							className="mx-auto w-2/3 my-2 border-2 border-black bg-gray-600 rounded-md"
+							src="/gamevideos/translations.mp4" // Add your video source here
 						></video>
 						<div className="text-lg pb-2 text-[#4d1414] font-medium">
-							🎯 10 Tokens
+							🎯 20 Tokens
 						</div>
-						<Link href="/games/odd-one-out/maharashtra">
+						<Link href="/games/oddoneout">
 							<button className="text-md bg-yellow-300 text-[#4d1414] px-4 py-2 rounded-md hover:scale-110 duration-200 transition-all">
 								Play Now! 🕹️
 							</button>
@@ -65,7 +65,7 @@ const Page = () => {
 							src="/gamevideos/translations.mp4" // Add your video source here
 						></video>
 						<div className="text-lg pb-2 text-[#4d1414] font-medium">
-							🎯 10 Tokens
+							🎯 20 Tokens
 						</div>
 						<Link href="/games/translations">
 							<button className="text-md bg-yellow-300 text-[#4d1414] px-4 py-2 rounded-md hover:scale-110 duration-200 transition-all">

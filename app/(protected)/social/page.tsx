@@ -99,7 +99,7 @@ const Page = () => {
 					celebrate, and share the magic of everyday life. 🌈✨
 				</p>
 				<div className="grid grid-cols-4 gap-6 mt-6 p-2">
-					{data.map((item: any) => (
+					{data.reverse().map((item: any) => (
 						<div
 							key={item.id}
 							className="flex flex-col rounded-xl bg-white shadow-lg w-full"
@@ -112,7 +112,7 @@ const Page = () => {
 									className="flex flex-row cursor-pointer space-x-2 items-center"
 								>
 									<UserCircle />
-									<div className="italic">{item.user.name}</div>
+									<div className="italic">{item.user.username}</div>
 								</div>
 								<div
 									className="text-pink-500 flex flex-row space-x-2 items-center cursor-pointer"

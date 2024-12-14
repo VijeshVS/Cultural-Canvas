@@ -62,7 +62,7 @@ const StateSlugPage = ({
 						>
 							<div>
 								<Image
-									src={"/stateculture/garba.jpg"}
+									src={card.image}
 									width={900}
 									height={900}
 									alt="image"
@@ -117,7 +117,7 @@ const StateSlugPage = ({
 						className="rounded-xl mt-8 shadow-md"
 						width="960"
 						height="540"
-						src="https://www.youtube.com/embed/xX7sjeohDts?si=2NrHY58b6qsfGE58&amp;controls=0"
+						src={stateData.videoSrc}
 						title="YouTube video player"
 						allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 						referrerPolicy="strict-origin-when-cross-origin"
