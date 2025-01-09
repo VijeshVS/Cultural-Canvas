@@ -10,7 +10,7 @@ services:
     ports:
       - "3000:3000" # Maps port 3000 on the host to port 3000 in the container
     command: > # Command to run inside the container
-      sh -c "npm i --force && npx prisma migrate dev && npm run dev" # Installs dependencies, applies database migrations, and starts the development server
+      sh -c "npm i --force && prisma generate && npx prisma db push --accept-data-loss && npm run dev"
     environment:
       DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/mydb" # Environment variable for connecting to the PostgreSQL database
     depends_on:
