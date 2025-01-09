@@ -1,0 +1,92 @@
+[
+    {
+        "year": -5000,
+        "content": "Rajasthan's prehistory begins with the Indus Valley Civilization sites like Kalibangan, showcasing early urban planning and agriculture.",
+        "image": "/timeline/indus_valley.jpg"
+    },
+    {
+        "year": -1500,
+        "content": "Aryan tribes settle in Rajasthan, introducing the Vedic culture and practices in the region.",
+        "image": "/timeline/aryans.jpg"
+    },
+    {
+        "year": -300,
+        "content": "The Mauryan Empire includes Rajasthan, with evidence of Ashokan edicts found in the region, promoting Buddhism.",
+        "image": "/timeline/mauryan.jpg"
+    },
+    {
+        "year": 700,
+        "content": "The Gurjara-Pratihara dynasty emerges, playing a key role in defending India from Arab invasions and contributing to architecture.",
+        "image": "/timeline/pratihara.jpg"
+    },
+    {
+        "year": 1036,
+        "content": "The Chahamana (Chauhan) dynasty rules Rajasthan, with Ajmer as their capital, marking the beginning of Rajput dominance.",
+        "image": "/timeline/chahaman.jpg"
+    },
+    {
+        "year": 1192,
+        "content": "The Battle of Tarain marks Prithviraj Chauhan's defeat by Muhammad Ghori, leading to Islamic influence in Rajasthan.",
+        "image": "/timeline/tarain.jpg"
+    },
+    {
+        "year": 1303,
+        "content": "Rani Padmini of Chittorgarh performs Jauhar during Alauddin Khilji's siege, symbolizing Rajput honor and resistance.",
+        "image": "/timeline/padmini.jpg"
+    },
+    {
+        "year": 1526,
+        "content": "The Mughal Empire rises to power, with Rajasthan's Rajput rulers forming strategic alliances through marriage and diplomacy.",
+        "image": "/timeline/mughals.jpg"
+    },
+    {
+        "year": 1540,
+        "content": "Maharana Udai Singh II establishes Udaipur as the new capital of Mewar, laying the foundation for its iconic palaces and forts.",
+        "image": "/timeline/udaipur.jpg"
+    },
+    {
+        "year": 1576,
+        "content": "The Battle of Haldighati sees Maharana Pratap resisting Akbar's Mughal forces, becoming a symbol of Rajput valor.",
+        "image": "/timeline/haldighati.jpg"
+    },
+    {
+        "year": 1727,
+        "content": "The city of Jaipur is founded by Maharaja Sawai Jai Singh II, known for its urban planning and astronomical observatories.",
+        "image": "/timeline/jaipur.jpg"
+    },
+    {
+        "year": 1817,
+        "content": "Rajasthan's princely states enter into treaties with the British, becoming part of the British Raj under indirect rule.",
+        "image": "/timeline/british_treaty.jpg"
+    },
+    {
+        "year": 1947,
+        "content": "India gains independence, and Rajasthan's princely states begin merging to form the modern state.",
+        "image": "/timeline/independence.jpg"
+    },
+    {
+        "year": 1956,
+        "content": "Rajasthan is reorganized as a single state with Jaipur as its capital, marking the culmination of the unification process.",
+        "image": "/timeline/state_formation.jpg"
+    },
+    {
+        "year": 1981,
+        "content": "Keoladeo National Park in Bharatpur is declared a UNESCO World Heritage Site, recognizing its ecological significance.",
+        "image": "/timeline/keoladeo.jpg"
+    },
+    {
+        "year": 2013,
+        "content": "The Hill Forts of Rajasthan, including Chittorgarh and Kumbhalgarh, are inscribed as UNESCO World Heritage Sites.",
+        "image": "/timeline/hill_forts.jpg"
+    },
+    {
+        "year": 2018,
+        "content": "Jaipur's historic walled city is declared a UNESCO World Heritage Site, celebrating its unique urban planning and architecture.",
+        "image": "/timeline/jaipur_heritage.jpg"
+    },
+    {
+        "year": 2022,
+        "content": "The Pushkar Camel Fair continues to attract global visitors, showcasing Rajasthan's vibrant culture and traditions.",
+        "image": "/timeline/pushkar.jpg"
+    }
+]

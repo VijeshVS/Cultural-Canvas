@@ -1,0 +1,102 @@
+[
+    {
+        "year": -1000,
+        "content": "The Vedic period sees the region of Bengal mentioned as Vanga in ancient texts, with early settlements and agricultural practices.",
+        "image": "/timeline/vedic_bengal.jpg"
+    },
+    {
+        "year": -500,
+        "content": "The kingdom of Anga, part of present-day West Bengal, is mentioned in the Mahabharata and flourishes as a trade hub.",
+        "image": "/timeline/anga.jpg"
+    },
+    {
+        "year": -300,
+        "content": "The Mauryan Empire under Emperor Ashoka includes Bengal, spreading Buddhism and establishing administrative control.",
+        "image": "/timeline/mauryan.jpg"
+    },
+    {
+        "year": 320,
+        "content": "The Gupta Empire influences Bengal, with advancements in literature, art, and science, and the composition of Sanskrit texts.",
+        "image": "/timeline/gupta_bengal.jpg"
+    },
+    {
+        "year": 600,
+        "content": "The Gauda Kingdom under King Shashanka emerges as a powerful state, promoting Hinduism and early Bengali culture.",
+        "image": "/timeline/shashanka.jpg"
+    },
+    {
+        "year": 750,
+        "content": "The Pala Empire, known for its patronage of Buddhism, art, and education, dominates Bengal and establishes Nalanda and Vikramashila Universities.",
+        "image": "/timeline/pala_empire.jpg"
+    },
+    {
+        "year": 1204,
+        "content": "The Delhi Sultanate conquers Bengal, leading to the rise of Islamic culture and architecture in the region.",
+        "image": "/timeline/delhi_sultanate.jpg"
+    },
+    {
+        "year": 1352,
+        "content": "The Bengal Sultanate is established, fostering an independent Islamic kingdom with trade connections across the Indian Ocean.",
+        "image": "/timeline/bengal_sultanate.jpg"
+    },
+    {
+        "year": 1576,
+        "content": "The Mughal Empire annexes Bengal, making it a prosperous province under rulers like Akbar and Aurangzeb.",
+        "image": "/timeline/mughals_bengal.jpg"
+    },
+    {
+        "year": 1690,
+        "content": "Job Charnock, an agent of the British East India Company, establishes a trading post in Kolkata, laying the foundation for the city.",
+        "image": "/timeline/job_charnock.jpg"
+    },
+    {
+        "year": 1757,
+        "content": "The Battle of Plassey marks the beginning of British rule in India, with Bengal as the first province to come under direct British control.",
+        "image": "/timeline/plassey.jpg"
+    },
+    {
+        "year": 1828,
+        "content": "Raja Ram Mohan Roy founds the Brahmo Samaj in Kolkata, initiating social and religious reform movements in Bengal.",
+        "image": "/timeline/brahmo_samaj.jpg"
+    },
+    {
+        "year": 1856,
+        "content": "The Bengal Renaissance begins, with cultural icons like Ishwar Chandra Vidyasagar, Bankim Chandra Chattopadhyay, and Rabindranath Tagore emerging.",
+        "image": "/timeline/renaissance.jpg"
+    },
+    {
+        "year": 1905,
+        "content": "The Partition of Bengal by the British sparks widespread protests, uniting people across religious and cultural lines.",
+        "image": "/timeline/partition.jpg"
+    },
+    {
+        "year": 1947,
+        "content": "India gains independence, and Bengal is divided into West Bengal (India) and East Bengal (Pakistan, later Bangladesh).",
+        "image": "/timeline/independence.jpg"
+    },
+    {
+        "year": 1971,
+        "content": "West Bengal plays a key role in supporting the Bangladesh Liberation War, hosting millions of refugees and aiding the cause.",
+        "image": "/timeline/liberation_war.jpg"
+    },
+    {
+        "year": 1984,
+        "content": "Satyajit Ray, a filmmaker from Bengal, wins an Honorary Academy Award, bringing global recognition to Bengali cinema.",
+        "image": "/timeline/satyajit_ray.jpg"
+    },
+    {
+        "year": 2001,
+        "content": "The Sundarbans, a UNESCO World Heritage Site, gains prominence for its unique mangrove ecosystem and conservation efforts.",
+        "image": "/timeline/sundarbans.jpg"
+    },
+    {
+        "year": 2011,
+        "content": "The Trinamool Congress comes to power in West Bengal, marking a major political shift after decades of Left Front rule.",
+        "image": "/timeline/political_shift.jpg"
+    },
+    {
+        "year": 2022,
+        "content": "The Durga Puja of West Bengal is recognized as an Intangible Cultural Heritage of Humanity by UNESCO.",
+        "image": "/timeline/durga_puja.jpg"
+    }
+]

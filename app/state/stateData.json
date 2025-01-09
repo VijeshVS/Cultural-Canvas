@@ -119,6 +119,103 @@
 					"desc": "Rajasthani cuisine is known for its robust flavors and unique preparations adapted to the desert environment. Dal Baati Churma is the state's most famous dish, consisting of lentils, baked wheat balls, and a sweet powdered mixture. Other specialties include Gatte ki Sabzi, Ker Sangri, and Laal Maas (a spicy mutton curry). The cuisine is characterized by its use of dried ingredients and rich, spicy flavors."
 				}
 			]
-		}
+		},
+		{
+			"slug": "kerala",
+			"title": "കേരളം",
+			"sub": "Kēraḷam",
+			"videoSrc": "https://www.youtube.com/embed/P3vwzNYIL_U?si=xyz123",
+			"description": "Experience the serene beauty of Kerala, known for its backwaters, lush greenery, classical art forms, and rich cultural traditions that blend multiple influences.",
+			"cards": [
+			  {
+				"image": "/stateculture/onam.jpg",
+				"badge": "festival",
+				"desc": "Onam is Kerala's grand harvest festival celebrated with great pomp and show. The festivities include creating intricate flower carpets (pookalam), boat races (vallam kali), traditional dance performances, and an elaborate feast called Onasadya. The festival commemorates the mythical King Mahabali and showcases Kerala's cultural unity."
+			  },
+			  {
+				"image": "/stateculture/kathakali.jpg",
+				"badge": "music",
+				"desc": "Kathakali is Kerala's iconic classical dance-drama known for its elaborate makeup, costumes, and hand gestures. The art form combines dance, music, and acting to narrate stories from epics. Other significant performing arts include Mohiniyattam (classical dance), Theyyam (ritual art form), and Poorakkali (folk dance)."
+			  },
+			  {
+				"image": "/stateculture/sadhya.jpg",
+				"badge": "cuisine",
+				"desc": "Kerala cuisine is distinguished by its use of coconut, spices, and fresh seafood. The traditional Kerala Sadhya, served on a banana leaf, includes various vegetarian dishes with rice. Popular dishes include Karimeen Pollichathu (pearl spot fish), Appam with Stew, and Puttu with Kadala Curry. The cuisine is known for its balanced flavors and health-conscious cooking methods."
+			  }
+			]
+		},
+		  
+		{
+			"slug": "punjab",
+			"title": "ਪੰਜਾਬ",
+			"sub": "Pañjāb",
+			"videoSrc": "https://www.youtube.com/embed/K5G5z2uB6ZQ?si=abc456",
+			"description": "Explore the vibrant spirit of Punjab, a land known for its energetic culture, agricultural heritage, warm hospitality, and rich traditions of music and dance.",
+			"cards": [
+			  {
+				"image": "/stateculture/baisakhi.jpg",
+				"badge": "festival",
+				"desc": "Baisakhi is Punjab's major harvest festival and marks the Sikh New Year. The celebration features vibrant Bhangra and Giddha performances, community gatherings at Gurudwaras, and festive processions called Nagar Kirtan. The festival also commemorates the formation of the Khalsa Panth by Guru Gobind Singh."
+			  },
+			  {
+				"image": "/stateculture/bhangra.jpg",
+				"badge": "music",
+				"desc": "Bhangra is Punjab's energetic folk dance and music form, originally performed to celebrate the harvest season. It features dynamic movements, dhol drums, and spirited lyrics. The musical tradition also includes Giddha (women's dance form), Tumbi (string instrument) playing, and various forms of folk singing like Jugni and Mahiya."
+			  },
+			  {
+				"image": "/stateculture/makki-sarson.jpg",
+				"badge": "cuisine",
+				"desc": "Punjabi cuisine is renowned for its rich, hearty flavors and generous use of dairy products. Signature dishes include Makki di Roti with Sarson da Saag, Butter Chicken, and various tandoor preparations. The cuisine features abundant use of ghee, butter, and cream, with specialties like Amritsari Fish, Dal Makhani, and a variety of stuffed parathas."
+			  }
+			]
+		}, 
+		{
+			"slug": "tamil-nadu",
+			"title": "தமிழ்நாடு",
+			"sub": "Tamiḻ Nāḍu",
+			"videoSrc": "https://www.youtube.com/embed/L8GPvNt7X8k?si=def789",
+			"description": "Immerse yourself in Tamil Nadu's ancient culture, classical arts, magnificent temples, and traditions that have survived through millennia.",
+			"cards": [
+			  {
+				"image": "/stateculture/pongal.jpg",
+				"badge": "festival",
+				"desc": "Pongal is Tamil Nadu's four-day harvest festival celebrating the sun god and agriculture. Each day has specific rituals and celebrations, including cooking the traditional Pongal dish, cattle worship (Mattu Pongal), and community gatherings. The festival showcases Tamil traditions of gratitude and community bonding."
+			  },
+			  {
+				"image": "/stateculture/bharatanatyam.jpg",
+				"badge": "music",
+				"desc": "Bharatanatyam is Tamil Nadu's classical dance form known for its grace, precision, and spiritual expression. The Carnatic music tradition features complex rhythms and melodic structures. Other significant art forms include Thevaram (devotional songs), Villupattu (bow song), and various temple music traditions."
+			  },
+			  {
+				"image": "/stateculture/thali.jpg",
+				"badge": "cuisine",
+				"desc": "Tamil cuisine is known for its use of rice, lentils, and distinct spice blends. The traditional Tamil meal served on banana leaf includes various preparations of vegetables, sambhar, rasam, and chutneys. Famous dishes include Dosa, Idli, Pongal, and Chettinad specialties. The cuisine emphasizes balanced flavors and traditional cooking methods."
+			  }
+			]
+		}, 
+		{
+			"slug": "assam",
+			"title": "অসম",
+			"sub": "Axom",
+			"videoSrc": "https://www.youtube.com/embed/R8HN3FWd_Ck?si=ghi012",
+			"description": "Discover Assam's unique blend of diverse cultures, tea traditions, wildlife, and rich heritage of music, dance, and festivals.",
+			"cards": [
+			  {
+				"image": "/stateculture/bihu.jpg",
+				"badge": "festival",
+				"desc": "Bihu is Assam's major harvest festival celebrated three times a year, with Bohag Bihu being the most prominent. The festivities include Bihu dance performances, traditional games, community feasts, and cultural programs. Each Bihu marks different agricultural seasons and showcases Assamese customs and traditions."
+			  },
+			  {
+				"image": "/stateculture/sattriya.jpg",
+				"badge": "music",
+				"desc": "Sattriya is Assam's classical dance form that originated in Vaishnava monasteries. The musical tradition includes Borgeet (devotional songs), Bihu folk songs, and various tribal music forms. Traditional instruments like dhol, pepa, and gagana enhance the rich musical heritage of the region."
+			  },
+			  {
+				"image": "/stateculture/assamese-thali.jpg",
+				"badge": "cuisine",
+				"desc": "Assamese cuisine is characterized by minimal spices and fresh herbs, with fermented foods being a unique aspect. Traditional dishes include Masor Tenga (sour fish curry), Khar (alkaline preparation), and various bamboo shoot preparations. The cuisine features distinctive ingredients like banana flowers, taro, and various local herbs and vegetables."
+			  }
+			]
+		  }
 	]
 }

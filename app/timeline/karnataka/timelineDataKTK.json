@@ -1,0 +1,117 @@
+[
+    {
+        "year": -3000,
+        "content": "Neolithic settlements in Karnataka emerge, including sites like Brahmagiri and Maski, marking the earliest traces of human habitation.",
+        "image": "/timeline/neolithic.jpg"
+    },
+    {
+        "year": -1000,
+        "content": "Iron Age megalithic structures are built in Karnataka, including dolmens and burial chambers at sites like Hire Benkal.",
+        "image": "/timeline/megalithic.jpg"
+    },
+    {
+        "year": 345,
+        "content": "The Kadamba dynasty, founded by Mayurasharma, establishes itself as one of Karnataka's earliest ruling dynasties.",
+        "image": "/timeline/kadamba.jpg"
+    },
+    {
+        "year": 540,
+        "content": "The Chalukya dynasty rises to power, fostering advancements in art and architecture, including the famous cave temples at Badami.",
+        "image": "/timeline/chalukya.jpg"
+    },
+    {
+        "year": 753,
+        "content": "The Rashtrakuta dynasty, with their capital at Manyakheta, becomes a dominant force in Karnataka and South India.",
+        "image": "/timeline/rashtrakuta.jpg"
+    },
+    {
+        "year": 983,
+        "content": "The Western Chalukyas regain power, leading to a revival of architectural excellence with temples like the Mahadeva Temple at Itagi.",
+        "image": "/timeline/western_chalukya.jpg"
+    },
+    {
+        "year": 1116,
+        "content": "The Hoysala Empire flourishes under rulers like Vishnuvardhana, known for exquisite temple architecture, including the Chennakeshava Temple at Belur.",
+        "image": "/timeline/hoysala.jpg"
+    },
+    {
+        "year": 1336,
+        "content": "The Vijayanagara Empire is established, with Hampi as its capital, becoming a major center for trade, culture, and architecture.",
+        "image": "/timeline/vijayanagara.jpg"
+    },
+    {
+        "year": 1565,
+        "content": "The Vijayanagara Empire falls after the Battle of Talikota, marking a decline in Karnataka's cultural and political prominence.",
+        "image": "/timeline/talikota.jpg"
+    },
+    {
+        "year": 1610,
+        "content": "The Wodeyar dynasty establishes the Kingdom of Mysore, ushering in a period of stability and cultural development.",
+        "image": "/timeline/wodeyar.jpg"
+    },
+    {
+        "year": 1761,
+        "content": "Hyder Ali becomes the de facto ruler of Mysore, marking the beginning of a dynamic and militarily powerful period.",
+        "image": "/timeline/hyder_ali.jpg"
+    },
+    {
+        "year": 1782,
+        "content": "Tipu Sultan, the 'Tiger of Mysore,' ascends to power and resists British colonial advances, pioneering economic and military reforms.",
+        "image": "/timeline/tipu_sultan.jpg"
+    },
+    {
+        "year": 1799,
+        "content": "The Fourth Anglo-Mysore War results in the death of Tipu Sultan and British control over Mysore.",
+        "image": "/timeline/anglo_mysore.jpg"
+    },
+    {
+        "year": 1831,
+        "content": "The British take direct control of Mysore, introducing administrative reforms and modern education.",
+        "image": "/timeline/british_rule.jpg"
+    },
+    {
+        "year": 1903,
+        "content": "The Krishna Raja Sagara (KRS) dam, an engineering marvel of the time, is initiated under the Wodeyar dynasty.",
+        "image": "/timeline/krs_dam.jpg"
+    },
+    {
+        "year": 1924,
+        "content": "The Visvesvaraya Iron and Steel Plant is established, marking Karnataka's industrial growth under Sir M. Visvesvaraya's vision.",
+        "image": "/timeline/visvesvaraya.jpg"
+    },
+    {
+        "year": 1956,
+        "content": "The state of Karnataka is formed, initially named Mysore State, through the reorganization of Indian states along linguistic lines.",
+        "image": "/timeline/karnataka_formation.jpg"
+    },
+    {
+        "year": 1973,
+        "content": "Mysore State is officially renamed Karnataka, reflecting the region's rich history and cultural identity.",
+        "image": "/timeline/karnataka_rename.jpg"
+    },
+    {
+        "year": 1986,
+        "content": "The UNESCO World Heritage designation is awarded to Hampi, recognizing its architectural and historical significance.",
+        "image": "/timeline/hampi_unesco.jpg"
+    },
+    {
+        "year": 2000,
+        "content": "Bangalore, Karnataka's capital, emerges as the IT hub of India, earning the title 'Silicon Valley of India.'",
+        "image": "/timeline/bangalore_it.jpg"
+    },
+    {
+        "year": 2014,
+        "content": "The Golden Chariot, Karnataka's luxury tourist train, begins operations, promoting the state's heritage and tourism.",
+        "image": "/timeline/golden_chariot.jpg"
+    },
+    {
+        "year": 2019,
+        "content": "The Mysuru Dasara Festival gains international recognition, showcasing Karnataka's rich traditions and cultural heritage.",
+        "image": "/timeline/dasara.jpg"
+    },
+    {
+        "year": 2022,
+        "content": "The Statue of Prosperity, dedicated to Nadaprabhu Kempegowda, is unveiled in Bengaluru, honoring the founder of the city.",
+        "image": "/timeline/statue_prosperity.jpg"
+    }
+]

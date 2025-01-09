@@ -1,0 +1,132 @@
+[
+    {
+        "year": -3000,
+        "content": "The Indus Valley Civilization flourishes, with sites like Lothal in Gujarat serving as a prominent center for trade and dockyard engineering.",
+        "image": "/timeline/lothal.jpg"
+    },
+    {
+        "year": -1500,
+        "content": "The Aryan migration introduces Vedic culture to Gujarat, laying the foundation for ancient Indian traditions.",
+        "image": "/timeline/vedic.jpg"
+    },
+    {
+        "year": 319,
+        "content": "Gujarat becomes a part of the Gupta Empire, witnessing advancements in art, literature, and trade during India's classical period.",
+        "image": "/timeline/gupta.jpg"
+    },
+    {
+        "year": 500,
+        "content": "The Maitraka dynasty rules Gujarat, with their capital at Vallabhi, making it a center for Buddhist learning and trade.",
+        "image": "/timeline/maitraka.jpg"
+    },
+    {
+        "year": 746,
+        "content": "The Chavda dynasty rises to power, initiating the foundation of a Hindu revivalist movement in Gujarat.",
+        "image": "/timeline/chavda.jpg"
+    },
+    {
+        "year": 942,
+        "content": "The Solanki dynasty rules Gujarat, fostering significant developments in temple architecture, including the Sun Temple at Modhera.",
+        "image": "/timeline/modhera.jpg"
+    },
+    {
+        "year": 1024,
+        "content": "Mahmud of Ghazni invades Gujarat and plunders the Somnath Temple, marking one of the earliest incursions by Islamic rulers.",
+        "image": "/timeline/ghazni.jpg"
+    },
+    {
+        "year": 1143,
+        "content": "Jain scholar Hemachandra composes works on grammar and philosophy, contributing to Gujarat's rich intellectual heritage.",
+        "image": "/timeline/hemachandra.jpg"
+    },
+    {
+        "year": 1298,
+        "content": "The Delhi Sultanate takes control of Gujarat, marking a period of cultural synthesis and the introduction of Indo-Islamic architectural styles.",
+        "image": "/timeline/sultanate.jpg"
+    },
+    {
+        "year": 1407,
+        "content": "Zafar Khan establishes the Gujarat Sultanate, declaring Ahmedabad as the capital and fostering trade and architecture.",
+        "image": "/timeline/zafar_khan.jpg"
+    },
+    {
+        "year": 1411,
+        "content": "Ahmed Shah founds Ahmedabad, which becomes a prominent hub of trade, culture, and architecture in Gujarat.",
+        "image": "/timeline/ahmedabad.jpg"
+    },
+    {
+        "year": 1572,
+        "content": "The Mughal Empire, under Emperor Akbar, annexes Gujarat, integrating it into one of the most powerful empires in Indian history.",
+        "image": "/timeline/mughal.jpg"
+    },
+    {
+        "year": 1600,
+        "content": "Gujarat's ports like Surat emerge as critical centers for European and Indian trade, connecting India to global commerce.",
+        "image": "/timeline/surat.jpg"
+    },
+    {
+        "year": 1750,
+        "content": "The Marathas consolidate power in Gujarat, challenging Mughal dominance and influencing regional culture.",
+        "image": "/timeline/marathas.jpg"
+    },
+    {
+        "year": 1818,
+        "content": "The British East India Company takes control of Gujarat, impacting its economy and culture through colonial policies.",
+        "image": "/timeline/british.jpg"
+    },
+    {
+        "year": 1869,
+        "content": "Mahatma Gandhi, a key figure in India's independence movement, is born in Porbandar, Gujarat.",
+        "image": "/timeline/gandhi.jpg"
+    },
+    {
+        "year": 1930,
+        "content": "The Salt March, led by Mahatma Gandhi, begins in Gujarat's Dandi, marking a pivotal moment in India's struggle for independence.",
+        "image": "/timeline/dandi.jpg"
+    },
+    {
+        "year": 1960,
+        "content": "The state of Gujarat is officially formed, separating from the Bombay State and establishing Ahmedabad as its capital.",
+        "image": "/timeline/gujarat_state.jpg"
+    },
+    {
+        "year": 1969,
+        "content": "The Gujarat riots occur, reflecting social tensions during the post-independence period.",
+        "image": "/timeline/1969_riots.jpg"
+    },
+    {
+        "year": 1985,
+        "content": "The Navnirman Andolan protests in Gujarat demand government accountability, sparking political and social changes.",
+        "image": "/timeline/navnirman.jpg"
+    },
+    {
+        "year": 2001,
+        "content": "The Gujarat Earthquake causes widespread devastation, prompting a massive reconstruction and modernization effort in the state.",
+        "image": "/timeline/earthquake.jpg"
+    },
+    {
+        "year": 2002,
+        "content": "The Gujarat riots lead to significant societal and political impacts, sparking national and international attention.",
+        "image": "/timeline/2002_riots.jpg"
+    },
+    {
+        "year": 2010,
+        "content": "The Gir Forest in Gujarat is recognized globally for its Asiatic Lion conservation efforts.",
+        "image": "/timeline/gir_forest.jpg"
+    },
+    {
+        "year": 2014,
+        "content": "Gujarat emerges as an industrial and economic powerhouse, with initiatives like the Vibrant Gujarat Summit promoting global investment.",
+        "image": "/timeline/vibrant_gujarat.jpg"
+    },
+    {
+        "year": 2017,
+        "content": "The Statue of Unity, the world's tallest statue honoring Sardar Vallabhbhai Patel, is inaugurated in Gujarat.",
+        "image": "/timeline/statue_of_unity.jpg"
+    },
+    {
+        "year": 2022,
+        "content": "The UNESCO World Heritage designation is awarded to the historic city of Ahmedabad for its rich architectural and cultural heritage.",
+        "image": "/timeline/ahmedabad_unesco.jpg"
+    }
+]

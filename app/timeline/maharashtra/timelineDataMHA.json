@@ -1,0 +1,117 @@
+[
+    {
+        "year": -2000,
+        "content": "The Chalcolithic culture flourishes in Maharashtra, with settlements like Inamgaon showcasing early agricultural and trading practices.",
+        "image": "/timeline/chalcolithic.jpg"
+    },
+    {
+        "year": -500,
+        "content": "The Satavahana dynasty rises to power, promoting trade and cultural exchange along the Deccan plateau, with Pratishthana (modern Paithan) as its capital.",
+        "image": "/timeline/satavahana.jpg"
+    },
+    {
+        "year": 100,
+        "content": "The Ajanta Caves are carved and painted, reflecting the zenith of Buddhist art and culture during the Satavahana period.",
+        "image": "/timeline/ajanta.jpg"
+    },
+    {
+        "year": 500,
+        "content": "The Vakataka dynasty supports the arts, leading to the creation of the Ellora Caves, which depict a blend of Hindu, Buddhist, and Jain traditions.",
+        "image": "/timeline/ellora.jpg"
+    },
+    {
+        "year": 753,
+        "content": "The Rashtrakuta dynasty emerges, with their capital at Manyakheta and contributions to monumental architecture like the Kailasa Temple at Ellora.",
+        "image": "/timeline/kailasa.jpg"
+    },
+    {
+        "year": 1189,
+        "content": "The Yadava dynasty rules from Devagiri (modern-day Daulatabad), fostering Marathi as a literary and administrative language.",
+        "image": "/timeline/yadava.jpg"
+    },
+    {
+        "year": 1294,
+        "content": "The Delhi Sultanate invades Devagiri, marking the beginning of Islamic influence in Maharashtra's culture and politics.",
+        "image": "/timeline/devagiri.jpg"
+    },
+    {
+        "year": 1490,
+        "content": "The Bahmani Sultanate fragments, leading to the establishment of the Ahmednagar Sultanate, a key player in Deccan politics.",
+        "image": "/timeline/ahmednagar.jpg"
+    },
+    {
+        "year": 1636,
+        "content": "The Mughal Empire consolidates power over Maharashtra, incorporating it into their vast empire.",
+        "image": "/timeline/mughals.jpg"
+    },
+    {
+        "year": 1646,
+        "content": "Chhatrapati Shivaji Maharaj establishes the Maratha Empire, laying the foundation for an independent and powerful regional kingdom.",
+        "image": "/timeline/shivaji.jpg"
+    },
+    {
+        "year": 1674,
+        "content": "Shivaji Maharaj is crowned as the Chhatrapati of the Maratha Empire at Raigad Fort, marking the zenith of Maratha sovereignty.",
+        "image": "/timeline/raigad.jpg"
+    },
+    {
+        "year": 1818,
+        "content": "The Third Anglo-Maratha War ends with the British East India Company defeating the Marathas, establishing control over Maharashtra.",
+        "image": "/timeline/anglo_maratha.jpg"
+    },
+    {
+        "year": 1857,
+        "content": "Maharashtra actively participates in the Indian Rebellion of 1857, with leaders like Nana Sahib and Tatya Tope resisting British rule.",
+        "image": "/timeline/1857.jpg"
+    },
+    {
+        "year": 1885,
+        "content": "The Indian National Congress is founded in Mumbai, playing a pivotal role in India's independence movement.",
+        "image": "/timeline/congress.jpg"
+    },
+    {
+        "year": 1920,
+        "content": "Mahatma Gandhi launches the Non-Cooperation Movement, gaining significant support from Maharashtra, particularly Mumbai and Pune.",
+        "image": "/timeline/non_cooperation.jpg"
+    },
+    {
+        "year": 1947,
+        "content": "India gains independence, and Maharashtra emerges as a prominent center for industry, culture, and education in the newly formed nation.",
+        "image": "/timeline/independence.jpg"
+    },
+    {
+        "year": 1960,
+        "content": "The state of Maharashtra is formed, with Mumbai as its capital, following the division of the Bombay State along linguistic lines.",
+        "image": "/timeline/maharashtra_formation.jpg"
+    },
+    {
+        "year": 1974,
+        "content": "The Tarapur Atomic Power Station, India's first nuclear power plant, becomes operational in Maharashtra.",
+        "image": "/timeline/tarapur.jpg"
+    },
+    {
+        "year": 1995,
+        "content": "Mumbai witnesses a transformation as it officially sheds the colonial name 'Bombay,' embracing its regional identity.",
+        "image": "/timeline/mumbai.jpg"
+    },
+    {
+        "year": 2004,
+        "content": "The Elephanta Caves, showcasing ancient rock-cut architecture, are declared a UNESCO World Heritage Site.",
+        "image": "/timeline/elephanta.jpg"
+    },
+    {
+        "year": 2010,
+        "content": "The Bandra-Worli Sea Link opens in Mumbai, showcasing modern engineering and improving connectivity in Maharashtra's capital.",
+        "image": "/timeline/sea_link.jpg"
+    },
+    {
+        "year": 2017,
+        "content": "The Chhatrapati Shivaji Maharaj International Airport's new terminal receives global acclaim for its design and functionality.",
+        "image": "/timeline/airport.jpg"
+    },
+    {
+        "year": 2020,
+        "content": "Mumbai becomes one of the worst-hit cities during the COVID-19 pandemic, showcasing resilience in the face of crisis.",
+        "image": "/timeline/covid.jpg"
+    }
+]
