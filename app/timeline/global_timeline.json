@@ -1,0 +1,674 @@
+{
+    "General" : [
+        {
+        "year": 78,
+        "content": "The Saka Era begins, marking a significant calendar used across Indian traditions, influencing festivals and historical records.",
+        "image": "/timeline/72.jpg"
+        },
+        {
+        "year": 150,
+        "content": "The Kushan Empire flourishes, fostering cultural exchanges along the Silk Road and introducing Gandhara art blending Indian and Hellenistic styles.",
+        "image": "/timeline/150.jpg"
+        },
+        {
+        "year": 320,
+        "content": "The Gupta Empire begins, initiating India's classical age with advancements in arts, literature, and architecture, including the Iron Pillar of Delhi.",
+        "image": "/timeline/320.jpg"
+        },
+        {
+        "year": 405,
+        "content": "Fa-Hien, a Chinese traveler, visits India, documenting Indian culture, Buddhism, and the societal structure of the Gupta period.",
+        "image": "/timeline/405.jpg"
+        },
+        {
+        "year": 600,
+        "content": "The Pallava dynasty contributes to South Indian temple architecture, constructing magnificent structures like the Shore Temple at Mahabalipuram.",
+        "image": "/timeline/600.jpg"
+        },
+        {
+        "year": 850,
+        "content": "The Chola dynasty emerges as patrons of art and architecture, commissioning iconic temples such as the Brihadeeswarar Temple at Thanjavur.",
+        "image": "/timeline/805.jpg"
+        },
+        {
+        "year": 1010,
+        "content": "The completion of the Brihadeeswarar Temple showcases the pinnacle of Chola architectural and cultural achievements in South India.",
+        "image": "/timeline/1010.jpg"
+        },
+        {
+        "year": 1192,
+        "content": "The Qutb Minar is constructed, symbolizing the early Indo-Islamic architectural style during the Delhi Sultanate period.",
+        "image": "/timeline/1192.jpg"
+        },
+        {
+        "year": 1398,
+        "content": "The Bhakti movement emerges, with saints like Namdev and Kabir spreading messages of spiritual equality and devotional love through poetry.",
+        "image": "/timeline/1398.jpg"
+        },
+        {
+        "year": 1498,
+        "content": "Vasco da Gama's arrival in India establishes direct sea trade with Europe, introducing new cultural influences and exchanges.",
+        "image": "/timeline/1498.jpg"
+        },
+        {
+        "year": 1565,
+        "content": "The Vijayanagara Empire falls after the Battle of Talikota, marking the decline of a major cultural hub for art and architecture.",
+        "image": "/timeline/1565.jpg"
+        },
+        {
+        "year": 1603,
+        "content": "The Mughal Empire sees a cultural zenith under Emperor Akbar, promoting a synthesis of Hindu and Islamic art, culture, and literature.",
+        "image": "/timeline/1603.jpg"
+        },
+        {
+        "year": 1659,
+        "content": "The Maratha Empire under Shivaji Maharaj revives indigenous cultural traditions and promotes Marathi language and literature.",
+        "image": "/timeline/1659.jpg"
+        },
+        {
+        "year": 1761,
+        "content": "The Third Battle of Panipat marks a shift in power, influencing regional cultures and historical narratives across North India.",
+        "image": "/timeline/1761.jpg"
+        },
+        {
+        "year": 1828,
+        "content": "Raja Ram Mohan Roy establishes the Brahmo Samaj, leading reforms in Indian society and championing modern education and cultural revival.",
+        "image": "/timeline/1828.jpg"
+        },
+        {
+        "year": 1875,
+        "content": "The Arya Samaj is founded, aiming to reform Indian society by reviving Vedic traditions and promoting cultural and religious awareness.",
+        "image": "/timeline/1875.jpg"
+        },
+        {
+        "year": 1911,
+        "content": "Rabindranath Tagore writes 'Jana Gana Mana,' later adopted as India's national anthem, symbolizing unity in diversity.",
+        "image": "/timeline/1911.jpg"
+        },
+        {
+        "year": 1920,
+        "content": "Mahatma Gandhi leads the Non-Cooperation Movement, inspiring a cultural renaissance emphasizing swadeshi and self-reliance.",
+        "image": "/timeline/1920.jpg"
+        },
+        {
+        "year": 1951,
+        "content": "The first Indian classical dance festival, Kalakshetra, is held, celebrating Bharatanatyam and other traditional art forms.",
+        "image": "/timeline/1951.jpg"
+        },
+        {
+        "year": 1986,
+        "content": "The Namami Gange program begins to restore the Ganges River's cultural and ecological significance in Indian tradition.",
+        "image": "/timeline/1986.jpg"
+        },
+        {
+        "year": 2000,
+        "content": "The Khajuraho Group of Monuments is declared a UNESCO World Heritage Site, honoring its intricate carvings and cultural importance.",
+        "image": "/timeline/2000.jpg"
+        },
+        {
+        "year": 2019,
+        "content": "Yoga Day gains international recognition, reflecting India's influence on global wellness and cultural heritage.",
+        "image": "/timeline/2019.jpg"
+        }
+    ],
+    "Rajasthan": [
+        {
+            "year": -5000,
+            "content": "Rajasthan's prehistory begins with the Indus Valley Civilization sites like Kalibangan, showcasing early urban planning and agriculture.",
+            "image": "/timeline/indus_valley.jpg"
+        },
+        {
+            "year": -1500,
+            "content": "Aryan tribes settle in Rajasthan, introducing the Vedic culture and practices in the region.",
+            "image": "/timeline/aryans.jpg"
+        },
+        {
+            "year": -300,
+            "content": "The Mauryan Empire includes Rajasthan, with evidence of Ashokan edicts found in the region, promoting Buddhism.",
+            "image": "/timeline/mauryan.jpg"
+        },
+        {
+            "year": 700,
+            "content": "The Gurjara-Pratihara dynasty emerges, playing a key role in defending India from Arab invasions and contributing to architecture.",
+            "image": "/timeline/pratihara.jpg"
+        },
+        {
+            "year": 1036,
+            "content": "The Chahamana (Chauhan) dynasty rules Rajasthan, with Ajmer as their capital, marking the beginning of Rajput dominance.",
+            "image": "/timeline/chahaman.jpg"
+        },
+        {
+            "year": 1192,
+            "content": "The Battle of Tarain marks Prithviraj Chauhan's defeat by Muhammad Ghori, leading to Islamic influence in Rajasthan.",
+            "image": "/timeline/tarain.jpg"
+        },
+        {
+            "year": 1303,
+            "content": "Rani Padmini of Chittorgarh performs Jauhar during Alauddin Khilji's siege, symbolizing Rajput honor and resistance.",
+            "image": "/timeline/padmini.jpg"
+        },
+        {
+            "year": 1526,
+            "content": "The Mughal Empire rises to power, with Rajasthan's Rajput rulers forming strategic alliances through marriage and diplomacy.",
+            "image": "/timeline/mughals.jpg"
+        },
+        {
+            "year": 1540,
+            "content": "Maharana Udai Singh II establishes Udaipur as the new capital of Mewar, laying the foundation for its iconic palaces and forts.",
+            "image": "/timeline/udaipur.jpg"
+        },
+        {
+            "year": 1576,
+            "content": "The Battle of Haldighati sees Maharana Pratap resisting Akbar's Mughal forces, becoming a symbol of Rajput valor.",
+            "image": "/timeline/haldighati.jpg"
+        },
+        {
+            "year": 1727,
+            "content": "The city of Jaipur is founded by Maharaja Sawai Jai Singh II, known for its urban planning and astronomical observatories.",
+            "image": "/timeline/jaipur.jpg"
+        },
+        {
+            "year": 1817,
+            "content": "Rajasthan's princely states enter into treaties with the British, becoming part of the British Raj under indirect rule.",
+            "image": "/timeline/british_treaty.jpg"
+        },
+        {
+            "year": 1947,
+            "content": "India gains independence, and Rajasthan's princely states begin merging to form the modern state.",
+            "image": "/timeline/independence.jpg"
+        },
+        {
+            "year": 1956,
+            "content": "Rajasthan is reorganized as a single state with Jaipur as its capital, marking the culmination of the unification process.",
+            "image": "/timeline/state_formation.jpg"
+        },
+        {
+            "year": 1981,
+            "content": "Keoladeo National Park in Bharatpur is declared a UNESCO World Heritage Site, recognizing its ecological significance.",
+            "image": "/timeline/keoladeo.jpg"
+        },
+        {
+            "year": 2013,
+            "content": "The Hill Forts of Rajasthan, including Chittorgarh and Kumbhalgarh, are inscribed as UNESCO World Heritage Sites.",
+            "image": "/timeline/hill_forts.jpg"
+        },
+        {
+            "year": 2018,
+            "content": "Jaipur's historic walled city is declared a UNESCO World Heritage Site, celebrating its unique urban planning and architecture.",
+            "image": "/timeline/jaipur_heritage.jpg"
+        },
+        {
+            "year": 2022,
+            "content": "The Pushkar Camel Fair continues to attract global visitors, showcasing Rajasthan's vibrant culture and traditions.",
+            "image": "/timeline/pushkar.jpg"
+        }
+    ],
+    "Maharashtra": [
+        {
+            "year": -2000,
+            "content": "The Chalcolithic culture flourishes in Maharashtra, with settlements like Inamgaon showcasing early agricultural and trading practices.",
+            "image": "/timeline/chalcolithic.jpg"
+        },
+        {
+            "year": -500,
+            "content": "The Satavahana dynasty rises to power, promoting trade and cultural exchange along the Deccan plateau, with Pratishthana (modern Paithan) as its capital.",
+            "image": "/timeline/satavahana.jpg"
+        },
+        {
+            "year": 100,
+            "content": "The Ajanta Caves are carved and painted, reflecting the zenith of Buddhist art and culture during the Satavahana period.",
+            "image": "/timeline/ajanta.jpg"
+        },
+        {
+            "year": 500,
+            "content": "The Vakataka dynasty supports the arts, leading to the creation of the Ellora Caves, which depict a blend of Hindu, Buddhist, and Jain traditions.",
+            "image": "/timeline/ellora.jpg"
+        },
+        {
+            "year": 753,
+            "content": "The Rashtrakuta dynasty emerges, with their capital at Manyakheta and contributions to monumental architecture like the Kailasa Temple at Ellora.",
+            "image": "/timeline/kailasa.jpg"
+        },
+        {
+            "year": 1189,
+            "content": "The Yadava dynasty rules from Devagiri (modern-day Daulatabad), fostering Marathi as a literary and administrative language.",
+            "image": "/timeline/yadava.jpg"
+        },
+        {
+            "year": 1294,
+            "content": "The Delhi Sultanate invades Devagiri, marking the beginning of Islamic influence in Maharashtra's culture and politics.",
+            "image": "/timeline/devagiri.jpg"
+        },
+        {
+            "year": 1490,
+            "content": "The Bahmani Sultanate fragments, leading to the establishment of the Ahmednagar Sultanate, a key player in Deccan politics.",
+            "image": "/timeline/ahmednagar.jpg"
+        },
+        {
+            "year": 1636,
+            "content": "The Mughal Empire consolidates power over Maharashtra, incorporating it into their vast empire.",
+            "image": "/timeline/mughals.jpg"
+        },
+        {
+            "year": 1646,
+            "content": "Chhatrapati Shivaji Maharaj establishes the Maratha Empire, laying the foundation for an independent and powerful regional kingdom.",
+            "image": "/timeline/shivaji.jpg"
+        },
+        {
+            "year": 1674,
+            "content": "Shivaji Maharaj is crowned as the Chhatrapati of the Maratha Empire at Raigad Fort, marking the zenith of Maratha sovereignty.",
+            "image": "/timeline/raigad.jpg"
+        },
+        {
+            "year": 1818,
+            "content": "The Third Anglo-Maratha War ends with the British East India Company defeating the Marathas, establishing control over Maharashtra.",
+            "image": "/timeline/anglo_maratha.jpg"
+        },
+        {
+            "year": 1857,
+            "content": "Maharashtra actively participates in the Indian Rebellion of 1857, with leaders like Nana Sahib and Tatya Tope resisting British rule.",
+            "image": "/timeline/1857.jpg"
+        },
+        {
+            "year": 1885,
+            "content": "The Indian National Congress is founded in Mumbai, playing a pivotal role in India's independence movement.",
+            "image": "/timeline/congress.jpg"
+        },
+        {
+            "year": 1920,
+            "content": "Mahatma Gandhi launches the Non-Cooperation Movement, gaining significant support from Maharashtra, particularly Mumbai and Pune.",
+            "image": "/timeline/non_cooperation.jpg"
+        },
+        {
+            "year": 1947,
+            "content": "India gains independence, and Maharashtra emerges as a prominent center for industry, culture, and education in the newly formed nation.",
+            "image": "/timeline/independence.jpg"
+        },
+        {
+            "year": 1960,
+            "content": "The state of Maharashtra is formed, with Mumbai as its capital, following the division of the Bombay State along linguistic lines.",
+            "image": "/timeline/maharashtra_formation.jpg"
+        },
+        {
+            "year": 1974,
+            "content": "The Tarapur Atomic Power Station, India's first nuclear power plant, becomes operational in Maharashtra.",
+            "image": "/timeline/tarapur.jpg"
+        },
+        {
+            "year": 1995,
+            "content": "Mumbai witnesses a transformation as it officially sheds the colonial name 'Bombay,' embracing its regional identity.",
+            "image": "/timeline/mumbai.jpg"
+        },
+        {
+            "year": 2004,
+            "content": "The Elephanta Caves, showcasing ancient rock-cut architecture, are declared a UNESCO World Heritage Site.",
+            "image": "/timeline/elephanta.jpg"
+        },
+        {
+            "year": 2010,
+            "content": "The Bandra-Worli Sea Link opens in Mumbai, showcasing modern engineering and improving connectivity in Maharashtra's capital.",
+            "image": "/timeline/sea_link.jpg"
+        },
+        {
+            "year": 2017,
+            "content": "The Chhatrapati Shivaji Maharaj International Airport's new terminal receives global acclaim for its design and functionality.",
+            "image": "/timeline/airport.jpg"
+        },
+        {
+            "year": 2020,
+            "content": "Mumbai becomes one of the worst-hit cities during the COVID-19 pandemic, showcasing resilience in the face of crisis.",
+            "image": "/timeline/covid.jpg"
+        }
+    ],
+    "Bengal": [
+        {
+            "year": -1000,
+            "content": "The Vedic period sees the region of Bengal mentioned as Vanga in ancient texts, with early settlements and agricultural practices.",
+            "image": "/timeline/vedic_bengal.jpg"
+        },
+        {
+            "year": -500,
+            "content": "The kingdom of Anga, part of present-day West Bengal, is mentioned in the Mahabharata and flourishes as a trade hub.",
+            "image": "/timeline/anga.jpg"
+        },
+        {
+            "year": -300,
+            "content": "The Mauryan Empire under Emperor Ashoka includes Bengal, spreading Buddhism and establishing administrative control.",
+            "image": "/timeline/mauryan.jpg"
+        },
+        {
+            "year": 320,
+            "content": "The Gupta Empire influences Bengal, with advancements in literature, art, and science, and the composition of Sanskrit texts.",
+            "image": "/timeline/gupta_bengal.jpg"
+        },
+        {
+            "year": 600,
+            "content": "The Gauda Kingdom under King Shashanka emerges as a powerful state, promoting Hinduism and early Bengali culture.",
+            "image": "/timeline/shashanka.jpg"
+        },
+        {
+            "year": 750,
+            "content": "The Pala Empire, known for its patronage of Buddhism, art, and education, dominates Bengal and establishes Nalanda and Vikramashila Universities.",
+            "image": "/timeline/pala_empire.jpg"
+        },
+        {
+            "year": 1204,
+            "content": "The Delhi Sultanate conquers Bengal, leading to the rise of Islamic culture and architecture in the region.",
+            "image": "/timeline/delhi_sultanate.jpg"
+        },
+        {
+            "year": 1352,
+            "content": "The Bengal Sultanate is established, fostering an independent Islamic kingdom with trade connections across the Indian Ocean.",
+            "image": "/timeline/bengal_sultanate.jpg"
+        },
+        {
+            "year": 1576,
+            "content": "The Mughal Empire annexes Bengal, making it a prosperous province under rulers like Akbar and Aurangzeb.",
+            "image": "/timeline/mughals_bengal.jpg"
+        },
+        {
+            "year": 1690,
+            "content": "Job Charnock, an agent of the British East India Company, establishes a trading post in Kolkata, laying the foundation for the city.",
+            "image": "/timeline/job_charnock.jpg"
+        },
+        {
+            "year": 1757,
+            "content": "The Battle of Plassey marks the beginning of British rule in India, with Bengal as the first province to come under direct British control.",
+            "image": "/timeline/plassey.jpg"
+        },
+        {
+            "year": 1828,
+            "content": "Raja Ram Mohan Roy founds the Brahmo Samaj in Kolkata, initiating social and religious reform movements in Bengal.",
+            "image": "/timeline/brahmo_samaj.jpg"
+        },
+        {
+            "year": 1856,
+            "content": "The Bengal Renaissance begins, with cultural icons like Ishwar Chandra Vidyasagar, Bankim Chandra Chattopadhyay, and Rabindranath Tagore emerging.",
+            "image": "/timeline/renaissance.jpg"
+        },
+        {
+            "year": 1905,
+            "content": "The Partition of Bengal by the British sparks widespread protests, uniting people across religious and cultural lines.",
+            "image": "/timeline/partition.jpg"
+        },
+        {
+            "year": 1947,
+            "content": "India gains independence, and Bengal is divided into West Bengal (India) and East Bengal (Pakistan, later Bangladesh).",
+            "image": "/timeline/independence.jpg"
+        },
+        {
+            "year": 1971,
+            "content": "West Bengal plays a key role in supporting the Bangladesh Liberation War, hosting millions of refugees and aiding the cause.",
+            "image": "/timeline/liberation_war.jpg"
+        },
+        {
+            "year": 1984,
+            "content": "Satyajit Ray, a filmmaker from Bengal, wins an Honorary Academy Award, bringing global recognition to Bengali cinema.",
+            "image": "/timeline/satyajit_ray.jpg"
+        },
+        {
+            "year": 2001,
+            "content": "The Sundarbans, a UNESCO World Heritage Site, gains prominence for its unique mangrove ecosystem and conservation efforts.",
+            "image": "/timeline/sundarbans.jpg"
+        },
+        {
+            "year": 2011,
+            "content": "The Trinamool Congress comes to power in West Bengal, marking a major political shift after decades of Left Front rule.",
+            "image": "/timeline/political_shift.jpg"
+        },
+        {
+            "year": 2022,
+            "content": "The Durga Puja of West Bengal is recognized as an Intangible Cultural Heritage of Humanity by UNESCO.",
+            "image": "/timeline/durga_puja.jpg"
+        }
+    ],
+    "Gujarat": [
+        {
+            "year": -3000,
+            "content": "The Indus Valley Civilization flourishes, with sites like Lothal in Gujarat serving as a prominent center for trade and dockyard engineering.",
+            "image": "/timeline/lothal.jpg"
+        },
+        {
+            "year": -1500,
+            "content": "The Aryan migration introduces Vedic culture to Gujarat, laying the foundation for ancient Indian traditions.",
+            "image": "/timeline/vedic.jpg"
+        },
+        {
+            "year": 319,
+            "content": "Gujarat becomes a part of the Gupta Empire, witnessing advancements in art, literature, and trade during India's classical period.",
+            "image": "/timeline/gupta.jpg"
+        },
+        {
+            "year": 500,
+            "content": "The Maitraka dynasty rules Gujarat, with their capital at Vallabhi, making it a center for Buddhist learning and trade.",
+            "image": "/timeline/maitraka.jpg"
+        },
+        {
+            "year": 746,
+            "content": "The Chavda dynasty rises to power, initiating the foundation of a Hindu revivalist movement in Gujarat.",
+            "image": "/timeline/chavda.jpg"
+        },
+        {
+            "year": 942,
+            "content": "The Solanki dynasty rules Gujarat, fostering significant developments in temple architecture, including the Sun Temple at Modhera.",
+            "image": "/timeline/modhera.jpg"
+        },
+        {
+            "year": 1024,
+            "content": "Mahmud of Ghazni invades Gujarat and plunders the Somnath Temple, marking one of the earliest incursions by Islamic rulers.",
+            "image": "/timeline/ghazni.jpg"
+        },
+        {
+            "year": 1143,
+            "content": "Jain scholar Hemachandra composes works on grammar and philosophy, contributing to Gujarat's rich intellectual heritage.",
+            "image": "/timeline/hemachandra.jpg"
+        },
+        {
+            "year": 1298,
+            "content": "The Delhi Sultanate takes control of Gujarat, marking a period of cultural synthesis and the introduction of Indo-Islamic architectural styles.",
+            "image": "/timeline/sultanate.jpg"
+        },
+        {
+            "year": 1407,
+            "content": "Zafar Khan establishes the Gujarat Sultanate, declaring Ahmedabad as the capital and fostering trade and architecture.",
+            "image": "/timeline/zafar_khan.jpg"
+        },
+        {
+            "year": 1411,
+            "content": "Ahmed Shah founds Ahmedabad, which becomes a prominent hub of trade, culture, and architecture in Gujarat.",
+            "image": "/timeline/ahmedabad.jpg"
+        },
+        {
+            "year": 1572,
+            "content": "The Mughal Empire, under Emperor Akbar, annexes Gujarat, integrating it into one of the most powerful empires in Indian history.",
+            "image": "/timeline/mughal.jpg"
+        },
+        {
+            "year": 1600,
+            "content": "Gujarat's ports like Surat emerge as critical centers for European and Indian trade, connecting India to global commerce.",
+            "image": "/timeline/surat.jpg"
+        },
+        {
+            "year": 1750,
+            "content": "The Marathas consolidate power in Gujarat, challenging Mughal dominance and influencing regional culture.",
+            "image": "/timeline/marathas.jpg"
+        },
+        {
+            "year": 1818,
+            "content": "The British East India Company takes control of Gujarat, impacting its economy and culture through colonial policies.",
+            "image": "/timeline/british.jpg"
+        },
+        {
+            "year": 1869,
+            "content": "Mahatma Gandhi, a key figure in India's independence movement, is born in Porbandar, Gujarat.",
+            "image": "/timeline/gandhi.jpg"
+        },
+        {
+            "year": 1930,
+            "content": "The Salt March, led by Mahatma Gandhi, begins in Gujarat's Dandi, marking a pivotal moment in India's struggle for independence.",
+            "image": "/timeline/dandi.jpg"
+        },
+        {
+            "year": 1960,
+            "content": "The state of Gujarat is officially formed, separating from the Bombay State and establishing Ahmedabad as its capital.",
+            "image": "/timeline/gujarat_state.jpg"
+        },
+        {
+            "year": 1969,
+            "content": "The Gujarat riots occur, reflecting social tensions during the post-independence period.",
+            "image": "/timeline/1969_riots.jpg"
+        },
+        {
+            "year": 1985,
+            "content": "The Navnirman Andolan protests in Gujarat demand government accountability, sparking political and social changes.",
+            "image": "/timeline/navnirman.jpg"
+        },
+        {
+            "year": 2001,
+            "content": "The Gujarat Earthquake causes widespread devastation, prompting a massive reconstruction and modernization effort in the state.",
+            "image": "/timeline/earthquake.jpg"
+        },
+        {
+            "year": 2002,
+            "content": "The Gujarat riots lead to significant societal and political impacts, sparking national and international attention.",
+            "image": "/timeline/2002_riots.jpg"
+        },
+        {
+            "year": 2010,
+            "content": "The Gir Forest in Gujarat is recognized globally for its Asiatic Lion conservation efforts.",
+            "image": "/timeline/gir_forest.jpg"
+        },
+        {
+            "year": 2014,
+            "content": "Gujarat emerges as an industrial and economic powerhouse, with initiatives like the Vibrant Gujarat Summit promoting global investment.",
+            "image": "/timeline/vibrant_gujarat.jpg"
+        },
+        {
+            "year": 2017,
+            "content": "The Statue of Unity, the world's tallest statue honoring Sardar Vallabhbhai Patel, is inaugurated in Gujarat.",
+            "image": "/timeline/statue_of_unity.jpg"
+        },
+        {
+            "year": 2022,
+            "content": "The UNESCO World Heritage designation is awarded to the historic city of Ahmedabad for its rich architectural and cultural heritage.",
+            "image": "/timeline/ahmedabad_unesco.jpg"
+        }
+    ],
+    "Karnataka": [
+        {
+            "year": -3000,
+            "content": "Neolithic settlements in Karnataka emerge, including sites like Brahmagiri and Maski, marking the earliest traces of human habitation.",
+            "image": "/timeline/neolithic.jpg"
+        },
+        {
+            "year": -1000,
+            "content": "Iron Age megalithic structures are built in Karnataka, including dolmens and burial chambers at sites like Hire Benkal.",
+            "image": "/timeline/megalithic.jpg"
+        },
+        {
+            "year": 345,
+            "content": "The Kadamba dynasty, founded by Mayurasharma, establishes itself as one of Karnataka's earliest ruling dynasties.",
+            "image": "/timeline/kadamba.jpg"
+        },
+        {
+            "year": 540,
+            "content": "The Chalukya dynasty rises to power, fostering advancements in art and architecture, including the famous cave temples at Badami.",
+            "image": "/timeline/chalukya.jpg"
+        },
+        {
+            "year": 753,
+            "content": "The Rashtrakuta dynasty, with their capital at Manyakheta, becomes a dominant force in Karnataka and South India.",
+            "image": "/timeline/rashtrakuta.jpg"
+        },
+        {
+            "year": 983,
+            "content": "The Western Chalukyas regain power, leading to a revival of architectural excellence with temples like the Mahadeva Temple at Itagi.",
+            "image": "/timeline/western_chalukya.jpg"
+        },
+        {
+            "year": 1116,
+            "content": "The Hoysala Empire flourishes under rulers like Vishnuvardhana, known for exquisite temple architecture, including the Chennakeshava Temple at Belur.",
+            "image": "/timeline/hoysala.jpg"
+        },
+        {
+            "year": 1336,
+            "content": "The Vijayanagara Empire is established, with Hampi as its capital, becoming a major center for trade, culture, and architecture.",
+            "image": "/timeline/vijayanagara.jpg"
+        },
+        {
+            "year": 1565,
+            "content": "The Vijayanagara Empire falls after the Battle of Talikota, marking a decline in Karnataka's cultural and political prominence.",
+            "image": "/timeline/talikota.jpg"
+        },
+        {
+            "year": 1610,
+            "content": "The Wodeyar dynasty establishes the Kingdom of Mysore, ushering in a period of stability and cultural development.",
+            "image": "/timeline/wodeyar.jpg"
+        },
+        {
+            "year": 1761,
+            "content": "Hyder Ali becomes the de facto ruler of Mysore, marking the beginning of a dynamic and militarily powerful period.",
+            "image": "/timeline/hyder_ali.jpg"
+        },
+        {
+            "year": 1782,
+            "content": "Tipu Sultan, the 'Tiger of Mysore,' ascends to power and resists British colonial advances, pioneering economic and military reforms.",
+            "image": "/timeline/tipu_sultan.jpg"
+        },
+        {
+            "year": 1799,
+            "content": "The Fourth Anglo-Mysore War results in the death of Tipu Sultan and British control over Mysore.",
+            "image": "/timeline/anglo_mysore.jpg"
+        },
+        {
+            "year": 1831,
+            "content": "The British take direct control of Mysore, introducing administrative reforms and modern education.",
+            "image": "/timeline/british_rule.jpg"
+        },
+        {
+            "year": 1903,
+            "content": "The Krishna Raja Sagara (KRS) dam, an engineering marvel of the time, is initiated under the Wodeyar dynasty.",
+            "image": "/timeline/krs_dam.jpg"
+        },
+        {
+            "year": 1924,
+            "content": "The Visvesvaraya Iron and Steel Plant is established, marking Karnataka's industrial growth under Sir M. Visvesvaraya's vision.",
+            "image": "/timeline/visvesvaraya.jpg"
+        },
+        {
+            "year": 1956,
+            "content": "The state of Karnataka is formed, initially named Mysore State, through the reorganization of Indian states along linguistic lines.",
+            "image": "/timeline/karnataka_formation.jpg"
+        },
+        {
+            "year": 1973,
+            "content": "Mysore State is officially renamed Karnataka, reflecting the region's rich history and cultural identity.",
+            "image": "/timeline/karnataka_rename.jpg"
+        },
+        {
+            "year": 1986,
+            "content": "The UNESCO World Heritage designation is awarded to Hampi, recognizing its architectural and historical significance.",
+            "image": "/timeline/hampi_unesco.jpg"
+        },
+        {
+            "year": 2000,
+            "content": "Bangalore, Karnataka's capital, emerges as the IT hub of India, earning the title 'Silicon Valley of India.'",
+            "image": "/timeline/bangalore_it.jpg"
+        },
+        {
+            "year": 2014,
+            "content": "The Golden Chariot, Karnataka's luxury tourist train, begins operations, promoting the state's heritage and tourism.",
+            "image": "/timeline/golden_chariot.jpg"
+        },
+        {
+            "year": 2019,
+            "content": "The Mysuru Dasara Festival gains international recognition, showcasing Karnataka's rich traditions and cultural heritage.",
+            "image": "/timeline/dasara.jpg"
+        },
+        {
+            "year": 2022,
+            "content": "The Statue of Prosperity, dedicated to Nadaprabhu Kempegowda, is unveiled in Bengaluru, honoring the founder of the city.",
+            "image": "/timeline/statue_prosperity.jpg"
+        }
+    ]
+}
