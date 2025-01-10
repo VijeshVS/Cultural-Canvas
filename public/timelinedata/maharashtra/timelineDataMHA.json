@@ -2,12 +2,12 @@
     {
         "year": -2000,
         "content": "The Chalcolithic culture flourishes in Maharashtra, with settlements like Inamgaon showcasing early agricultural and trading practices.",
-        "image": "/timeline/chalcolithic.jpg"
+        "image": "/timeline/chalcolithic.png"
     },
     {
         "year": -500,
         "content": "The Satavahana dynasty rises to power, promoting trade and cultural exchange along the Deccan plateau, with Pratishthana (modern Paithan) as its capital.",
-        "image": "/timeline/satavahana.jpg"
+        "image": "/timeline/satavahana.png"
     },
     {
         "year": 100,
@@ -27,7 +27,7 @@
     {
         "year": 1189,
         "content": "The Yadava dynasty rules from Devagiri (modern-day Daulatabad), fostering Marathi as a literary and administrative language.",
-        "image": "/timeline/yadava.jpg"
+        "image": "/timeline/yadava.png"
     },
     {
         "year": 1294,
@@ -37,7 +37,7 @@
     {
         "year": 1490,
         "content": "The Bahmani Sultanate fragments, leading to the establishment of the Ahmednagar Sultanate, a key player in Deccan politics.",
-        "image": "/timeline/ahmednagar.jpg"
+        "image": "/ahmedanagar.png"
     },
     {
         "year": 1636,
@@ -72,7 +72,7 @@
     {
         "year": 1920,
         "content": "Mahatma Gandhi launches the Non-Cooperation Movement, gaining significant support from Maharashtra, particularly Mumbai and Pune.",
-        "image": "/timeline/non_cooperation.jpg"
+        "image": "/timeline/non_cooperation.jpeg"
     },
     {
         "year": 1947,
@@ -82,7 +82,7 @@
     {
         "year": 1960,
         "content": "The state of Maharashtra is formed, with Mumbai as its capital, following the division of the Bombay State along linguistic lines.",
-        "image": "/timeline/maharashtra_formation.jpg"
+        "image": "/timeline/maharastra_formation.png"
     },
     {
         "year": 1974,
