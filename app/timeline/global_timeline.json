@@ -558,12 +558,12 @@
         {
             "year": -3000,
             "content": "Neolithic settlements in Karnataka emerge, including sites like Brahmagiri and Maski, marking the earliest traces of human habitation.",
-            "image": "/timeline/neolithic.jpg"
+            "image": "/timelinedata/karnataka/neolithic.jpg"
         },
         {
             "year": -1000,
             "content": "Iron Age megalithic structures are built in Karnataka, including dolmens and burial chambers at sites like Hire Benkal.",
-            "image": "/timeline/megalithic.jpg"
+            "image": "/timelinedata/karnataka/megalithic.jpg"
         },
         {
             "year": 345,
