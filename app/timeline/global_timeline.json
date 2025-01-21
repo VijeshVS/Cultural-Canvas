@@ -1,114 +1,114 @@
 {
-    "General" : [
+    "General": [
         {
-        "year": 78,
-        "content": "The Saka Era begins, marking a significant calendar used across Indian traditions, influencing festivals and historical records.",
-        "image": "/timeline/72.jpg"
+            "year": 78,
+            "content": "The Saka Era begins, marking a significant calendar used across Indian traditions, influencing festivals and historical records.",
+            "image": "/timeline/72.jpg"
         },
         {
-        "year": 150,
-        "content": "The Kushan Empire flourishes, fostering cultural exchanges along the Silk Road and introducing Gandhara art blending Indian and Hellenistic styles.",
-        "image": "/timeline/150.jpg"
+            "year": 150,
+            "content": "The Kushan Empire flourishes, fostering cultural exchanges along the Silk Road and introducing Gandhara art blending Indian and Hellenistic styles.",
+            "image": "/timeline/150.jpg"
         },
         {
-        "year": 320,
-        "content": "The Gupta Empire begins, initiating India's classical age with advancements in arts, literature, and architecture, including the Iron Pillar of Delhi.",
-        "image": "/timeline/320.jpg"
+            "year": 320,
+            "content": "The Gupta Empire begins, initiating India's classical age with advancements in arts, literature, and architecture, including the Iron Pillar of Delhi.",
+            "image": "/timeline/320.jpg"
         },
         {
-        "year": 405,
-        "content": "Fa-Hien, a Chinese traveler, visits India, documenting Indian culture, Buddhism, and the societal structure of the Gupta period.",
-        "image": "/timeline/405.jpg"
+            "year": 405,
+            "content": "Fa-Hien, a Chinese traveler, visits India, documenting Indian culture, Buddhism, and the societal structure of the Gupta period.",
+            "image": "/timeline/405.jpg"
         },
         {
-        "year": 600,
-        "content": "The Pallava dynasty contributes to South Indian temple architecture, constructing magnificent structures like the Shore Temple at Mahabalipuram.",
-        "image": "/timeline/600.jpg"
+            "year": 600,
+            "content": "The Pallava dynasty contributes to South Indian temple architecture, constructing magnificent structures like the Shore Temple at Mahabalipuram.",
+            "image": "/timeline/600.jpg"
         },
         {
-        "year": 850,
-        "content": "The Chola dynasty emerges as patrons of art and architecture, commissioning iconic temples such as the Brihadeeswarar Temple at Thanjavur.",
-        "image": "/timeline/805.jpg"
+            "year": 850,
+            "content": "The Chola dynasty emerges as patrons of art and architecture, commissioning iconic temples such as the Brihadeeswarar Temple at Thanjavur.",
+            "image": "/timeline/805.jpg"
         },
         {
-        "year": 1010,
-        "content": "The completion of the Brihadeeswarar Temple showcases the pinnacle of Chola architectural and cultural achievements in South India.",
-        "image": "/timeline/1010.jpg"
+            "year": 1010,
+            "content": "The completion of the Brihadeeswarar Temple showcases the pinnacle of Chola architectural and cultural achievements in South India.",
+            "image": "/timeline/1010.jpg"
         },
         {
-        "year": 1192,
-        "content": "The Qutb Minar is constructed, symbolizing the early Indo-Islamic architectural style during the Delhi Sultanate period.",
-        "image": "/timeline/1192.jpg"
+            "year": 1192,
+            "content": "The Qutb Minar is constructed, symbolizing the early Indo-Islamic architectural style during the Delhi Sultanate period.",
+            "image": "/timeline/1192.jpg"
         },
         {
-        "year": 1398,
-        "content": "The Bhakti movement emerges, with saints like Namdev and Kabir spreading messages of spiritual equality and devotional love through poetry.",
-        "image": "/timeline/1398.jpg"
+            "year": 1398,
+            "content": "The Bhakti movement emerges, with saints like Namdev and Kabir spreading messages of spiritual equality and devotional love through poetry.",
+            "image": "/timeline/1398.jpg"
         },
         {
-        "year": 1498,
-        "content": "Vasco da Gama's arrival in India establishes direct sea trade with Europe, introducing new cultural influences and exchanges.",
-        "image": "/timeline/1498.jpg"
+            "year": 1498,
+            "content": "Vasco da Gama's arrival in India establishes direct sea trade with Europe, introducing new cultural influences and exchanges.",
+            "image": "/timeline/1498.jpg"
         },
         {
-        "year": 1565,
-        "content": "The Vijayanagara Empire falls after the Battle of Talikota, marking the decline of a major cultural hub for art and architecture.",
-        "image": "/timeline/1565.jpg"
+            "year": 1565,
+            "content": "The Vijayanagara Empire falls after the Battle of Talikota, marking the decline of a major cultural hub for art and architecture.",
+            "image": "/timeline/1565.jpg"
         },
         {
-        "year": 1603,
-        "content": "The Mughal Empire sees a cultural zenith under Emperor Akbar, promoting a synthesis of Hindu and Islamic art, culture, and literature.",
-        "image": "/timeline/1603.jpg"
+            "year": 1603,
+            "content": "The Mughal Empire sees a cultural zenith under Emperor Akbar, promoting a synthesis of Hindu and Islamic art, culture, and literature.",
+            "image": "/timeline/1603.jpg"
         },
         {
-        "year": 1659,
-        "content": "The Maratha Empire under Shivaji Maharaj revives indigenous cultural traditions and promotes Marathi language and literature.",
-        "image": "/timeline/1659.jpg"
+            "year": 1659,
+            "content": "The Maratha Empire under Shivaji Maharaj revives indigenous cultural traditions and promotes Marathi language and literature.",
+            "image": "/timeline/1659.jpg"
         },
         {
-        "year": 1761,
-        "content": "The Third Battle of Panipat marks a shift in power, influencing regional cultures and historical narratives across North India.",
-        "image": "/timeline/1761.jpg"
+            "year": 1761,
+            "content": "The Third Battle of Panipat marks a shift in power, influencing regional cultures and historical narratives across North India.",
+            "image": "/timeline/1761.jpg"
         },
         {
-        "year": 1828,
-        "content": "Raja Ram Mohan Roy establishes the Brahmo Samaj, leading reforms in Indian society and championing modern education and cultural revival.",
-        "image": "/timeline/1828.jpg"
+            "year": 1828,
+            "content": "Raja Ram Mohan Roy establishes the Brahmo Samaj, leading reforms in Indian society and championing modern education and cultural revival.",
+            "image": "/timeline/1828.jpg"
         },
         {
-        "year": 1875,
-        "content": "The Arya Samaj is founded, aiming to reform Indian society by reviving Vedic traditions and promoting cultural and religious awareness.",
-        "image": "/timeline/1875.jpg"
+            "year": 1875,
+            "content": "The Arya Samaj is founded, aiming to reform Indian society by reviving Vedic traditions and promoting cultural and religious awareness.",
+            "image": "/timeline/1875.jpg"
         },
         {
-        "year": 1911,
-        "content": "Rabindranath Tagore writes 'Jana Gana Mana,' later adopted as India's national anthem, symbolizing unity in diversity.",
-        "image": "/timeline/1911.jpg"
+            "year": 1911,
+            "content": "Rabindranath Tagore writes 'Jana Gana Mana,' later adopted as India's national anthem, symbolizing unity in diversity.",
+            "image": "/timeline/1911.jpg"
         },
         {
-        "year": 1920,
-        "content": "Mahatma Gandhi leads the Non-Cooperation Movement, inspiring a cultural renaissance emphasizing swadeshi and self-reliance.",
-        "image": "/timeline/1920.jpg"
+            "year": 1920,
+            "content": "Mahatma Gandhi leads the Non-Cooperation Movement, inspiring a cultural renaissance emphasizing swadeshi and self-reliance.",
+            "image": "/timeline/1920.jpg"
         },
         {
-        "year": 1951,
-        "content": "The first Indian classical dance festival, Kalakshetra, is held, celebrating Bharatanatyam and other traditional art forms.",
-        "image": "/timeline/1951.jpg"
+            "year": 1951,
+            "content": "The first Indian classical dance festival, Kalakshetra, is held, celebrating Bharatanatyam and other traditional art forms.",
+            "image": "/timeline/1951.jpg"
         },
         {
-        "year": 1986,
-        "content": "The Namami Gange program begins to restore the Ganges River's cultural and ecological significance in Indian tradition.",
-        "image": "/timeline/1986.jpg"
+            "year": 1986,
+            "content": "The Namami Gange program begins to restore the Ganges River's cultural and ecological significance in Indian tradition.",
+            "image": "/timeline/1986.jpg"
         },
         {
-        "year": 2000,
-        "content": "The Khajuraho Group of Monuments is declared a UNESCO World Heritage Site, honoring its intricate carvings and cultural importance.",
-        "image": "/timeline/2000.jpg"
+            "year": 2000,
+            "content": "The Khajuraho Group of Monuments is declared a UNESCO World Heritage Site, honoring its intricate carvings and cultural importance.",
+            "image": "/timeline/2000.jpg"
         },
         {
-        "year": 2019,
-        "content": "Yoga Day gains international recognition, reflecting India's influence on global wellness and cultural heritage.",
-        "image": "/timeline/2019.jpg"
+            "year": 2019,
+            "content": "Yoga Day gains international recognition, reflecting India's influence on global wellness and cultural heritage.",
+            "image": "/timeline/2019.jpg"
         }
     ],
     "Rajasthan": [
@@ -204,122 +204,122 @@
         }
     ],
     "Maharashtra": [
-            {
-                "year": -2000,
-                "content": "The Chalcolithic culture flourishes in Maharashtra, with settlements like Inamgaon showcasing early agricultural and trading practices.",
-                "image": "/timelinedata/maharashtra/chalcolithic.png"
-            },
-            {
-                "year": -500,
-                "content": "The Satavahana dynasty rises to power, promoting trade and cultural exchange along the Deccan plateau, with Pratishthana (modern Paithan) as its capital.",
-                "image": "/timelinedata/maharashtra/sathvahana.png"
-            },
-            {
-                "year": 100,
-                "content": "The Ajanta Caves are carved and painted, reflecting the zenith of Buddhist art and culture during the Satavahana period.",
-                "image": "/timelinedata/maharashtra/ajanta.jpg"
-            },
-            {
-                "year": 500,
-                "content": "The Vakataka dynasty supports the arts, leading to the creation of the Ellora Caves, which depict a blend of Hindu, Buddhist, and Jain traditions.",
-                "image": "/timelinedata/maharashtra/ellora.jpg"
-            },
-            {
-                "year": 753,
-                "content": "The Rashtrakuta dynasty emerges, with their capital at Manyakheta and contributions to monumental architecture like the Kailasa Temple at Ellora.",
-                "image": "/timelinedata/maharashtra/kailasa.jpg"
-            },
-            {
-                "year": 1189,
-                "content": "The Yadava dynasty rules from Devagiri (modern-day Daulatabad), fostering Marathi as a literary and administrative language.",
-                "image": "/timelinedata/maharashtra/yadava.png"
-            },
-            {
-                "year": 1294,
-                "content": "The Delhi Sultanate invades Devagiri, marking the beginning of Islamic influence in Maharashtra's culture and politics.",
-                "image": "/timelinedata/maharashtra/devagiri.jpg"
-            },
-            {
-                "year": 1490,
-                "content": "The Bahmani Sultanate fragments, leading to the establishment of the Ahmednagar Sultanate, a key player in Deccan politics.",
-                "image": "/timelinedata/maharashtra/ahmedanagar.png"
-            },
-            {
-                "year": 1636,
-                "content": "The Mughal Empire consolidates power over Maharashtra, incorporating it into their vast empire.",
-                "image": "/timelinedata/maharashtra/mughals.jpg"
-            },
-            {
-                "year": 1646,
-                "content": "Chhatrapati Shivaji Maharaj establishes the Maratha Empire, laying the foundation for an independent and powerful regional kingdom.",
-                "image": "/timelinedata/maharashtra/shivaji.jpg"
-            },
-            {
-                "year": 1674,
-                "content": "Shivaji Maharaj is crowned as the Chhatrapati of the Maratha Empire at Raigad Fort, marking the zenith of Maratha sovereignty.",
-                "image": "/timelinedata/maharashtra/raigad.jpg"
-            },
-            {
-                "year": 1818,
-                "content": "The Third Anglo-Maratha War ends with the British East India Company defeating the Marathas, establishing control over Maharashtra.",
-                "image": "/timelinedata/maharashtra/anglo_maratha.jpg"
-            },
-            {
-                "year": 1857,
-                "content": "Maharashtra actively participates in the Indian Rebellion of 1857, with leaders like Nana Sahib and Tatya Tope resisting British rule.",
-                "image": "/timelinedata/maharashtra/1857.jpg"
-            },
-            {
-                "year": 1885,
-                "content": "The Indian National Congress is founded in Mumbai, playing a pivotal role in India's independence movement.",
-                "image": "/timelinedata/maharashtra/congress.jpg"
-            },
-            {
-                "year": 1920,
-                "content": "Mahatma Gandhi launches the Non-Cooperation Movement, gaining significant support from Maharashtra, particularly Mumbai and Pune.",
-                "image": "/timelinedata/maharashtra/non_cooperation.jpeg"
-            },
-            {
-                "year": 1947,
-                "content": "India gains independence, and Maharashtra emerges as a prominent center for industry, culture, and education in the newly formed nation.",
-                "image": "/timelinedata/maharashtra/independence.jpg"
-            },
-            {
-                "year": 1960,
-                "content": "The state of Maharashtra is formed, with Mumbai as its capital, following the division of the Bombay State along linguistic lines.",
-                "image": "/timelinedata/maharashtra/maharastra_formation.png"
-            },
-            {
-                "year": 1974,
-                "content": "The Tarapur Atomic Power Station, India's first nuclear power plant, becomes operational in Maharashtra.",
-                "image": "/timelinedata/maharashtra/tarapur.jpg"
-            },
-            {
-                "year": 1995,
-                "content": "Mumbai witnesses a transformation as it officially sheds the colonial name 'Bombay,' embracing its regional identity.",
-                "image": "/timelinedata/maharashtra/mumbai.jpg"
-            },
-            {
-                "year": 2004,
-                "content": "The Elephanta Caves, showcasing ancient rock-cut architecture, are declared a UNESCO World Heritage Site.",
-                "image": "/timelinedata/maharashtra/elephanta.jpg"
-            },
-            {
-                "year": 2010,
-                "content": "The Bandra-Worli Sea Link opens in Mumbai, showcasing modern engineering and improving connectivity in Maharashtra's capital.",
-                "image": "/timelinedata/maharashtra/sea_link.jpg"
-            },
-            {
-                "year": 2017,
-                "content": "The Chhatrapati Shivaji Maharaj International Airport's new terminal receives global acclaim for its design and functionality.",
-                "image": "/timelinedata/maharashtra/airport.jpg"
-            },
-            {
-                "year": 2020,
-                "content": "Mumbai becomes one of the worst-hit cities during the COVID-19 pandemic, showcasing resilience in the face of crisis.",
-                "image": "/timelinedata/maharashtra/covid.jpg"
-            }
-            ],
+        {
+            "year": -2000,
+            "content": "The Chalcolithic culture flourishes in Maharashtra, with settlements like Inamgaon showcasing early agricultural and trading practices.",
+            "image": "/timelinedata/maharashtra/chalcolithic.png"
+        },
+        {
+            "year": -500,
+            "content": "The Satavahana dynasty rises to power, promoting trade and cultural exchange along the Deccan plateau, with Pratishthana (modern Paithan) as its capital.",
+            "image": "/timelinedata/maharashtra/sathvahana.png"
+        },
+        {
+            "year": 100,
+            "content": "The Ajanta Caves are carved and painted, reflecting the zenith of Buddhist art and culture during the Satavahana period.",
+            "image": "/timelinedata/maharashtra/ajanta.jpg"
+        },
+        {
+            "year": 500,
+            "content": "The Vakataka dynasty supports the arts, leading to the creation of the Ellora Caves, which depict a blend of Hindu, Buddhist, and Jain traditions.",
+            "image": "/timelinedata/maharashtra/ellora.jpg"
+        },
+        {
+            "year": 753,
+            "content": "The Rashtrakuta dynasty emerges, with their capital at Manyakheta and contributions to monumental architecture like the Kailasa Temple at Ellora.",
+            "image": "/timelinedata/maharashtra/kailasa.jpg"
+        },
+        {
+            "year": 1189,
+            "content": "The Yadava dynasty rules from Devagiri (modern-day Daulatabad), fostering Marathi as a literary and administrative language.",
+            "image": "/timelinedata/maharashtra/yadava.png"
+        },
+        {
+            "year": 1294,
+            "content": "The Delhi Sultanate invades Devagiri, marking the beginning of Islamic influence in Maharashtra's culture and politics.",
+            "image": "/timelinedata/maharashtra/devagiri.jpg"
+        },
+        {
+            "year": 1490,
+            "content": "The Bahmani Sultanate fragments, leading to the establishment of the Ahmednagar Sultanate, a key player in Deccan politics.",
+            "image": "/timelinedata/maharashtra/ahmedanagar.png"
+        },
+        {
+            "year": 1636,
+            "content": "The Mughal Empire consolidates power over Maharashtra, incorporating it into their vast empire.",
+            "image": "/timelinedata/maharashtra/mughals.jpg"
+        },
+        {
+            "year": 1646,
+            "content": "Chhatrapati Shivaji Maharaj establishes the Maratha Empire, laying the foundation for an independent and powerful regional kingdom.",
+            "image": "/timelinedata/maharashtra/shivaji.jpg"
+        },
+        {
+            "year": 1674,
+            "content": "Shivaji Maharaj is crowned as the Chhatrapati of the Maratha Empire at Raigad Fort, marking the zenith of Maratha sovereignty.",
+            "image": "/timelinedata/maharashtra/raigad.jpg"
+        },
+        {
+            "year": 1818,
+            "content": "The Third Anglo-Maratha War ends with the British East India Company defeating the Marathas, establishing control over Maharashtra.",
+            "image": "/timelinedata/maharashtra/anglo_maratha.jpg"
+        },
+        {
+            "year": 1857,
+            "content": "Maharashtra actively participates in the Indian Rebellion of 1857, with leaders like Nana Sahib and Tatya Tope resisting British rule.",
+            "image": "/timelinedata/maharashtra/1857.jpg"
+        },
+        {
+            "year": 1885,
+            "content": "The Indian National Congress is founded in Mumbai, playing a pivotal role in India's independence movement.",
+            "image": "/timelinedata/maharashtra/congress.jpg"
+        },
+        {
+            "year": 1920,
+            "content": "Mahatma Gandhi launches the Non-Cooperation Movement, gaining significant support from Maharashtra, particularly Mumbai and Pune.",
+            "image": "/timelinedata/maharashtra/non_cooperation.jpeg"
+        },
+        {
+            "year": 1947,
+            "content": "India gains independence, and Maharashtra emerges as a prominent center for industry, culture, and education in the newly formed nation.",
+            "image": "/timelinedata/maharashtra/independence.jpg"
+        },
+        {
+            "year": 1960,
+            "content": "The state of Maharashtra is formed, with Mumbai as its capital, following the division of the Bombay State along linguistic lines.",
+            "image": "/timelinedata/maharashtra/maharastra_formation.png"
+        },
+        {
+            "year": 1974,
+            "content": "The Tarapur Atomic Power Station, India's first nuclear power plant, becomes operational in Maharashtra.",
+            "image": "/timelinedata/maharashtra/tarapur.jpg"
+        },
+        {
+            "year": 1995,
+            "content": "Mumbai witnesses a transformation as it officially sheds the colonial name 'Bombay,' embracing its regional identity.",
+            "image": "/timelinedata/maharashtra/mumbai.jpg"
+        },
+        {
+            "year": 2004,
+            "content": "The Elephanta Caves, showcasing ancient rock-cut architecture, are declared a UNESCO World Heritage Site.",
+            "image": "/timelinedata/maharashtra/elephanta.jpg"
+        },
+        {
+            "year": 2010,
+            "content": "The Bandra-Worli Sea Link opens in Mumbai, showcasing modern engineering and improving connectivity in Maharashtra's capital.",
+            "image": "/timelinedata/maharashtra/sea_link.jpg"
+        },
+        {
+            "year": 2017,
+            "content": "The Chhatrapati Shivaji Maharaj International Airport's new terminal receives global acclaim for its design and functionality.",
+            "image": "/timelinedata/maharashtra/airport.jpg"
+        },
+        {
+            "year": 2020,
+            "content": "Mumbai becomes one of the worst-hit cities during the COVID-19 pandemic, showcasing resilience in the face of crisis.",
+            "image": "/timelinedata/maharashtra/covid.jpg"
+        }
+    ],
     "Bengal": [
         {
             "year": -1000,
@@ -672,117 +672,110 @@
         }
     ],
     "Tamil Nadu": [
-        [
-            {
-                "year": -2500,
-                "content": "The Neolithic period begins in Tamil Nadu, with evidence of early settlements in the Kaveri River Valley and megalithic burial sites.",
-                "image": "/timeline/tn_neolithic.png"
-            },
-            {
-                "year": -300,
-                "content": "The Sangam period begins, marking the classical age of Tamil literature, arts, and culture with the establishment of the Tamil Sangams.",
-                "image": "/timeline/sangam.png"
-            },
-            {
-                "year": 100,
-                "content": "The Chola dynasty emerges as a major power, establishing trade links with Rome and Southeast Asia from ports like Poompuhar.",
-                "image": "/timeline/early_chola.png"
-            },
-            {
-                "year": 300,
-                "content": "The Pallava dynasty establishes its capital at Kanchipuram, initiating a golden age of temple architecture and Sanskrit learning.",
-                "image": "/timeline/pallava.jpg"
-            },
-            {
-                "year": 600,
-                "content": "Construction of the Mahabalipuram shore temples begins under Pallava rule, showcasing Dravidian architecture.",
-                "image": "/timeline/mahabalipuram.jpg"
-            },
-            {
-                "year": 850,
-                "content": "The Medieval Chola Empire rises under Vijayalaya Chola, beginning their most powerful period in South Indian history.",
-                "image": "/timeline/medieval_chola.jpg"
-            },
-            {
-                "year": 1010,
-                "content": "The Brihadeeswarar Temple in Thanjavur is completed under Raja Raja Chola I, demonstrating the peak of Chola architecture.",
-                "image": "/timeline/brihadeeswara.jpg"
-            },
-            {
-                "year": 1279,
-                "content": "The Pandya dynasty becomes dominant after the decline of the Cholas, ruling from Madurai.",
-                "image": "/timeline/pandya.png"
-            },
-            {
-                "year": 1336,
-                "content": "The Vijayanagara Empire extends its control over Tamil Nadu, bringing a new era of cultural synthesis.",
-                "image": "/timeline/vijayanagara.jpg"
-            },
-            {
-                "year": 1565,
-                "content": "The Nayak dynasty establishes control over various regions of Tamil Nadu, contributing to art and architecture.",
-                "image": "/timeline/nayak.png"
-            },
-            {
-                "year": 1639,
-                "content": "The British East India Company establishes Fort St. George in Madras (Chennai), marking the beginning of British presence.",
-                "image": "/timeline/fort_st_george.jpg"
-            },
-            {
-                "year": 1801,
-                "content": "Most of Tamil Nadu comes under direct British rule as part of the Madras Presidency.",
-                "image": "/timeline/madras_presidency.jpg"
-            },
-            {
-                "year": 1916,
-                "content": "The Justice Party is formed, initiating the Dravidian Movement that would shape Tamil Nadu's politics.",
-                "image": "/timeline/justice_party.png"
-            },
-            {
-                "year": 1925,
-                "content": "E.V. Ramasamy (Periyar) launches the Self-Respect Movement, promoting social reform and Tamil identity.",
-                "image": "/timeline/periyar.jpg"
-            },
-            {
-                "year": 1947,
-                "content": "India gains independence, with Madras State becoming part of the Indian Union.",
-                "image": "/timeline/tn_independence.jpg"
-            },
-            {
-                "year": 1956,
-                "content": "The state is reorganized based on linguistic lines, forming the Tamil-speaking Madras State.",
-                "image": "/timeline/madras_state.png"
-            },
-            {
-                "year": 1967,
-                "content": "DMK comes to power, marking the beginning of Dravidian party rule in Tamil Nadu that continues to present.",
-                "image": "/timeline/dmk.jpg"
-            },
-            {
-                "year": 1969,
-                "content": "Madras State is renamed Tamil Nadu, reflecting its Tamil linguistic and cultural identity.",
-                "image": "/timeline/tamil_nadu.png"
-            },
-            {
-                "year": 1991,
-                "content": "Tamil Nadu emerges as a major industrial hub with the establishment of numerous automotive and technology industries.",
-                "image": "/timeline/tn_industry.jpg"
-            },
-            {
-                "year": 2004,
-                "content": "The Indian Ocean tsunami severely impacts Tamil Nadu's coastal regions, leading to major rehabilitation efforts.",
-                "image": "/timeline/tsunami.jpg"
-            },
-            {
-                "year": 2015,
-                "content": "Chennai experiences severe floods, highlighting urban infrastructure challenges and climate change impacts.",
-                "image": "/timeline/chennai_floods.jpg"
-            },
-            {
-                "year": 2017,
-                "content": "Jallikattu protests in Chennai lead to changes in laws regarding traditional cultural practices.",
-                "image": "/timeline/jallikattu.jpg"
-            }
-        ]
+        {
+            "year": -300,
+            "content": "The Sangam period begins, marking the classical age of Tamil literature, arts, and culture with the establishment of the Tamil Sangams.",
+            "image": "/timelinedata/tamilnadu/sangam.jpg"
+        },
+        {
+            "year": 100,
+            "content": "The Chola dynasty emerges as a major power, establishing trade links with Rome and Southeast Asia from ports like Poompuhar.",
+            "image": "/timelinedata/tamilnadu/early_chola.jpg"
+        },
+        {
+            "year": 300,
+            "content": "The Pallava dynasty establishes its capital at Kanchipuram, initiating a golden age of temple architecture and Sanskrit learning.",
+            "image": "/timelinedata/tamilnadu/pallava.png"
+        },
+        {
+            "year": 600,
+            "content": "Construction of the Mahabalipuram shore temples begins under Pallava rule, showcasing Dravidian architecture.",
+            "image": "/timelinedata/tamilnadu/mahabalipuram.jpeg"
+        },
+        {
+            "year": 850,
+            "content": "The Medieval Chola Empire rises under Vijayalaya Chola, beginning their most powerful period in South Indian history.",
+            "image": "/timelinedata/tamilnadu/medieval_chola.jpg"
+        },
+        {
+            "year": 1010,
+            "content": "The Brihadeeswarar Temple in Thanjavur is completed under Raja Raja Chola I, demonstrating the peak of Chola architecture.",
+            "image": "/timelinedata/tamilnadu/brihadeeswara.webp"
+        },
+        {
+            "year": 1279,
+            "content": "The Pandya dynasty becomes dominant after the decline of the Cholas, ruling from Madurai.",
+            "image": "/timelinedata/tamilnadu/pandya.jpeg"
+        },
+        {
+            "year": 1336,
+            "content": "The Vijayanagara Empire extends its control over Tamil Nadu, bringing a new era of cultural synthesis.",
+            "image": "/timelinedata/tamilnadu/vijayanagara.png"
+        },
+        {
+            "year": 1565,
+            "content": "The Nayak dynasty establishes control over various regions of Tamil Nadu, contributing to art and architecture.",
+            "image": "/timelinedata/tamilnadu/nayak.jpg"
+        },
+        {
+            "year": 1639,
+            "content": "The British East India Company establishes Fort St. George in Madras (Chennai), marking the beginning of British presence.",
+            "image": "/timelinedata/tamilnadu/fort_st_george.jpg"
+        },
+        {
+            "year": 1801,
+            "content": "Most of Tamil Nadu comes under direct British rule as part of the Madras Presidency.",
+            "image": "/timelinedata/tamilnadu/madras_presidency.png"
+        },
+        {
+            "year": 1916,
+            "content": "The Justice Party is formed, initiating the Dravidian Movement that would shape Tamil Nadu's politics.",
+            "image": "/timelinedata/tamilnadu/justice_party.jpg"
+        },
+        {
+            "year": 1925,
+            "content": "E.V. Ramasamy (Periyar) launches the Self-Respect Movement, promoting social reform and Tamil identity.",
+            "image": "/timelinedata/tamilnadu/periyar.jpeg"
+        },
+        {
+            "year": 1947,
+            "content": "India gains independence, with Madras State becoming part of the Indian Union.",
+            "image": "/timelinedata/tamilnadu/tn_independence.jpeg"
+        },
+        {
+            "year": 1956,
+            "content": "The state is reorganized based on linguistic lines, forming the Tamil-speaking Madras State.",
+            "image": "/timelinedata/tamilnadu/madras_state.png"
+        },
+        {
+            "year": 1967,
+            "content": "DMK comes to power, marking the beginning of Dravidian party rule in Tamil Nadu that continues to present.",
+            "image": "/timelinedata/tamilnadu/dmk.jpeg"
+        },
+        {
+            "year": 1969,
+            "content": "Madras State is renamed Tamil Nadu, reflecting its Tamil linguistic and cultural identity.",
+            "image": "/timelinedata/tamilnadu/tamil_nadu.jpg"
+        },
+        {
+            "year": 1991,
+            "content": "Tamil Nadu emerges as a major industrial hub with the establishment of numerous automotive and technology industries.",
+            "image": "/timelinedata/tamilnadu/tn_industry.jpg"
+        },
+        {
+            "year": 2004,
+            "content": "The Indian Ocean tsunami severely impacts Tamil Nadu's coastal regions, leading to major rehabilitation efforts.",
+            "image": "/timelinedata/tamilnadu/tsunami.jpeg"
+        },
+        {
+            "year": 2015,
+            "content": "Chennai experiences severe floods, highlighting urban infrastructure challenges and climate change impacts.",
+            "image": "/timelinedata/tamilnadu/chennai_floods.jpeg"
+        },
+        {
+            "year": 2017,
+            "content": "Jallikattu protests in Chennai lead to changes in laws regarding traditional cultural practices.",
+            "image": "/timelinedata/tamilnadu/jallikattu.jpeg"
+        }
     ]
 }
