@@ -1,0 +1,112 @@
+[
+    {
+        "year": -2500,
+        "content": "Megalithic burial sites and tools discovered in various parts of Andhra, particularly in the Krishna River Valley.",
+        "image": "/timeline/ap_megalithic.png"
+    },
+    {
+        "year": -230,
+        "content": "The Satavahana dynasty establishes control over the region, making Dharanikota (near modern Amaravati) their capital.",
+        "image": "/timeline/satavahana_ap.png"
+    },
+    {
+        "year": 225,
+        "content": "The Ikshvaku dynasty rules from Vijayapuri (modern-day Nagarjunakonda), promoting Buddhism and Sanskrit literature.",
+        "image": "/timeline/ikshvaku.jpg"
+    },
+    {
+        "year": 500,
+        "content": "The Vishnukundina dynasty establishes their kingdom with capital at Vengi, contributing to literature and arts.",
+        "image": "/timeline/vishnukundina.png"
+    },
+    {
+        "year": 624,
+        "content": "The Eastern Chalukyas establish their rule from Vengi, beginning a golden age of Telugu literature.",
+        "image": "/timeline/eastern_chalukya.jpg"
+    },
+    {
+        "year": 1083,
+        "content": "The Chola empire extends influence over coastal Andhra, leading to cultural synthesis.",
+        "image": "/timeline/chola_andhra.jpg"
+    },
+    {
+        "year": 1163,
+        "content": "The Kakatiya dynasty rises to power at Warangal, building grand temples and water management systems.",
+        "image": "/timeline/kakatiya.jpg"
+    },
+    {
+        "year": 1323,
+        "content": "The Delhi Sultanate defeats the Kakatiyas, bringing Islamic influence to the region.",
+        "image": "/timeline/delhi_sultanate_ap.png"
+    },
+    {
+        "year": 1336,
+        "content": "The Vijayanagara Empire gains control over the region, leading to a renaissance in Telugu literature.",
+        "image": "/timeline/vijayanagara_ap.jpg"
+    },
+    {
+        "year": 1512,
+        "content": "The Qutb Shahi dynasty of Golconda extends control over coastal Andhra, promoting Persian culture.",
+        "image": "/timeline/qutb_shahi.jpg"
+    },
+    {
+        "year": 1687,
+        "content": "The Mughal Empire annexes Golconda, bringing the region under their administration.",
+        "image": "/timeline/mughal_ap.png"
+    },
+    {
+        "year": 1766,
+        "content": "The British East India Company gains control of the Northern Circars region.",
+        "image": "/timeline/northern_circars.jpg"
+    },
+    {
+        "year": 1800,
+        "content": "The Nizam of Hyderabad cedes coastal Andhra districts to the British East India Company.",
+        "image": "/timeline/nizam_cession.png"
+    },
+    {
+        "year": 1857,
+        "content": "The region participates in the Indian Rebellion, with resistance centered in the Srikakulam area.",
+        "image": "/timeline/ap_1857.jpg"
+    },
+    {
+        "year": 1913,
+        "content": "The formation of the Andhra Mahasabha marks the beginning of organized Telugu language movement.",
+        "image": "/timeline/andhra_mahasabha.png"
+    },
+    {
+        "year": 1947,
+        "content": "India gains independence, with Andhra region split between Madras State and Hyderabad State.",
+        "image": "/timeline/ap_independence.jpg"
+    },
+    {
+        "year": 1953,
+        "content": "Andhra State is formed as the first linguistic state in India, separated from Madras State.",
+        "image": "/timeline/andhra_state.png"
+    },
+    {
+        "year": 1956,
+        "content": "Andhra Pradesh is formed by merging Andhra State with Telugu-speaking regions of Hyderabad State.",
+        "image": "/timeline/ap_formation.jpg"
+    },
+    {
+        "year": 1995,
+        "content": "Chandrababu Naidu becomes Chief Minister, initiating IT industry growth and economic reforms.",
+        "image": "/timeline/naidu.jpg"
+    },
+    {
+        "year": 2004,
+        "content": "The Indian Ocean tsunami impacts the coastal regions of Andhra Pradesh.",
+        "image": "/timeline/ap_tsunami.jpg"
+    },
+    {
+        "year": 2014,
+        "content": "Andhra Pradesh undergoes bifurcation with the creation of Telangana state, establishing new capital at Amaravati.",
+        "image": "/timeline/ap_bifurcation.jpg"
+    },
+    {
+        "year": 2019,
+        "content": "Capital city plan changes with the proposal of three capitals system: Amaravati, Visakhapatnam, and Kurnool.",
+        "image": "/timeline/three_capitals.jpg"
+    }
+]

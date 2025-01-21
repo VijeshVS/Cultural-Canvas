@@ -1,0 +1,112 @@
+[
+    {
+        "year": -2500,
+        "content": "The Neolithic period begins in Tamil Nadu, with evidence of early settlements in the Kaveri River Valley and megalithic burial sites.",
+        "image": "/timeline/tn_neolithic.png"
+    },
+    {
+        "year": -300,
+        "content": "The Sangam period begins, marking the classical age of Tamil literature, arts, and culture with the establishment of the Tamil Sangams.",
+        "image": "/timeline/sangam.png"
+    },
+    {
+        "year": 100,
+        "content": "The Chola dynasty emerges as a major power, establishing trade links with Rome and Southeast Asia from ports like Poompuhar.",
+        "image": "/timeline/early_chola.png"
+    },
+    {
+        "year": 300,
+        "content": "The Pallava dynasty establishes its capital at Kanchipuram, initiating a golden age of temple architecture and Sanskrit learning.",
+        "image": "/timeline/pallava.jpg"
+    },
+    {
+        "year": 600,
+        "content": "Construction of the Mahabalipuram shore temples begins under Pallava rule, showcasing Dravidian architecture.",
+        "image": "/timeline/mahabalipuram.jpg"
+    },
+    {
+        "year": 850,
+        "content": "The Medieval Chola Empire rises under Vijayalaya Chola, beginning their most powerful period in South Indian history.",
+        "image": "/timeline/medieval_chola.jpg"
+    },
+    {
+        "year": 1010,
+        "content": "The Brihadeeswarar Temple in Thanjavur is completed under Raja Raja Chola I, demonstrating the peak of Chola architecture.",
+        "image": "/timeline/brihadeeswara.jpg"
+    },
+    {
+        "year": 1279,
+        "content": "The Pandya dynasty becomes dominant after the decline of the Cholas, ruling from Madurai.",
+        "image": "/timeline/pandya.png"
+    },
+    {
+        "year": 1336,
+        "content": "The Vijayanagara Empire extends its control over Tamil Nadu, bringing a new era of cultural synthesis.",
+        "image": "/timeline/vijayanagara.jpg"
+    },
+    {
+        "year": 1565,
+        "content": "The Nayak dynasty establishes control over various regions of Tamil Nadu, contributing to art and architecture.",
+        "image": "/timeline/nayak.png"
+    },
+    {
+        "year": 1639,
+        "content": "The British East India Company establishes Fort St. George in Madras (Chennai), marking the beginning of British presence.",
+        "image": "/timeline/fort_st_george.jpg"
+    },
+    {
+        "year": 1801,
+        "content": "Most of Tamil Nadu comes under direct British rule as part of the Madras Presidency.",
+        "image": "/timeline/madras_presidency.jpg"
+    },
+    {
+        "year": 1916,
+        "content": "The Justice Party is formed, initiating the Dravidian Movement that would shape Tamil Nadu's politics.",
+        "image": "/timeline/justice_party.png"
+    },
+    {
+        "year": 1925,
+        "content": "E.V. Ramasamy (Periyar) launches the Self-Respect Movement, promoting social reform and Tamil identity.",
+        "image": "/timeline/periyar.jpg"
+    },
+    {
+        "year": 1947,
+        "content": "India gains independence, with Madras State becoming part of the Indian Union.",
+        "image": "/timeline/tn_independence.jpg"
+    },
+    {
+        "year": 1956,
+        "content": "The state is reorganized based on linguistic lines, forming the Tamil-speaking Madras State.",
+        "image": "/timeline/madras_state.png"
+    },
+    {
+        "year": 1967,
+        "content": "DMK comes to power, marking the beginning of Dravidian party rule in Tamil Nadu that continues to present.",
+        "image": "/timeline/dmk.jpg"
+    },
+    {
+        "year": 1969,
+        "content": "Madras State is renamed Tamil Nadu, reflecting its Tamil linguistic and cultural identity.",
+        "image": "/timeline/tamil_nadu.png"
+    },
+    {
+        "year": 1991,
+        "content": "Tamil Nadu emerges as a major industrial hub with the establishment of numerous automotive and technology industries.",
+        "image": "/timeline/tn_industry.jpg"
+    },
+    {
+        "year": 2004,
+        "content": "The Indian Ocean tsunami severely impacts Tamil Nadu's coastal regions, leading to major rehabilitation efforts.",
+        "image": "/timeline/tsunami.jpg"
+    },
+    {
+        "year": 2015,
+        "content": "Chennai experiences severe floods, highlighting urban infrastructure challenges and climate change impacts.",
+        "image": "/timeline/chennai_floods.jpg"
+    },
+    {
+        "year": 2017,
+        "content": "Jallikattu protests in Chennai lead to changes in laws regarding traditional cultural practices.",
+        "image": "/timeline/jallikattu.jpg"
+    }
+]
