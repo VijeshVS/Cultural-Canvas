@@ -2,10 +2,23 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { Plus } from "lucide-react";
 
 const Page = () => {
+	const router = useRouter();
 	return (
 		<div className="flex flex-1 min-h-screen pt-36 px-24">
+			<div className="fixed top-16 right-24 z-50">
+				<button
+					className="flex flex-row space-x-2 px-6 py-2 text-[#4d1414] bg-yellow-300 rounded-full hover:scale-110 font-semibold hover:bg-yellow-400  transition-all duration-300"
+					onClick={() => {
+						router.push("/create");
+					}}
+				>
+					<Plus />
+					<div>Create Game</div>
+				</button>
+			</div>
 			<div className="font-bold text-[#4d1414] w-full text-center">
 				<div className="text-6xl drop-shadow-md">🌟 Play and Win Big! 🎉</div>
 				<p className="text-xl mt-4 text-[#4d1414]">
@@ -19,7 +32,7 @@ const Page = () => {
 							Quiz 🤓
 						</div>
 						<video
-						loop
+							loop
 							autoPlay
 							className="mx-auto w-2/3 my-2 border-2 border-black bg-gray-600 rounded-md"
 							src='/gamevideos/quiz.mp4' // Add your video source here
